@@ -1,1 +1,345 @@
-# tame2627dam1
+- Bases de datos
+    - Almacenamiento de la información
+        - Ficheros (planos, indexados, acceso directo, entre otros)
+        - Bases de datos. Conceptos, usos y tipos según el modelo de datos, la ubicación de la información
+        - Sistemas gestores de base de datos Funciones, componentes y tipos
+        - Bases de datos centralizadas y bases de datos distribuidas. Técnicas de fragmentación
+        - Legislación sobre protección de datos
+        - Big Data introducción, análisis de datos, inteligencia de negocios
+    - Bases de datos relacionales
+        - Modelo de datos
+        - Terminología del modelo relacional
+        - Tipos de datos
+        - Claves primarias
+        - Restricciones de validación
+        - Índices. Características
+        - El valor NULL
+        - Claves ajenas
+        - Vistas
+        - Usuarios. Privilegios
+        - Lenguaje de descripción de datos (DDL)
+        - Lenguaje de control de datos (DCL)
+    - Realización de consultas
+        - Proyección, selección y ordenación de registros
+        - Operadores. Operadores de comparación. Operadores lógicos
+        - Consultas de resumen
+        - Agrupamiento de registros
+        - Composiciones internas
+        - Composiciones externas
+        - Subconsultas
+        - Combinación de múltiples selecciones
+        - Optimización de consultas
+    - Tratamiento de datos
+        - Inserción, borrado y modificación de registros
+        - Integridad referencial
+        - Subconsultas y composiciones en órdenes de edición
+        - Transacciones
+        - Políticas de bloqueo. Concurrencia
+        - Simulacro examen
+        - Simulacro de examen 2
+    - Programación de bases de datos
+        - Introducción. Lenguaje de programación
+        - Variables del sistema y variables de usuario
+        - Funciones
+        - Estructuras de control de flujo
+        - Procedimientos almacenados. Funciones de usuario
+        - Eventos y disparadores
+        - Excepciones
+        - Cursores
+    - Interpretación de Diagramas EntidadRelación
+        - El modelo ER. Entidades y relaciones. Cardinalidades. Debilidad
+        - El modelo ER ampliado. Generalización y especialización. Agregación
+        - Paso del diagrama ER al modelo relacional
+        - Restricciones semánticas del modelo relacional
+        - Normalización de modelos relacionales
+    - Uso de bases de datos no relacionales
+        - Características de las bases de datos no relacionales
+        - Tipos de bases de datos no relacionales
+        - Elementos de las bases de datos no relacionales
+        - Sistemas gestores de bases de datos no relacionales
+        - Herramientas de los sistemas gestores de bases de datos no relacionales para la gestión de la información almacenada
+- Entornos de desarrollo
+    - Desarrollo de software
+        - Concepto de programa informático
+        - Código fuente, código objeto y código ejecutable; tecnologías de virtualización
+        - Tipos de lenguajes de programación. Paradigmas
+        - Características de los lenguajes más difundidos
+        - Fases del desarrollo de una aplicación análisis, diseño, codificación, pruebas, documentación, explotación y mantenimiento, entre otras
+        - Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+        - Metodologías ágiles. Técnicas. Características
+    - Instalación y uso de entornos de desarrollo
+        - Funciones de un entorno de desarrollo
+        - Instalación de un entorno de desarrollo
+        - Uso básico de un entorno de desarrollo
+        - Personalización del entorno de desarrollo temas, estilos de codificación, módulos y extensiones, entre otras
+        - Edición de programas
+        - Generación de ejecutables en distintos entornos
+        - Herramientas y automatización
+    - Diseño y realización de pruebas
+        - Planificación de Pruebas
+        - Tipos de pruebas Funcionales, estructurales y regresión, entre otras
+        - Procedimientos y casos de prueba
+        - Pruebas de Código Cubrimiento, valores límite y clases de equivalencia, entre otras
+        - Pruebas unitarias; herramientas de automatización
+        - Documentación de las incidencias
+        - Dobles de prueba. Tipos. Características
+    - Optimización y documentación
+        - Refactorización
+        - Analizadores de código
+        - Control de versiones. Estructura de las herramientas de control de versiones
+    - Repositorio. Herramientas de control de versiones. Uso integrado en el entorno de desarrollo
+        - Repositorios remotos
+        - Documentación. Uso de comentarios. Alternativas
+        - Integración continua. Herramientas
+        - Simulacro examen
+    - Elaboración de diagramas de clases
+        - Clases. Atributos, métodos y visibilidad
+        - Objetos. Instanciación
+        - Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia
+        - Notación de los diagramas de clases
+        - Herramientas
+        - Generación automática de código. Ingeniería inversa
+    - Elaboración de diagramas de comportamiento
+        - Clases. Atributos, métodos y visibilidad
+        - Objetos. Instanciación
+        - Relaciones. Asociación, navegabilidad y multiplicidad. Herencia, composición, agregación. Realización y dependencia
+        - Notación de los diagramas de clases
+        - Herramientas
+        - Generación automática de código. Ingeniería inversa
+- Lenguajes de marcas y sistemas de gestión de información
+    - Reconocimiento de las características de lenguajes de marcas
+        - Clasificación
+        - Características y ámbitos de aplicación
+        - Estructura y sintaxis
+        - Herramientas de edición
+        - Elaboración de documentos bien formados
+        - Utilización de espacios de nombres
+        - Ejercicio práctico
+        - Curriculum
+    - Utilización de lenguajes de marcas en entornos web
+        - Estándares web. Versiones. Clasificación
+        - Estructura de un documento HTML
+        - Identificación de etiquetas y atributos de HTML
+        - Herramientas de diseño web
+        - Hojas de estilo (CSS)
+        - Validación de documentos HTML y CSS
+        - Lenguajes de marcas para la sindicación de contenidos
+    - Manipulación de documentos Web
+        - Lenguajes de script de cliente. Características y sintaxis básica. Estándares
+        - Selección y acceso a elementos
+        - Creación y modificación de elementos
+        - Eliminación de elementos
+        - Manipulación de estilos
+    - Definición de esquemas y vocabularios en lenguajes de marcas
+        - Tecnologías para la definición de documentos. Estructura y sintaxis
+        - Creación de descripciones de documentos
+        - Asociación de descripciones con documentos. Validación
+        - Herramientas de creación y validación
+    - Conversión y adaptación de documentos para el intercambio de información
+        - Tecnologías de transformación de documentos
+        - Descripción de la estructura y de la sintaxis
+        - Creación y utilización de plantillas. Herramientas y depuración
+        - Conversión entre diferentes formatos de documentos
+    - Almacenamiento de información
+        - Sistemas de almacenamiento de información. Características. Tecnologías
+        - Lenguajes de consulta y manipulación en documentos
+        - Consulta y manipulación de información
+        - Importación y exportación de bases de datos relacionales en diferentes formatos
+        - Herramientas de tratamiento y almacenamiento de información en sistemas nativos
+        - Almacenamiento y manipulación de información en sistemas nativos
+    - Sistemas de gestión empresarial
+        - Aplicaciones de gestión empresarial. Tipos. Características
+        - Instalación
+        - Administración y configuración
+        - Integración de módulos
+        - Mecanismos de acceso seguro a la información. Roles y privilegios
+        - Elaboración de informes
+        - Exportación de información
+        - Elaboración de documentación
+- Programación
+    - Identificación de los elementos de un programa informático
+        - Estructura y bloques fundamentales
+        - Variables
+        - Tipos de datos
+        - Literales
+        - Constantes
+        - Operadores y expresiones
+    - Utilización de objetos
+        - Características de los objetos
+        - Instanciación de objetos
+        - Utilización de métodos. Parámetros
+        - Utilización de propiedades
+        - Utilización de métodos estáticos
+        - Constructores
+        - Destrucción de objetos y liberación de memoria
+    - Uso de estructuras de control
+        - Estructuras de selección
+        - Estructuras de repetición
+        - Estructuras de salto
+        - Control de excepciones
+        - Aserciones
+        - Prueba, depuración y documentación de la aplicación
+        - Ejercicio
+    - Desarrollo de clases
+        - Concepto de clase
+        - Estructura y miembros de una clase. Visibilidad
+        - Creación de propiedades
+        - Creación de métodos
+        - Creación de constructores
+        - Utilización de clases y objetos
+        - Utilización de clases heredadas
+    - Lectura y escritura de información
+        - Flujos. Tipos bytes y caracteres. Clases relacionadas
+        - Ficheros de datos. Registros
+        - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros
+        - Utilización de los sistemas de ficheros
+        - Creación y eliminación de ficheros y directorios
+        - Entrada desde teclado. Salida a pantalla. Formatos de visualización
+        - Interfaces gráficas
+        - Concepto de evento
+        - Creación de controladores de eventos
+    - Aplicación de las estructuras de almacenamiento
+        - Estructuras estáticas y dinámicas
+        - Creación de matrices (arrays)
+        - Matrices (arrays) multidimensionales
+        - Genericidad
+        - Cadenas de caracteres. Expresiones regulares
+        - Colecciones Listas, Conjuntos y Diccionarios
+        - Operaciones agregadas filtrado, reducción y recolección
+    - Utilización avanzada de clases
+        - Composición de clases
+        - Herencia y polimorfismo
+        - Jerarquía de clases Superclases y subclases
+        - Clases y métodos abstractos y finales
+        - Interfaces
+        - Sobreescritura de métodos
+        - Constructores y herencia
+    - Mantenimiento de la persistencia de los objetos
+        - Bases de datos orientadas a objetos
+        - Características de las bases de datos orientadas a objetos
+        - Instalación del gestor de bases de datos
+        - Creación de bases de datos
+        - Mecanismos de consulta
+        - El lenguaje de consultas sintaxis, expresiones, operadores
+        - Recuperación, modificación y borrado de información
+        - Tipos de datos objeto; atributos y métodos
+        - Tipos de datos colección
+    - Gestión de bases de datos
+        - Acceso a bases de datos. Estándares. Características
+        - Establecimiento de conexiones
+        - Almacenamiento, recuperación, actualización y eliminación de información en bases de datos
+- Proyecto intermodular
+    - Búsqueda de información
+        - Identificar empresas representativas
+        - Estructura de las empresas
+        - Caracteristicas de los departamentos
+        - Funciones de cada departamento
+        - Evaluacion del volumen de negocio
+        - Estrategia para dar respuesta a las demandas
+        - Valoracion de recursos humanos y materiales
+        - Realización de seguimiento
+        - Desarrollo sostenible
+        - Conexion intermodular
+    - Selección de un servicio o producto
+        - Identificar las necesidades
+        - Plantear posibles soluciones
+        - Información relativa a las soluciones
+        - Aspectos innovadores
+        - Estudio de viabilidad técnica
+        - Partes del proyecto
+        - Recursos materiales y humanos necesarios
+        - Realización de presupuestos económicos
+        - Documentación para el diseño
+        - Aspectos sobre la calidad del proyecto
+        - Presentación en público de las ideas más relevantes
+    - Propuesta de empresa spin off
+        - Temporalización de las secuencias de las actividades
+        - Determinacion de recursos y logistica de cada actividad
+        - Permisos y autorizaciones necesarios
+        - Actividades que implican riesgos
+        - PRL
+        - Recursos materiales y humanos de cada actividad
+        - Posibles imprevistos
+        - Documentación necesaria
+    - Relacion de unidad de empresa
+        - Procedimiento de seguimiento de las actividades
+        - Verificación de la calidad de los resultados de las actividades
+        - Identificación de posibles desviaciones en planificación
+        - Información de posibles desviaciones
+        - Solución y documentación de las desviaciones
+        - Definición y elaboración de documentación
+    - Transmision de informacion
+        - Actitud ordenada y metódica
+        - Transmisión de información horizontal y vertical
+        - Uso de medios informáticos para transmitijr información
+        - Términos técnicos en otras lenguajes estándares del sector
+- Sistemas informáticos
+    - Explotación de sistemas microinformáticos
+        - Placas base. Formatos
+        - Estructura y componentes procesador
+        - Normas de seguridad y prevención de riesgos laborales
+        - Características de las redes. Ventajas e inconvenientes
+        - Tipos de redes
+        - Componentes de una red informática
+        - Topologías de red
+        - Tipos de cableado. Conectores
+        - Mapa físico y lógico de una red local
+    - Instalación de sistemas operativos
+        - Evolución histórica y clasificación
+        - Funciones de un sistema operativo
+        - Tipos de sistemas operativos
+        - Tipos de aplicaciones
+        - Licencias y tipos de licencias
+        - Procedimiento de instalación
+        - Gestores de arranque. Configuración y reparación
+        - Tecnologías de virtualización. Tipos
+        - Consideraciones previas a la instalación de sistemas operativos libres y propietarios
+        - Instalación de sistemas operativos libres y propietarios. Requisitos, versiones y licencias
+        - Instalación  desinstalación de aplicaciones. Requisitos, versiones y licencias
+        - Actualización y recuperación de sistemas operativos y aplicaciones
+        - Documentación de la instalación y de las incidencias detectadas
+    - Gestión de la información
+        - Gestión de sistemas de archivos mediante comandos y entornos gráficos
+        - Estructura de directorios de sistemas operativos libres y propietarios
+        - Búsqueda de información del sistema mediante comandos y herramientas gráficas
+        - Identificación del software instalado mediante comandos y herramientas gráficas
+        - Realización y restauración de copias de seguridad
+        - Herramientas de administración de discos. Particiones y volúmenes. Desfragmentación y chequeo. Cifrado
+        - Tareas automáticas. Planificación
+    - Configuración de sistemas operativos
+        - Configuración de usuarios y grupos
+        - Seguridad de cuentas de usuario
+        - Seguridad de contraseñas
+        - Acceso a recursos. Permisos locales. Listas de control de acceso
+        - Servicios y procesos
+        - Comandos de sistemas operativos libres y propietarios
+        - Herramientas de monitorización del sistema. Registros y logs
+    - Conexión de sistemas en red
+        - Configuración del protocolo TCPIP en un cliente de red. Direcciones IP
+        - Ficheros de configuración de red
+        - Gestión de puertos
+        - Resolución de problemas de conectividad en sistemas operativos en red. Herramientas de diagnóstico
+        - Monitorización de redes
+        - Protocolos TCPIP
+        - Configuración de los adaptadores de red en sistemas operativos libres y propietarios
+        - Interconexión de redes adaptadores de red y dispositivos de interconexión. Enrutamiento
+        - Redes cableadas. Tipos y características. Adaptadores de red. Conmutadores, enrutadores, entre otros. Seguridad
+        - Redes inalámbricas. Tipos y características. Adaptadores. Dispositivos de interconexión. Seguridad
+        - Seguridad de comunicaciones
+        - Tecnologías de acceso a redes de área extensa
+    - Gestión de recursos en una red
+        - Permisos y derechos. Permisos de red. Permisos locales. Herencia. Listas de control de acceso
+        - Configuración de recursos compartidos. Permisos de acceso y directivas de seguridad
+        - Requisitos de seguridad del sistema y de los datos
+        - Servidores de ficheros
+        - Servidores de impresión
+        - Servidores de aplicaciones
+        - Técnicas de conexión remota
+        - Cortafuegos
+        - Implantación y explotación de dominios
+    - Explotación de aplicaciones informáticas de propósito general
+        - Software tipos, requisitos, licencias
+        - Herramientas ofimáticas y de trabajo colaborativo
+        - Utilidades de propósito general antimalware
+
+

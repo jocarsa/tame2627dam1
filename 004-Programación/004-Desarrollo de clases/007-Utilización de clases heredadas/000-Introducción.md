@@ -1,0 +1,2 @@
+# Utilización de clases heredadas
+

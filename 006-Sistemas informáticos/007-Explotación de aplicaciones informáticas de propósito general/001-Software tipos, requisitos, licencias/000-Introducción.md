@@ -1,0 +1,2 @@
+# Software tipos, requisitos, licencias
+

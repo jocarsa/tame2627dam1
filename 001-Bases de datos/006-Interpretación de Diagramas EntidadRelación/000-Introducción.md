@@ -1,0 +1,2 @@
+# Interpretación de Diagramas EntidadRelación
+

@@ -1,0 +1,2 @@
+# Documentación de las incidencias
+

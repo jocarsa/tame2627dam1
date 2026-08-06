@@ -1,0 +1,2 @@
+# Restricciones de validación
+

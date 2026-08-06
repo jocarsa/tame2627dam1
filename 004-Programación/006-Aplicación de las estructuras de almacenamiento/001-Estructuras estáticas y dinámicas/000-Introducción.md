@@ -1,0 +1,2 @@
+# Estructuras estáticas y dinámicas
+

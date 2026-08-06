@@ -1,0 +1,2 @@
+# Permisos y autorizaciones necesarios
+

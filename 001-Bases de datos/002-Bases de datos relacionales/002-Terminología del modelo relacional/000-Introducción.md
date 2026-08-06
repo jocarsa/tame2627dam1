@@ -1,0 +1,2 @@
+# Terminología del modelo relacional
+

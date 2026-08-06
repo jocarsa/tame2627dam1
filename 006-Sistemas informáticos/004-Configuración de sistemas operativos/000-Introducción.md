@@ -1,0 +1,2 @@
+# Configuración de sistemas operativos
+

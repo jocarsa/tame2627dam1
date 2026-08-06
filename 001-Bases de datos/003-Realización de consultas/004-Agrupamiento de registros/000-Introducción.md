@@ -1,0 +1,2 @@
+# Agrupamiento de registros
+
