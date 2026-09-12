@@ -1,2 +1,21 @@
 # Ficheros (planos, indexados, acceso directo, entre otros)
-
+- Planos
+	- texto txt
+	- markdown
+	- odt
+	- docx
+- Estructurados
+	- csv, tsv
+	- json
+	- yaml
+	- ods
+	- xlsx
+- Indexados
+	- csv con índice
+- Acceso directo
+	- Acceso por bytes de archivo
+	- Acceso por hash
+- Imágenes
+	- jpg
+	- png
+	- bmp

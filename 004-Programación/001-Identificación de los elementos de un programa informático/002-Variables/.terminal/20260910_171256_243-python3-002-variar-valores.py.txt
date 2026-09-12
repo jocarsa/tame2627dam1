@@ -1,0 +1,8 @@
+Datetime: 2026-09-10T15:12:56.243Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/002-Variables
+Command: python3 002-variar\ valores.py
+
+Result:
+Mi edad es de 48
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación
+ de los elementos de un programa informático/002-Variables$ 

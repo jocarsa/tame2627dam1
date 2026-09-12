@@ -1,0 +1,23 @@
+# Sistemas gestores de base de datos Funciones, componentes y tipos
+- Funciones
+	- Definir datos, 
+	- manipular datos, 
+	- controlar el acceso, 
+	- la seguridad y la concurrencia, 
+	- asegurar la integridad de los datos
+	- proporcionar mecanismo de copia de seguridad
+- Componentes
+	- Motor de almacenamiento
+	- Procesador de consultas
+	- Optimizar consultas
+	- Gestor de transacciones
+- Tipos
+	- Jerárquicos (p. ej: carpetas)
+	- En red
+	- Relacionales (xSQL)
+	- Orientados a objetos - ORM
+	- NoSQL: documentales, clave-valor, columnares, grafos...
+- Otras clasificaciones
+	- Por arquitectura: centralizados, cliente/servidor, distribuidos, cloud...
+	- Número de usuarios: monousuario y multiusuario
+	- Finalidad: Operaciones/análisis 

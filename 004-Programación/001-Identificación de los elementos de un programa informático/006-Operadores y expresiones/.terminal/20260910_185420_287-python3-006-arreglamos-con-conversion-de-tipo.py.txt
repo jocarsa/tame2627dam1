@@ -1,0 +1,9 @@
+Datetime: 2026-09-10T16:54:20.287Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/006-Operadores y expresiones
+Command: python3 006-arreglamos\ con\ conversion\ de\ tipo.py
+
+Result:
+Ok, tu edad es de 48 años
+Ok, el doble de tu edad es de 96 años
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación de 
+los elementos de un programa informático/006-Operadores y expresiones$ 

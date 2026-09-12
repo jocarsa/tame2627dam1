@@ -1,0 +1,9 @@
+Datetime: 2026-09-11T12:43:26.321Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/003-Estructuras de salto
+Command: python3 001-bienvenido.py
+
+Result:
+Programa agenda v0.1
+por Jose Vicente Carratala
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/003-Estructuras de salto$ 

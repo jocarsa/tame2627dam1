@@ -1,0 +1,1 @@
+edad = 47 # edad identificador, = operador de asignación, 47 valor literal

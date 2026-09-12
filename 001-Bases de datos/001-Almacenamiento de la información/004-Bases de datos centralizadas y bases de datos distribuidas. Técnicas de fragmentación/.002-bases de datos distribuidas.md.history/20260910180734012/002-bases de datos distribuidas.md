@@ -1,0 +1,1 @@
+Distribuidas en varias máquinas, o en varias regiones geográficas

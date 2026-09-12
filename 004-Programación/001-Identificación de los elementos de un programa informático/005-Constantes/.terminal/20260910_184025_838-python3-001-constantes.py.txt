@@ -1,0 +1,9 @@
+Datetime: 2026-09-10T16:40:25.838Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/005-Constantes
+Command: python3 001-constantes.py
+
+Result:
+La velocidad del sonido es:  343
+La velocidad del sonido es:  400
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación de lo
+s elementos de un programa informático/005-Constantes$ 

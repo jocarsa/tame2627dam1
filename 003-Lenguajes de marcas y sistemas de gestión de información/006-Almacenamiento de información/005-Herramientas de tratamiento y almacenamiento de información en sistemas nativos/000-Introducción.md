@@ -1,2 +1,8 @@
 # Herramientas de tratamiento y almacenamiento de información en sistemas nativos
-
+- Herramientas de tratamiento y almacenamiento de información en sistemas nativos
+	- Conceptos fundamentales
+	- Estructura y elementos
+	- Operaciones principales
+	- Persistencia y recuperación de datos
+	- Integridad y tratamiento de errores
+	- Ejemplo de implementación

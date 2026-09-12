@@ -1,0 +1,9 @@
+Datetime: 2026-09-10T15:15:00.365Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/003-Tipos de datos
+Command: python3 001-variables.py
+
+Result:
+48
+<class 'int'>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación 
+de los elementos de un programa informático/003-Tipos de datos$ 

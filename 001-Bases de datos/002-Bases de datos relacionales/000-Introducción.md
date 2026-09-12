@@ -1,2 +1,13 @@
 # Bases de datos relacionales
-
+- Modelo de datos
+- Terminología del modelo relacional
+- Tipos de datos
+- Claves primarias
+- Restricciones de validación
+- Índices. Características
+- El valor NULL
+- Claves ajenas
+- Vistas
+- Usuarios. Privilegios
+- Lenguaje de descripción de datos (DDL)
+- Lenguaje de control de datos (DCL)

@@ -1,0 +1,13 @@
+Datetime: 2026-09-10T16:46:13.046Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/006-Operadores y expresiones
+Command: clea
+
+Result:
+Orden «clea» no encontrada. Quizá quiso decir:
+  la orden «clera» del paquete snap «clera (1.2)»
+  la orden «clear» del paquete deb «ncurses-bin (6.4+20240113-1ubuntu2.1)»
+  la orden «clex» del paquete deb «clex (4.6.patch8-1)»
+  la orden «cleo» del paquete deb «cleo (0.004-4)»
+Consulte «snap info <nombre del snap>» para ver más versiones.
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación de 
+los elementos de un programa informático/006-Operadores y expresiones$ 

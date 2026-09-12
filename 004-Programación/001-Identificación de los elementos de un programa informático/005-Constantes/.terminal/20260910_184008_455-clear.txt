@@ -1,0 +1,7 @@
+Datetime: 2026-09-10T16:40:08.455Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/005-Constantes
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación de lo
+s elementos de un programa informático/005-Constantes$ 

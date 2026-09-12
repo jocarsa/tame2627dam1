@@ -1,2 +1,12 @@
 # Selección de un servicio o producto
-
+- Identificar las necesidades
+- Plantear posibles soluciones
+- Información relativa a las soluciones
+- Aspectos innovadores
+- Estudio de viabilidad técnica
+- Partes del proyecto
+- Recursos materiales y humanos necesarios
+- Realización de presupuestos económicos
+- Documentación para el diseño
+- Aspectos sobre la calidad del proyecto
+- Presentación en público de las ideas más relevantes

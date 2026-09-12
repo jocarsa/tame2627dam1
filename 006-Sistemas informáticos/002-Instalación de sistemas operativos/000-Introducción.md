@@ -1,2 +1,14 @@
 # Instalación de sistemas operativos
-
+- Evolución histórica y clasificación
+- Funciones de un sistema operativo
+- Tipos de sistemas operativos
+- Tipos de aplicaciones
+- Licencias y tipos de licencias
+- Procedimiento de instalación
+- Gestores de arranque. Configuración y reparación
+- Tecnologías de virtualización. Tipos
+- Consideraciones previas a la instalación de sistemas operativos libres y propietarios
+- Instalación de sistemas operativos libres y propietarios. Requisitos, versiones y licencias
+- Instalación desinstalación de aplicaciones. Requisitos, versiones y licencias
+- Actualización y recuperación de sistemas operativos y aplicaciones
+- Documentación de la instalación y de las incidencias detectadas

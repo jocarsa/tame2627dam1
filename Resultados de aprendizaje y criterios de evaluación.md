@@ -1,0 +1,370 @@
+Sistemas informáticos
+	1. Evalúa sistemas informáticos, identificando sus componentes y características.
+	Criterios de evaluación:
+		a) Se han reconocido los componentes físicos de un sistema informático y sus mecanismos de interconexión.
+		b) Se han clasificado los tipos de memorias, señalando sus características e identifcando sus prestaciones y la función que desarrollan en el conjunto del sistema.
+		c) Se ha verificado el proceso de puesta en marcha de un equipo.
+		d) Se han clasificado, instalado y configurado diferentes tipos de dispositivos periféricos.
+		e) Se han identificado los tipos de redes y sistemas de comunicación.
+		f) Se han identificado los componentes de una red informática.
+		g) Se han interpretado mapas físicos y lógicos de una red informática.
+		h) Se han reconocido las normas de seguridad y prevención de riesgos laborales en el uso de los sistemas informáticos.
+	2. Instala sistemas operativos planificando el proceso e interpretando documentación técnica.
+	Criterios de evaluación:
+		a) Se han identificado los elementos funcionales de un sistema informático.
+		b) Se han analizado las características, funciones y arquitectura de un sistema operativo.
+		c) Se han comparado sistemas operativos en base a sus requisitos, características, campos de aplicación y licencias de uso.
+		d) Se ha planificado el proceso de la instalación de sistemas operativos.
+		e) Se han instalado y actualizado sistemas operativos libres y propietarios.
+		f) Se han aplicado técnicas de actualización y recuperación del sistema.
+		g) Se han utilizado tecnologías de virtualización para instalar y probar sistemas operativos.
+		h) Se han instalado, desinstalado y actualizado aplicaciones.
+		i) Se han documentado los procesos realizados.
+	3. Gestiona la información del sistema identificando las estructuras de almacenamiento y aplicando medidas para asegurar la integridad de los datos.
+	Criterios de evaluación:
+		a) Se han comparado sistemas de archivos.
+		b) Se ha identificado la estructura y función de los directorios del sistema operativo.
+		c) Se han utilizado herramientas en entorno gráfico y comandos para localizar información en el sistema de archivos.
+		d) Se han creado diferentes tipos de particiones y unidades lógicas.
+		e) Se han realizado y restaurado copias de seguridad.
+		f) Se han planificado y automatizado tareas.
+		g) Se han instalado y evaluado utilidades relacionadas con la gestión de información.
+	4. Gestiona sistemas operativos utilizando comandos y herramientas gráficas y evaluando las necesidades del sistema.
+	Criterios de evaluación:
+		a) Se han configurado cuentas de usuario locales y grupos.
+		b) Se ha asegurado el acceso al sistema mediante el uso de directivas de cuenta y directivas de contraseñas.
+		c) Se han identificado, arrancado y detenido servicios y procesos.
+		d) Se ha protegido el acceso a la información mediante el uso de permisos locales y listas de control de acceso.
+		e) Se han utilizado comandos para realizar las tareas básicas de configuración y administración del sistema.
+		f) Se ha monitorizado el sistema.
+		g) Se han instalado y evaluado utilidades para el mantenimiento y optimización del sistema.
+		h) Se han evaluado las necesidades del sistema informático en relación con el desarrollo de aplicaciones.
+	5. Interconecta sistemas en red configurando dispositivos y protocolos.
+	Criterios de evaluación:
+		a) Se ha configurado el protocolo TCP/IP.
+		b) Se han configurado redes de área local cableadas.
+		c) Se han configurado redes de área local inalámbricas.
+		d) Se han utilizado dispositivos de interconexión de redes.
+		e) Se ha configurado el acceso a redes de área extensa.
+		f) Se han gestionado puertos de comunicaciones.
+		g) Se ha verificado el funcionamiento de la red mediante el uso de comandos y herramientas básicas.
+		h) Se han aplicado protocolos seguros de comunicaciones.
+	6. Opera sistemas en red gestionando sus recursos e identificando las restricciones de seguridad existentes.
+	Criterios de evaluación:
+		a) Se ha configurado el acceso a recursos locales y recursos de red.
+		b) Se han identificado y configurado los derechos de usuario y directivas de seguridad.
+		c) Se han explotado servidores de ficheros, servidores de impresión y servidores de aplicaciones.
+		d) Se ha accedido a los servidores utilizando técnicas de conexión remota.
+		e) Se ha evaluado la necesidad de proteger los recursos y el sistema.
+		f) Se han instalado y evaluado utilidades de seguridad básica.
+		g) Se han configurado y explotado dominios.
+	7. Elabora documentación valorando y utilizando aplicaciones informáticas de propósito general.
+	Criterios de evaluación:
+		a) Se ha clasificado software en función de su licencia y propósito.
+		b) Se han analizado las necesidades específicas de software asociadas al uso de sistemas informáticos en diferentes entornos productivos.
+		c) Se han realizado tareas de documentación mediante el uso de herramientas ofimáticas y de trabajo colaborativo.
+		d) Se han utilizado sistemas de correo y mensajería electrónica.
+		e) Se han utilizado los servicios de transferencia de ficheros.
+		f) Se han utilizado métodos de búsqueda de documentación técnica mediante el uso de servicios de Internet.
+		g) Se han utilizado herramientas de propósito general.
+Bases de datos
+	1. Reconoce los elementos de las bases de datos analizando sus funciones y valorando la utilidad de los sistemas gestores.
+	Criterios de evaluación:
+		a) Se han analizado los sistemas lógicos de almacenamiento y sus características.
+		b) Se han identificado los distintos tipos de bases de datos según el modelo de datos utilizado.
+		c) Se han identificado los distintos tipos de bases de datos en función de la ubicación de la información.
+		d) Se ha evaluado la utilidad de un sistema gestor de bases de datos.
+		e) Se ha reconocido la función de cada uno de los elementos de un sistema gestor de bases de datos.
+		f) Se han clasificado los sistemas gestores de bases de datos.
+		g) Se ha reconocido la utilidad de las bases de datos distribuidas.
+		h) Se han analizado las políticas de fragmentación de la información.
+		i) Se ha identificado la legislación vigente sobre protección de datos.
+		j) Se han reconocido los conceptos de Big Data y de la inteligencia de negocios.
+	2. Crea bases de datos definiendo su estructura y las características de sus elementos según el modelo relacional.
+	Criterios de evaluación:
+		a) Se ha analizado el formato de almacenamiento de la información.
+		b) Se han creado las tablas y las relaciones entre ellas.
+		c) Se han seleccionado los tipos de datos adecuados.
+		d) Se han definido los campos clave en las tablas.
+		e) Se han implantado las restricciones reflejadas en el diseño lógico.
+		f) Se han creado vistas.
+		g) Se han creado los usuarios y se les han asignado privilegios.
+		h) Se han utilizado asistentes, herramientas gráficas y los lenguajes de definición y control de datos.
+	3. Consulta la información almacenada en una base de datos empleando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.
+	Criterios de evaluación:
+		a) Se han identificado las herramientas y sentencias para realizar consultas.
+		b) Se han realizado consultas simples sobre una tabla.
+		c) Se han realizado consultas sobre el contenido de varias tablas mediante composiciones internas.
+		d) Se han realizado consultas sobre el contenido de varias tablas mediante composiciones externas.
+		e) Se han realizado consultas resumen.
+		f) Se han realizado consultas con subconsultas.
+		g) Se han realizado consultas que implican múltiples selecciones.
+		h) Se han aplicado criterios de optimización de consultas.
+	4. Modifica la información almacenada en la base de datos utilizando asistentes, herramientas gráficas y el lenguaje de manipulación de datos.
+	Criterios de evaluación:
+		a) Se han identificado las herramientas y sentencias para modificar el contenido de la base de datos.
+		b) Se han insertado, borrado y actualizado datos en las tablas.
+		c) Se ha incluido en una tabla la información resultante de la ejecución de una consulta.
+		d) Se han diseñado guiones de sentencias para llevar a cabo tareas complejas.
+		e) Se ha reconocido el funcionamiento de las transacciones.
+		f) Se han anulado parcial o totalmente los cambios producidos por una transacción.
+		g) Se han identificado los efectos de las distintas políticas de bloqueo de registros.
+		h) Se han adoptado medidas para mantener la integridad y consistencia de la información.
+	5. Desarrolla procedimientos almacenados evaluando y utilizando las sentencias del lenguaje incorporado en el sistema gestor de bases de datos.
+	Criterios de evaluación:
+		a) Se han identificado las diversas formas de automatizar tareas.
+		b) Se han reconocido los métodos de ejecución de guiones.
+		c) Se han identificado las herramientas disponibles para editar guiones.
+		d) Se han definido y utilizado guiones para automatizar tareas.
+		e) Se ha hecho uso de las funciones proporcionadas por el sistema gestor.
+		f) Se han definido procedimientos y funciones de usuario.
+		g) Se han utilizado estructuras de control de flujo.
+		h) Se han definido eventos y disparadores.
+		i) Se han utilizado cursores.
+		j) Se han utilizado excepciones.
+	6. Diseña modelos relacionales normalizados interpretando diagramas entidad/relación.
+	Criterios de evaluación:
+		a) Se han utilizado herramientas gráficas para representar el diseño lógico.
+		b) Se han identificado las tablas del diseño lógico.
+		c) Se han identificado los campos que forman parte de las tablas del diseño lógico.
+		d) Se han analizado las relaciones entre las tablas del diseño lógico.
+		e) Se han identificado los campos clave.
+		f) Se han aplicado reglas de integridad.
+		g) Se han aplicado reglas de normalización.
+		h) Se han analizado y documentado las restricciones que no pueden plasmarse en el diseño lógico.
+	7. Gestiona la información almacenada en bases de datos no relacionales, evaluando y utilizando las posibilidades que proporciona el sistema gestor.
+	Criterios de evaluación:
+		a) Se han caracterizado las bases de datos no relacionales.
+		b) Se han evaluado los principales tipos de bases de datos no relacionales.
+		c) Se han identificado los elementos utilizados en estas bases de datos.
+		d) Se han identificado distintas formas de gestión de la información según el tipo de base de datos no relacionales.
+		e) Se han utilizado las herramientas del sistema gestor para la gestión de la información almacenada.
+Programación
+	1. Reconoce la estructura de un programa informático, identificando y relacionando los elementos propios del lenguaje de programación utilizado.
+	Criterios de evaluación:
+		a) Se han identificado los bloques que componen la estructura de un programa informático.
+		b) Se han creado proyectos de desarrollo de aplicaciones.
+		c) Se han utilizado entornos integrados de desarrollo.
+		d) Se han identificado los distintos tipos de variables y la utilidad específica de cada uno.
+		e) Se ha modificado el código de un programa para crear y utilizar variables.
+		f) Se han creado y utilizado constantes y literales.
+		g) Se han clasificado, reconocido y utilizado en expresiones los operadores del lenguaje.
+		h) Se ha comprobado el funcionamiento de las conversiones de tipo explícitas e implícitas.
+		i) Se han introducido comentarios en el código.
+	2. Escribe y prueba programas sencillos, reconociendo y aplicando los fundamentos de la programación orientada a objetos.
+	Criterios de evaluación:
+		a) Se han identificado los fundamentos de la programación orientada a objetos.
+		b) Se han escrito programas simples.
+		c) Se han instanciado objetos a partir de clases predefinidas.
+		d) Se han utilizado métodos y propiedades de los objetos.
+		e) Se han escrito llamadas a métodos estáticos.
+		f) Se han utilizado parámetros en la llamada a métodos.
+		g) Se han incorporado y utilizado librerías de objetos.
+		h) Se han utilizado constructores.
+		i) Se ha utilizado el entorno integrado de desarrollo en la creación y compilación de programas simples.
+	3. Escribe y depura código, analizando y utilizando las estructuras de control del lenguaje.
+	Criterios de evaluación:
+		a) Se ha escrito y probado código que haga uso de estructuras de selección.
+		b) Se han utilizado estructuras de repetición.
+		c) Se han reconocido las posibilidades de las sentencias de salto.
+		d) Se ha escrito código utilizando control de excepciones.
+		e) Se han creado programas ejecutables utilizando diferentes estructuras de control.
+		f) Se han probado y depurado los programas.
+		g) Se ha comentado y documentado el código.
+		h) Se han creado excepciones.
+		i) Se han utilizado aserciones para la detección y corrección de errores durante la fase de desarrollo.
+	4. Desarrolla programas organizados en clases analizando y aplicando los principios de la programación orientada a objetos.
+	Criterios de evaluación:
+		a) Se ha reconocido la sintaxis, estructura y componentes típicos de una clase.
+		b) Se han definido clases.
+		c) Se han definido propiedades y métodos.
+		d) Se han creado constructores.
+		e) Se han desarrollado programas que instancien y utilicen objetos de las clases creadas anteriormente.
+		f) Se han utilizado mecanismos para controlar la visibilidad de las clases y de sus miembros.
+		g) Se han definido y utilizado clases heredadas.
+		h) Se han creado y utilizado métodos estáticos.
+		i) Se han creado y utilizado conjuntos y librerías de clases.
+	5. Realiza operaciones de entrada y salida de información, utilizando procedimientos específicos del lenguaje y librerías de clases.
+	Criterios de evaluación:
+		a) Se ha utilizado la consola para realizar operaciones de entrada y salida de información.
+		b) Se han aplicado formatos en la visualización de la información.
+		c) Se han reconocido las posibilidades de entrada / salida del lenguaje y las librerías asociadas.
+		d) Se han utilizado ficheros para almacenar y recuperar información.
+		e) Se han creado programas que utilicen diversos métodos de acceso al contenido de los ficheros.
+		f) Se han utilizado las herramientas del entorno de desarrollo para crear interfaces gráficos de usuario simples.
+		g) Se han programado controladores de eventos.
+		h) Se han escrito programas que utilicen interfaces gráficos para la entrada y salida de información.
+	6. Escribe programas que manipulen información seleccionando y utilizando tipos avanzados de datos.
+	Criterios de evaluación:
+		a) Se han escrito programas que utilicen matrices (arrays).
+		b) Se han reconocido las librerías de clases relacionadas con tipos de datos avanzados.
+		c) Se han utilizado listas para almacenar y procesar información.
+		d) Se han utilizado iteradores para recorrer los elementos de las listas.
+		e) Se han reconocido las características y ventajas de cada una de las colecciones de datos disponibles.
+		f) Se han creado clases y métodos genéricos.
+		g) Se han utilizado expresiones regulares en la búsqueda de patrones en cadenas de texto.
+		h) Se han identificado las clases relacionadas con el tratamiento de documentos escritos en diferentes lenguajes de intercambio de datos.
+		i) Se han realizado programas que realicen manipulaciones sobre documentos escritos en diferentes lenguajes de intercambio de datos.
+		j) Se han utilizado operaciones agregadas para el manejo de información almacenada en colecciones.
+	7. Desarrolla programas aplicando características avanzadas de los lenguajes orientados a objetos y del entorno de programación.
+	Criterios de evaluación:
+		a) Se han identificado los conceptos de herencia, superclase y subclase.
+		b) Se han utilizado modificadores para bloquear y forzar la herencia de clases y métodos.
+		c) Se ha reconocido la incidencia de los constructores en la herencia.
+		d) Se han creado clases heredadas que sobrescriben la implementación de métodos de la superclase.
+		e) Se han diseñado y aplicado jerarquías de clases.
+		f) Se han probado y depurado las jerarquías de clases.
+		g) Se han realizado programas que implementen y utilicen jerarquías de clases.
+		h) Se ha comentado y documentado el código.
+		i) Se han identificado y evaluado los escenarios de uso de interfaces.
+		j) Se han identificado y evaluado los escenarios de utilización de la herencia y la composición.
+	8. Utiliza bases de datos orientadas a objetos, analizando sus características y aplicando técnicas para mantener la persistencia de la información.
+	Criterios de evaluación:
+		a) Se han identificado las características de las bases de datos orientadas a objetos.
+		b) Se ha analizado su aplicación en el desarrollo de aplicaciones mediante lenguajes orientados a objetos.
+		c) Se han instalado sistemas gestores de bases de datos orientados a objetos.
+		d) Se han clasificado y analizado los distintos métodos soportados por los sistemas gestores para la gestión de la información almacenada.
+		e) Se han creado bases de datos y las estructuras necesarias para el almacenamiento de objetos.
+		f) Se han programado aplicaciones que almacenen objetos en las bases de datos creadas.
+		g) Se han realizado programas para recuperar, actualizar y eliminar objetos de las bases de datos.
+		h) Se han realizado programas para almacenar y gestionar tipos de datos estructurados, compuestos y relacionados.
+	9.Gestiona información almacenada en bases de datos manteniendo la integridad y consistencia de los datos.
+	Crterios de evaluación:
+		a) Se han identificado las características y métodos de acceso a sistemas gestores de bases de datos.
+		b) Se han programado conexiones con bases de datos.
+		c) Se ha escrito un código para almacenar información en bases de datos.
+		d) Se han creado programas para recuperar y mostrar información almacenada en bases de datos.
+		e) Se han efectuado borrados y modificaciones sobre la información almacenada.
+		f) Se han creado aplicaciones que muestren la información almacenada en bases de datos.
+		g) Se han creado aplicaciones para gestionar la información presente en bases de datos.
+Lenguajes de marcas y sistemas de gestión de información
+	1. Reconoce las características de lenguajes de marcas analizando e interpretando fragmentos de código.
+	Criterios de evaluación:
+		a) Se han identificado las características generales de los lenguajes de marcas.
+		b) Se han reconocido las ventajas que proporcionan en el tratamiento de la información.
+		c) Se han clasificado los lenguajes de marcas e identificado los más relevantes.
+		d) Se han diferenciado sus ámbitos de aplicación.
+		e) Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general.
+		f) Se han analizado las características propias de diferentes lenguajes de marcas.
+		g) Se ha identificado la estructura de un documento y sus reglas sintácticas.
+		h) Se ha contrastado la necesidad de crear documentos bien formados y la influencia en su procesamiento.
+		i) Se han identificado las ventajas que aportan los espacios de nombres.
+	2. Utiliza lenguajes de marcas para la transmisión y presentación de información a través de la web analizando la estructura de los documentos e identificando sus elementos.
+	Criterios de evaluación:
+		a) Se han identificado y clasificado los lenguajes de marcas relacionados con la web y sus diferentes versiones y estándares.
+		b) Se ha analizado la estructura de un documento HTML e identificado las secciones que lo componen.
+		c) Se ha reconocido la funcionalidad de las principales etiquetas y los atributos del lenguaje HTML.
+		d) Se han establecido las semejanzas y diferencias entre las diferentes versiones de HTML.
+		e) Se han utilizado herramientas en la creación de documentos web.
+		f) Se han identificado las ventajas que aporta la utilización de hojas de estilo.
+		g) Se han aplicado hojas de estilo.
+		h) Se han validado documentos HTML y CSS.
+		i) Se han identificado las tecnologías en que se basa la sindicación de contenidos.
+		j) Se han reconocido los ámbitos de aplicación de la sindicación de contenidos.
+	3. Accede y manipula documentos web utilizando lenguajes de script de cliente.
+	Criterios de evaluación:
+		a) Se han identificado y clasificado los lenguajes de script de cliente relacionados con la web y sus diferentes versiones y estándares.
+		b) Se ha identificado la sintaxis básica de los lenguajes de script de cliente.
+		c) Se han utilizado métodos para la selección y acceso de los diferentes elementos de un documento web.
+		d) Se han creado y modificado elementos de documentos web.
+		e) Se han eliminado elementos de documentos web.
+		f) Se han realizado modificaciones sobre los estilos de un documento web.
+	4. Establece mecanismos de validación de documentos para el intercambio de información utilizando métodos para definir su sintaxis y estructura.
+	Criterios de evaluación:
+		a) Se ha establecido la necesidad de describir la información transmitida en los documentos y sus reglas.
+		b) Se han identificado las tecnologías relacionadas con la definición de documentos.
+		c) Se ha analizado la estructura y sintaxis específica utilizada en la descripción.
+		d) Se han creado descripciones de documentos.
+		e) Se han utilizado descripciones en la elaboración y validación de documentos.
+		f) Se han asociado las descripciones con los documentos.
+		g) Se han utilizado herramientas específicas.
+	5. Realiza conversiones sobre documentos para el intercambio de información utilizando técnicas, lenguajes y herramientas de procesamiento.
+	Criterios de evaluación:
+		a) Se ha identificado la necesidad de la conversión de documentos para el intercambio de la información.
+		b) Se han establecido ámbitos de aplicación.
+		c) Se han analizado las tecnologías implicadas y su modo de funcionamiento.
+		d) Se ha descrito la sintaxis específica utilizada en la conversión y adaptación de documentos para el intercambio de información.
+		e) Se han creado especificaciones de conversión.
+		f) Se han identificado y caracterizado herramientas específicas relacionadas con la conversión de documentos para el intercambio de información.
+		g) Se han realizado conversiones sobre documentos para el intercambio de información.
+	6. Gestiona la información en formatos de intercambio de datos analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.
+	Criterios de evaluación:
+		a) Se han identificado los principales métodos de almacenamiento de la información utilizados en documentos de intercambio de datos.
+		b) Se han identificado las ventajas e inconvenientes de almacenar información en formatos de intercambio de datos.
+		c) Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características.
+		d) Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos de intercambio de datos.
+		e) Se han utilizado lenguajes de consulta y manipulación en documentos de intercambio de datos.
+		f) Se han utilizado sistemas gestores de bases de datos relacionales en el almacenamiento de información en formatos de intercambio de datos.
+		g) Se han utilizado técnicas específicas para crear documentos de intercambio de datos a partir de información almacenada en bases de datos relacionales.
+		h) Se han identificado las características de los sistemas.
+		i) Se han utilizado herramientas para gestionar la información almacenada en bases de datos nativas.
+	7. Opera sistemas empresariales de gestión de información realizando tareas de importación, integración, aseguramiento y extracción de la información.
+	Criterios de evaluación:
+		a) Se han identificado los principales sistemas de gestión empresarial.
+		b) Se han reconocido las ventajas de los sistemas de gestión de información empresariales.
+		c) Se han evaluado las características de las principales aplicaciones de gestión empresarial.
+		d) Se han instalado aplicaciones de gestión de la información empresarial.
+		e) Se han configurado y administrado las aplicaciones.
+		f) Se han establecido y verificado mecanismos de acceso seguro a la información.
+		g) Se han generado informes.
+		h) Se han realizado procedimientos de extracción de información para su tratamiento e incorporación a diversos sistemas.
+		i) Se han elaborado documentos relativos a la explotación de la aplicación.
+Entornos de desarrollo
+	1. Reconoce los elementos y herramientas que intervienen en el desarrollo de un programa informático, analizando sus características y las fases en las que actúan hasta llegar a su puesta en funcionamiento.
+	Criterios de evaluación:
+		a) Se ha reconocido la relación de los programas con los componentes del sistema informático: memoria, procesador, periféricos, entre otros.
+		b) Se han identificado las fases de desarrollo de una aplicación informática.
+		c) Se han diferenciado los conceptos de código fuente, objeto y ejecutable.
+		d) Se han reconocido las características de la generación de código intermedio para su ejecución en máquinas virtuales.
+		e) Se han clasificado los lenguajes de programación, identificando sus características.
+		f) Se ha evaluado la funcionalidad ofrecida por las herramientas utilizadas en el desarrollo de software.
+		g) Se han identificado las características y escenarios de uso de las metodologías ágiles de desarrollo de software.
+	2. Evalúa entornos integrados de desarrollo analizando sus características para editar código fuente y generar ejecutables.
+	Criterios de evaluación:
+		a) Se han instalado entornos de desarrollo, propietarios y libres.
+		b) Se han añadido y eliminado módulos en el entorno de desarrollo.
+		c) Se ha personalizado y automatizado el entorno de desarrollo.
+		d) Se ha configurado el sistema de actualización del entorno de desarrollo.
+		e) Se han generado ejecutables a partir de código fuente de diferentes lenguajes en un mismo entorno de desarrollo.
+		f) Se han generado ejecutables a partir de un mismo código fuente con varios entornos de desarrollo.
+		g) Se han identificado las características comunes y específicas de diversos entornos de desarrollo.
+	3. Verifica el funcionamiento de programas diseñando y realizando pruebas.
+	Criterios de evaluación:
+		a) Se han identificado los diferentes tipos de pruebas.
+		b) Se han definido casos de prueba.
+		c) Se han identificado las herramientas de depuración y prueba de aplicaciones ofrecidas por el entorno de desarrollo.
+		d) Se han utilizado herramientas de depuración para definir puntos de ruptura y seguimiento.
+		e) Se han utilizado las herramientas de depuración para examinar y modificar el comportamiento de un programa en tiempo de ejecución.
+		f) Se han efectuado pruebas unitarias de clases y funciones.
+		g) Se han implementado pruebas automáticas.
+		h) Se han documentado las incidencias detectadas.
+		i) Se han utilizado dobles de prueba para aislar los componentes durante las pruebas.
+	4. Optimiza código empleando las herramientas disponibles en el entorno de desarrollo.
+	Criterios de evaluación:
+		a) Se han identificado los patrones de refactorización más usuales.
+		b) Se han elaborado las pruebas asociadas a la refactorización.
+		c) Se ha revisado el código fuente usando un analizador de código.
+		d) Se han identificado las posibilidades de configuración de un analizador de código.
+		e) Se han aplicado patrones de refactorización con las herramientas que proporciona el entorno de desarrollo.
+		f) Se ha realizado el control de versiones integrado en el entorno de desarrollo.
+		g) Se han utilizado herramientas del entorno de desarrollo para documentar las clases.
+		h) Se han utilizado repositorios remotos para el desarrollo de código colaborativo.
+		i) Se han utilizado herramientas para la integración continua del código.
+	5. Genera diagramas de clases valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.
+	Criterios de evaluación:
+		a) Se han identificado los conceptos básicos de la programación orientada a objetos.
+		b) Se han utilizado herramientas para la elaboración de diagramas de clases.
+		c) Se ha interpretado el significado de diagramas de clases.
+		d) Se han trazado diagramas de clases a partir de las especificaciones de las mismas.
+		e) Se ha generado código a partir de un diagrama de clases.
+		f) Se ha generado un diagrama de clases mediante ingeniería inversa.
+	6. Genera diagramas de comportamiento valorando su importancia en el desarrollo de aplicaciones y empleando herramientas específicas.
+	Criterios de evaluación:
+		a) Se han identificado los distintos tipos de diagramas de comportamiento.
+		b) Se ha reconocido el significado de los diagramas de casos de uso.
+		c) Se han interpretado diagramas de interacción.
+		d) Se han elaborado diagramas de interacción sencillos.
+		e) Se ha interpretado el significado de diagramas de actividades.
+		f) Se han elaborado diagramas de actividades sencillos.
+		g) Se han interpretado diagramas de estados.
+		h) Se han planteado diagramas de estados sencillos.

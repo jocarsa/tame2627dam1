@@ -1,0 +1,37 @@
+Datetime: 2026-09-11T12:32:58.960Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/002-Estructuras de repetición
+Command: python3 001-dias\ del\ mes.py
+
+Result:
+Hoy es el día 1 del mes
+Hoy es el día 2 del mes
+Hoy es el día 3 del mes
+Hoy es el día 4 del mes
+Hoy es el día 5 del mes
+Hoy es el día 6 del mes
+Hoy es el día 7 del mes
+Hoy es el día 8 del mes
+Hoy es el día 9 del mes
+Hoy es el día 10 del mes
+Hoy es el día 11 del mes
+Hoy es el día 12 del mes
+Hoy es el día 13 del mes
+Hoy es el día 14 del mes
+Hoy es el día 15 del mes
+Hoy es el día 16 del mes
+Hoy es el día 17 del mes
+Hoy es el día 18 del mes
+Hoy es el día 19 del mes
+Hoy es el día 20 del mes
+Hoy es el día 21 del mes
+Hoy es el día 22 del mes
+Hoy es el día 23 del mes
+Hoy es el día 24 del mes
+Hoy es el día 25 del mes
+Hoy es el día 26 del mes
+Hoy es el día 27 del mes
+Hoy es el día 28 del mes
+Hoy es el día 29 del mes
+Hoy es el día 30 del mes
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/002-Estructuras de repetición$ 

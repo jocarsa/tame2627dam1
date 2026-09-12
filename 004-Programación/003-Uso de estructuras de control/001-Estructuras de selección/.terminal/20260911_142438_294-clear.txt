@@ -1,0 +1,7 @@
+Datetime: 2026-09-11T12:24:38.294Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/001-Estructuras de selección
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/001-Estructuras de selección$ 

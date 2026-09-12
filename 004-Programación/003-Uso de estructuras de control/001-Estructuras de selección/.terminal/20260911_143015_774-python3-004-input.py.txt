@@ -1,0 +1,8 @@
+Datetime: 2026-09-11T12:30:15.774Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/001-Estructuras de selección
+Command: python3 004-input.py
+
+Result:
+Eres un adulto
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/001-Estructuras de selección$ 

@@ -1,0 +1,8 @@
+Datetime: 2026-09-10T15:12:01.389Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/002-Variables
+Command: python3 001-crear\ una\ variable.py
+
+Result:
+Mi nombre es Jose Vicente y mi edad es 48
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación
+ de los elementos de un programa informático/002-Variables$ 

@@ -1,2 +1,13 @@
 # Conexión de sistemas en red
-
+- Configuración del protocolo TCPIP en un cliente de red. Direcciones IP
+- Ficheros de configuración de red
+- Gestión de puertos
+- Resolución de problemas de conectividad en sistemas operativos en red. Herramientas de diagnóstico
+- Monitorización de redes
+- Protocolos TCPIP
+- Configuración de los adaptadores de red en sistemas operativos libres y propietarios
+- Interconexión de redes adaptadores de red y dispositivos de interconexión. Enrutamiento
+- Redes cableadas. Tipos y características. Adaptadores de red. Conmutadores, enrutadores, entre otros. Seguridad
+- Redes inalámbricas. Tipos y características. Adaptadores. Dispositivos de interconexión. Seguridad
+- Seguridad de comunicaciones
+- Tecnologías de acceso a redes de área extensa

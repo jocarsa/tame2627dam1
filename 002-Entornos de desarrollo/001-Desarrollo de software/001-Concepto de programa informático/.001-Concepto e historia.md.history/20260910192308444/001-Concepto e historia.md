@@ -1,0 +1,1 @@
+Los computadores se basan en procesadores que mueven info

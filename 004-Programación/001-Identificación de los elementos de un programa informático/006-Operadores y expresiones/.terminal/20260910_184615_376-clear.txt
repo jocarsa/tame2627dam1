@@ -1,0 +1,7 @@
+Datetime: 2026-09-10T16:46:15.376Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/001-Identificación de los elementos de un programa informático/006-Operadores y expresiones
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/001-Identificación de 
+los elementos de un programa informático/006-Operadores y expresiones$ 

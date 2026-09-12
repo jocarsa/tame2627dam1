@@ -1,0 +1,26 @@
+Datetime: 2026-09-11T12:29:20.662Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/001-Estructuras de selección
+Command: python3 004-input.py
+
+Result:
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/001-Estructuras de selección/004-input.py", line 6
+    else if edad >=10 and edad < 20
+         ^^
+SyntaxError: expected ':'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_003-Uso de estructuras de control_001-Estructuras de selección_004-input.py.1000.crash'
+
+Original exception was:
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/001-Estructuras de selección/004-input.py", line 6
+    else if edad >=10 and edad < 20
+         ^^
+SyntaxError: expected ':'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/001-Estructuras de selección$ 

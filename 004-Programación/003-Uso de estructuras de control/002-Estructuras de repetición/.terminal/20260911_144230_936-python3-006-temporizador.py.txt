@@ -1,0 +1,48 @@
+Datetime: 2026-09-11T12:42:30.936Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/002-Estructuras de repetición
+Command: python3 006-temporizador.py
+
+Result:
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+Hola
+^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/002-Estructuras de repetición/006-temporizador.py", line 5, in <module>
+    time.sleep(1)
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/002-Estructuras de repetición$ 

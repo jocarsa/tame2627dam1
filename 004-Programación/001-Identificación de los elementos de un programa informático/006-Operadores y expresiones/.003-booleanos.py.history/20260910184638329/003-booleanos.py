@@ -1,0 +1,2 @@
+print(4 == 4 and 3 == 3 and 2 == 2)
+print(4 == 4 and 3 == 3 and 2 == 1)
