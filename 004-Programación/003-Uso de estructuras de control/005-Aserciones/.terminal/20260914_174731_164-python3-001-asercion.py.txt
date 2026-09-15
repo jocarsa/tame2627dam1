@@ -1,0 +1,28 @@
+Datetime: 2026-09-14T15:47:31.164Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/005-Aserciones
+Command: python3 001-asercion.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/005-Aserciones/001-asercion.py", line 3, in <module>
+    assert edad < 30
+           ^^^^^^^^^
+AssertionError
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_003-Uso de estructuras de control_005-Aserciones_001-asercion.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/005-Aserciones/001-asercion.py", line 3, in <module>
+    assert edad < 30
+           ^^^^^^^^^
+AssertionError
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de
+ control/005-Aserciones$ 

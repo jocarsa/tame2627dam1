@@ -1,0 +1,9 @@
+Datetime: 2026-09-14T15:45:31.638Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones
+Command: python3 003-entrada\ de\ usuario.py
+
+Result:
+2.5
+Pero es que yo quiero que mi programa siga funcionando
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras d
+e control/004-Control de excepciones$ 

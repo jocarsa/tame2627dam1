@@ -1,0 +1,28 @@
+Datetime: 2026-09-14T15:33:51.918Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones
+Command: python3 001-error\ puro.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones/001-error puro.py", line 1, in <module>
+    division = 10/0
+               ~~^~
+ZeroDivisionError: division by zero
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_003-Uso de estructuras de control_004-Control de excepciones_001-error puro.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones/001-error puro.py", line 1, in <module>
+    division = 10/0
+               ~~^~
+ZeroDivisionError: division by zero
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras d
+e control/004-Control de excepciones$ 

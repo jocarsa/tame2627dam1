@@ -1,0 +1,347 @@
+{
+  "datos_personales": {
+    "nombre": "Jose Vicente",
+    "apellidos": "Carratalá Sanchis",
+    "nombre_profesional": "José Vicente Carratalá",
+    "marca_profesional": "JOCARSA",
+    "fecha_nacimiento": "1978-04-14",
+    "ubicacion": {
+      "ciudad": "Valencia",
+      "pais": "España"
+    }
+  },
+
+  "perfil_profesional": {
+    "profesion_principal": "Docente de Formación Profesional y desarrollador de software",
+    "especializacion": [
+      "Desarrollo de software",
+      "Programación",
+      "Desarrollo web",
+      "Bases de datos",
+      "Inteligencia artificial",
+      "IA generativa",
+      "Modelos de lenguaje",
+      "RAG",
+      "Automatización",
+      "Sistemas informáticos",
+      "Tecnología educativa"
+    ],
+    "marca": "JOCARSA",
+    "descripcion": "Profesional de la informática y la docencia especializado en programación, desarrollo de aplicaciones, sistemas, bases de datos e inteligencia artificial, con especial dedicación a la Formación Profesional y al desarrollo de herramientas tecnológicas aplicadas a la educación."
+  },
+
+  "experiencia_laboral": [
+    {
+      "periodo": "2000-2010",
+      "actividad": "Docencia presencial",
+      "descripcion": "Experiencia docente en modalidad presencial."
+    },
+    {
+      "periodo": "2010-2020",
+      "actividad": "Docencia online",
+      "descripcion": "Experiencia en enseñanza y formación mediante modalidades online."
+    },
+    {
+      "periodo": "2017-actualidad",
+      "actividad": "Docencia en Formación Profesional",
+      "descripcion": "Profesor de ciclos formativos relacionados con Desarrollo de Aplicaciones Multiplataforma y Desarrollo de Aplicaciones Web."
+    },
+    {
+      "actividad": "Diseño curricular de Formación Profesional",
+      "descripcion": "Elaboración de programaciones, contenidos, actividades, proyectos y sistemas de evaluación alineados con resultados de aprendizaje y criterios de evaluación."
+    },
+    {
+      "actividad": "Desarrollo de software",
+      "descripcion": "Diseño y desarrollo de aplicaciones web, herramientas educativas, sistemas de gestión y soluciones de automatización."
+    },
+    {
+      "actividad": "Investigación y desarrollo aplicado en inteligencia artificial",
+      "descripcion": "Experimentación con modelos de lenguaje locales, RAG, embeddings, agentes, entrenamiento y ajuste de modelos y aplicaciones educativas basadas en IA."
+    }
+  ],
+
+  "experiencia_docente": {
+    "familias_y_ciclos": [
+      "DAM - Desarrollo de Aplicaciones Multiplataforma",
+      "DAW - Desarrollo de Aplicaciones Web",
+      "SMR - Sistemas Microinformáticos y Redes"
+    ],
+    "modulos_impartidos_o_trabajados": [
+      "Programación",
+      "Bases de Datos",
+      "Lenguajes de Marcas y Sistemas de Gestión de Información",
+      "Entornos de Desarrollo",
+      "Sistemas Informáticos",
+      "Acceso a Datos",
+      "Desarrollo de Interfaces",
+      "Programación de Servicios y Procesos",
+      "Programación Multimedia y Dispositivos Móviles",
+      "Sistemas de Gestión Empresarial",
+      "Proyecto"
+    ],
+    "areas_de_interes_docente": [
+      "Aprendizaje basado en proyectos",
+      "Evaluación por competencias",
+      "Evaluación auténtica",
+      "Coordinación intermodular",
+      "Empleabilidad",
+      "Prospectiva tecnológica",
+      "Inteligencia artificial aplicada a la educación",
+      "Personalización del aprendizaje",
+      "Trazabilidad del aprendizaje"
+    ]
+  },
+
+  "formacion": {
+    "formacion_academica": [],
+    "nota": "No dispongo de información suficientemente fiable sobre titulaciones académicas concretas, universidades o certificaciones, por lo que no las invento.",
+    "areas_de_conocimiento_acreditadas_por_experiencia": [
+      "Programación",
+      "Desarrollo de aplicaciones",
+      "Desarrollo web",
+      "Bases de datos",
+      "Sistemas informáticos",
+      "Inteligencia artificial",
+      "Modelos de lenguaje",
+      "RAG",
+      "Administración de servidores",
+      "Tecnología educativa"
+    ]
+  },
+
+  "competencias_tecnicas": {
+    "lenguajes_y_tecnologias": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "C",
+      "C++",
+      "PHP",
+      "HTML",
+      "CSS",
+      "SQL"
+    ],
+    "bases_de_datos": [
+      "SQLite",
+      "MariaDB",
+      "MySQL",
+      "ChromaDB"
+    ],
+    "servidores_y_sistemas": [
+      "Ubuntu Linux",
+      "Apache",
+      "SSH",
+      "FFmpeg",
+      "WebSocket",
+      "WebRTC"
+    ],
+    "inteligencia_artificial": [
+      "LLM",
+      "Ollama",
+      "RAG",
+      "Embeddings",
+      "Transformers",
+      "QLoRA",
+      "Whisper",
+      "Modelos multimodales",
+      "Agentes de IA",
+      "Inferencia local"
+    ],
+    "modelos_con_los_que_ha_trabajado": [
+      "Llama",
+      "Qwen",
+      "Gemma",
+      "Granite",
+      "DeepSeek",
+      "Mistral",
+      "Phi",
+      "LLaVA"
+    ],
+    "herramientas_y_plataformas": [
+      "Moodle",
+      "Git",
+      "WordPress",
+      "BigBlueButton",
+      "CUDA",
+      "NVIDIA NVENC"
+    ]
+  },
+
+  "infraestructura_y_ia_local": {
+    "descripcion": "Mantiene infraestructura propia para desarrollo, docencia, servidores web, videoconferencia e inteligencia artificial local.",
+    "areas_de_experimentacion": [
+      "Ejecución local de LLM",
+      "Benchmark de modelos",
+      "RAG documental",
+      "Procesamiento automático de apuntes",
+      "Transcripción automática",
+      "Fine-tuning",
+      "QLoRA",
+      "Generación de materiales docentes",
+      "Automatización de procesos educativos"
+    ],
+    "proyecto_modelo_personal": {
+      "nombre": "jocarsa-persona",
+      "descripcion": "Experimentación con corpus propio y ajuste de modelos para construir un modelo de identidad y estilo personal."
+    }
+  },
+
+  "proyectos_destacados": [
+    {
+      "nombre": "JOCARSA Asistencias",
+      "tipo": "Aplicación web educativa",
+      "descripcion": "Sistema multi-tenant de control y gestión de asistencias."
+    },
+    {
+      "nombre": "JOCARSA Presentación",
+      "tipo": "Herramienta educativa",
+      "descripcion": "Sistema para creación y gestión de presentaciones docentes."
+    },
+    {
+      "nombre": "JOCARSA Mecanografía",
+      "tipo": "Aplicación educativa",
+      "descripcion": "Plataforma multi-tenant para aprendizaje y seguimiento de mecanografía."
+    },
+    {
+      "nombre": "JOCARSA Avatar",
+      "tipo": "Interfaz interactiva",
+      "descripcion": "Sistema de avatares 2D animados e integrables en aplicaciones web."
+    },
+    {
+      "nombre": "JOCARSA Ayuda",
+      "tipo": "Asistente basado en IA",
+      "descripcion": "Sistema de ayuda conversacional integrado con avatares."
+    },
+    {
+      "nombre": "Sistema de videoconferencia",
+      "tipo": "Infraestructura WebRTC/SFU",
+      "descripcion": "Plataforma propia de videoconferencia orientada a clases online, con grabación y procesamiento posterior."
+    },
+    {
+      "nombre": "Biblioteca digital educativa",
+      "tipo": "Plataforma documental",
+      "descripcion": "Sistema de gestión, ingestión, clasificación y visualización de materiales educativos."
+    },
+    {
+      "nombre": "RAG de legislación de FP",
+      "tipo": "Inteligencia artificial",
+      "descripcion": "Sistema RAG para consulta de legislación y normativa de Formación Profesional."
+    },
+    {
+      "nombre": "Pipeline de apuntes",
+      "tipo": "Automatización e IA",
+      "descripcion": "Procesamiento automatizado de documentación y apuntes mediante modelos de lenguaje locales."
+    },
+    {
+      "nombre": "Sistema de personalización educativa mediante IA",
+      "tipo": "EdTech",
+      "descripcion": "Generación de actividades prácticas adaptadas a los intereses, nivel, objetivos profesionales y tecnologías preferidas de cada alumno manteniendo la alineación con RA y CE."
+    }
+  ],
+
+  "lineas_de_trabajo_actuales": [
+    "IA aplicada a Formación Profesional",
+    "Generación automática de materiales docentes",
+    "RAG sobre documentación educativa y legislación",
+    "Modelos de lenguaje ejecutados localmente",
+    "Automatización de tareas docentes",
+    "Analítica del aprendizaje",
+    "Videoconferencia educativa",
+    "Desarrollo de plataformas educativas propias",
+    "Personalización del aprendizaje",
+    "Procesamiento automático de vídeo y audio",
+    "Transcripción automática de clases"
+  ],
+
+  "metodologia_docente": {
+    "principios": [
+      "Orientación práctica",
+      "Aprendizaje basado en proyectos",
+      "Conexión con necesidades reales del mercado laboral",
+      "Prospectiva tecnológica",
+      "Evaluación por competencias",
+      "Experimentación con tecnologías emergentes",
+      "Uso de inteligencia artificial como herramienta educativa",
+      "Trazabilidad de la actividad del alumno"
+    ],
+    "objetivo": "Acercar la formación del alumnado a las tecnologías, metodologías y problemas que encontrará en el entorno profesional."
+  },
+
+  "intereses_profesionales": [
+    "Programación",
+    "Inteligencia artificial",
+    "Modelos de lenguaje",
+    "Desarrollo web",
+    "Desarrollo de software",
+    "Bases de datos",
+    "Linux",
+    "Servidores",
+    "Automatización",
+    "Educación",
+    "Formación Profesional",
+    "Tecnología educativa",
+    "Interfaces de usuario",
+    "Procesamiento audiovisual",
+    "Videojuegos",
+    "Realidad aumentada",
+    "Dispositivos inteligentes"
+  ],
+
+  "hobbies": {
+    "confirmados": [],
+    "intereses_que_podrian_ser_profesionales_o_personales": [
+      "Programación",
+      "Inteligencia artificial",
+      "Tecnología",
+      "Experimentación con hardware y software",
+      "Desarrollo de videojuegos"
+    ],
+    "nota": "Conozco muchos intereses tecnológicos, pero no tengo suficiente información para afirmar cuáles consideras específicamente hobbies."
+  },
+
+  "perfil_de_desarrollador": {
+    "orientacion": [
+      "Full-stack",
+      "Backend",
+      "Frontend",
+      "Bases de datos",
+      "Administración de sistemas",
+      "IA local",
+      "Automatización"
+    ],
+    "preferencias_tecnicas_observadas": [
+      "Soluciones autocontenidas",
+      "Infraestructura propia",
+      "Software ejecutable localmente",
+      "Uso de Linux",
+      "Aplicaciones web ligeras",
+      "SQLite para aplicaciones autocontenidas",
+      "Automatización mediante Python",
+      "IA ejecutada localmente cuando resulta viable"
+    ]
+  },
+
+  "objetivos_profesionales_observados": [
+    "Integrar inteligencia artificial en la enseñanza de programación",
+    "Desarrollar herramientas educativas propias",
+    "Automatizar tareas repetitivas de gestión y docencia",
+    "Experimentar con modelos de IA locales",
+    "Mejorar la personalización de la enseñanza",
+    "Mantener los contenidos docentes alineados con la realidad profesional",
+    "Desarrollar sistemas educativos independientes y controlables",
+    "Investigar nuevas formas de interacción entre alumnos, profesores e inteligencia artificial"
+  ],
+
+  "identidad_visual_jocarsa": {
+    "estilo": "Editorial mid-century",
+    "uso": "Identidad visual aplicada a aplicaciones, materiales docentes e ilustraciones",
+    "caracteristicas": [
+      "Uso sistemático de colores identificativos por proyecto",
+      "Logotipos y favicon coordinados con cada aplicación",
+      "Interfaces visualmente consistentes",
+      "Diseño de aplicaciones con identidad JOCARSA"
+    ]
+  },
+
+  "resumen": "José Vicente Carratalá es docente de Formación Profesional y desarrollador especializado en programación, desarrollo de aplicaciones, sistemas, bases de datos e inteligencia artificial. Su actividad combina docencia, desarrollo de software, experimentación tecnológica e investigación aplicada en IA. Mantiene un ecosistema de proyectos bajo la marca JOCARSA, con especial énfasis en herramientas educativas, automatización, IA local, RAG, plataformas web y sistemas destinados a mejorar la enseñanza de informática y programación."
+}

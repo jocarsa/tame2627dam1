@@ -1,0 +1,11 @@
+Datetime: 2026-09-14T15:45:16.873Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones
+Command: clar
+
+Result:
+Orden «clar» no encontrada. Quizá quiso decir:
+  la orden «car» del paquete deb «ucommon-utils (7.0.1-0.1)»
+  la orden «clear» del paquete deb «ncurses-bin (6.4+20240113-1ubuntu2.1)»
+Pruebe con: sudo apt install <nombre del paquete deb>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras d
+e control/004-Control de excepciones$ 

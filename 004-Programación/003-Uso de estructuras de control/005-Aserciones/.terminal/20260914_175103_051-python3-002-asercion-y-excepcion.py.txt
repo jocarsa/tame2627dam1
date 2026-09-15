@@ -1,0 +1,10 @@
+Datetime: 2026-09-14T15:51:03.051Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/005-Aserciones
+Command: python3 002-asercion\ y\ excepcion.py
+
+Result:
+No puedo ejecutar porque no quiero
+
+Y continuamos el programa
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de
+ control/005-Aserciones$ 

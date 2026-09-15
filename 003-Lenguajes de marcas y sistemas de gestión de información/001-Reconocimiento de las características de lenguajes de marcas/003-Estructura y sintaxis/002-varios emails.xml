@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <nombre>Jose Vicente</nombre>
+  <apellidos>Carratalá Sanchis</apellidos>
+  <emails>
+    <personal>info@josevicentecarratala.com</personal>  
+    <trabajo>info@josevicentecarratala.com</trabajo>  
+  </emails>
+</persona>

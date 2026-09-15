@@ -1,0 +1,7 @@
+Datetime: 2026-09-14T15:33:47.263Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/004-Control de excepciones
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras d
+e control/004-Control de excepciones$ 

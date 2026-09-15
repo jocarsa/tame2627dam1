@@ -1,0 +1,8 @@
+<script>
+  fetch("004-ia.json")
+  .then(function(resultado){return resultado.json()})
+  .then(function(datos){
+    	console.log(datos)
+  		console.log(datos.datos_personales.ubicacion.ciudad)
+  })
+</script>

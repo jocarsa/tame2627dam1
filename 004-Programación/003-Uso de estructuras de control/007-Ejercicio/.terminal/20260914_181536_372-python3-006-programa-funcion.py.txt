@@ -1,0 +1,33 @@
+Datetime: 2026-09-14T16:15:36.372Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio
+Command: python3 006-programa\ funcion.py
+
+Result:
+Vamos a listar los registros
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/006-programa funcion.py", line 21, in <module>
+    listarRegistros()
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/006-programa funcion.py", line 14, in listarRegistros
+    print(nombre)
+          ^^^^^^
+NameError: name 'nombre' is not defined
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_003-Uso de estructuras de control_007-Ejercicio_006-programa funcion.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/006-programa funcion.py", line 21, in <module>
+    listarRegistros()
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/006-programa funcion.py", line 14, in listarRegistros
+    print(nombre)
+          ^^^^^^
+NameError: name 'nombre' is not defined
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de 
+control/007-Ejercicio$ 

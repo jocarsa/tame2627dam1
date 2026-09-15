@@ -1,0 +1,8 @@
+Datetime: 2026-09-14T16:22:49.644Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio
+Command: python3 009-listas.py
+
+Result:
+['manzanas', 'peras', 'platanos']
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de con
+trol/007-Ejercicio$ 

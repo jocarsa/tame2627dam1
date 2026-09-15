@@ -1,0 +1,8 @@
+Datetime: 2026-09-14T15:51:29.100Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/005-Aserciones
+Command: python3 002-asercion\ y\ excepcion.py
+
+Result:
+Y continuamos el programa
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de
+ control/005-Aserciones$ 
