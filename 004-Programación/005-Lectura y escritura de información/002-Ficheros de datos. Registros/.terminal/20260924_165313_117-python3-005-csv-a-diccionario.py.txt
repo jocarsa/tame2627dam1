@@ -1,0 +1,146 @@
+Datetime: 2026-09-24T14:53:13.117Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros
+Command: python3 005-csv\ a\ diccionario.py
+
+Result:
+nombre : Ana
+apellidos : García López
+email : ana.garcia@example.com
+direccion : Calle Colón 24, Valencia
+telefono
+ : 612345678
+
+nombre : Carlos
+apellidos : Martínez Ruiz
+email : carlos.martinez@example.com
+direccion : Avenida del Puerto 105, Valencia
+telefono
+ : 623456789
+
+nombre : Laura
+apellidos : Sánchez Pérez
+email : laura.sanchez@example.com
+direccion : Calle Xàtiva 18, Valencia
+telefono
+ : 634567890
+
+nombre : David
+apellidos : Fernández Gómez
+email : david.fernandez@example.com
+direccion : Calle San Vicente 72, Valencia
+telefono
+ : 645678901
+
+nombre : Marta
+apellidos : López Navarro
+email : marta.lopez@example.com
+direccion : Avenida Blasco Ibáñez 46, Valencia
+telefono
+ : 656789012
+
+nombre : Javier
+apellidos : Ruiz Torres
+email : javier.ruiz@example.com
+direccion : Calle Quart 31, Valencia
+telefono
+ : 667890123
+
+nombre : Elena
+apellidos : Pérez Romero
+email : elena.perez@example.com
+direccion : Calle Alboraya 58, Valencia
+telefono
+ : 678901234
+
+nombre : Sergio
+apellidos : Navarro Molina
+email : sergio.navarro@example.com
+direccion : Avenida Aragón 12, Valencia
+telefono
+ : 689012345
+
+nombre : Paula
+apellidos : Romero Vidal
+email : paula.romero@example.com
+direccion : Calle Jesús 89, Valencia
+telefono
+ : 610123456
+
+nombre : Miguel
+apellidos : Torres Castillo
+email : miguel.torres@example.com
+direccion : Calle Sagunto 43, Valencia
+telefono
+ : 621234567
+
+nombre : Lucía
+apellidos : Molina Ferrer
+email : lucia.molina@example.com
+direccion : Avenida Francia 67, Valencia
+telefono
+ : 632345678
+
+nombre : Daniel
+apellidos : Vidal Ortega
+email : daniel.vidal@example.com
+direccion : Calle Guillem de Castro 29, Valencia
+telefono
+ : 643456789
+
+nombre : Sara
+apellidos : Castillo Moreno
+email : sara.castillo@example.com
+direccion : Calle Cádiz 51, Valencia
+telefono
+ : 654567890
+
+nombre : Alejandro
+apellidos : Ferrer Domínguez
+email : alejandro.ferrer@example.com
+direccion : Avenida Peris y Valero 88, Valencia
+telefono
+ : 665678901
+
+nombre : Cristina
+apellidos : Ortega Gil
+email : cristina.ortega@example.com
+direccion : Calle Sueca 36, Valencia
+telefono
+ : 676789012
+
+nombre : Pablo
+apellidos : Moreno Ibáñez
+email : pablo.moreno@example.com
+direccion : Calle Burriana 14, Valencia
+telefono
+ : 687890123
+
+nombre : Irene
+apellidos : Gil Serrano
+email : irene.gil@example.com
+direccion : Avenida Primado Reig 92, Valencia
+telefono
+ : 698901234
+
+nombre : Álvaro
+apellidos : Ibáñez Cano
+email : alvaro.ibanez@example.com
+direccion : Calle Salamanca 27, Valencia
+telefono
+ : 609012345
+
+nombre : Natalia
+apellidos : Serrano Pastor
+email : natalia.serrano@example.com
+direccion : Calle Cuba 63, Valencia
+telefono
+ : 620123456
+
+nombre : Hugo
+apellidos : Cano Giménez
+email : hugo.cano@example.com
+direccion : Avenida Reino de Valencia 41, Valencia
+telefono
+ : 631234567
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y es
+critura de información/002-Ficheros de datos. Registros$ 

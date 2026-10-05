@@ -1,0 +1,27 @@
+Datetime: 2026-10-05T16:47:20.128Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/008-Combinación de múltiples selecciones
+Command: python3 005-nos\ conectamos\ desde\ Python\ a\ MySQL.py
+
+Result:
+(1, 'Velocity Run', 'Zapatillas ligeras para running urbano', Decimal('49.99'))
+(2, 'Urban Step', 'Zapatillas casual para uso diario', Decimal('39.95'))
+(3, 'Mountain Grip', 'Zapatillas resistentes para senderismo', Decimal('59.90'))
+(4, 'Cloud Walk', 'Zapatillas cómodas con suela acolchada', Decimal('44.50'))
+(5, 'Street Flex', 'Zapatillas flexibles de estilo urbano', Decimal('35.99'))
+(6, 'Rapid X', 'Zapatillas deportivas para entrenamiento', Decimal('54.95'))
+(7, 'Ocean Breeze', 'Zapatillas transpirables para verano', Decimal('42.00'))
+(8, 'Night Runner', 'Zapatillas de running con detalles reflectantes', Decimal('64.90'))
+(9, 'Retro Wave', 'Zapatillas casual de inspiración retro', Decimal('47.50'))
+(10, 'Power Jump', 'Zapatillas deportivas con amortiguación reforzada', Decimal('69.99'))
+(11, 'City Motion', 'Zapatillas urbanas cómodas y ligeras', Decimal('41.95'))
+(12, 'Trail Storm', 'Zapatillas de trail con suela antideslizante', Decimal('74.90'))
+(13, 'Air Flow', 'Zapatillas deportivas con tejido transpirable', Decimal('52.50'))
+(14, 'Classic One', 'Zapatillas clásicas para uso cotidiano', Decimal('34.99'))
+(15, 'Sprint Pro', 'Zapatillas ligeras para carreras rápidas', Decimal('79.95'))
+(16, 'Green Path', 'Zapatillas fabricadas con materiales reciclados', Decimal('58.00'))
+(17, 'Metro Walk', 'Zapatillas cómodas para caminar por ciudad', Decimal('43.90'))
+(18, 'Jump Max', 'Zapatillas deportivas de gran amortiguación', Decimal('67.50'))
+(19, 'Daily Comfort', 'Zapatillas acolchadas para uso diario', Decimal('38.95'))
+(20, 'Speed Light', 'Zapatillas ultraligeras para entrenamiento', Decimal('62.99'))
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/008
+-Combinación de múltiples selecciones$ 

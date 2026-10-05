@@ -1,0 +1,11 @@
+SHOW TABLES;
+
+CREATE TABLE productos(
+	nombre VARCHAR(100),
+  precio DECIMAL(8,2)
+);
+
+ALTER TABLE productos
+ADD COLUMN Identificador INT AUTO_INCREMENT PRIMARY KEY
+
+SHOW TABLES;

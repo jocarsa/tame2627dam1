@@ -1,0 +1,16 @@
+Datetime: 2026-10-05T15:42:19.514Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/001-Introduccion
+Command: pip3 install flask --break-system-packages
+
+Result:
+pip3 install flask --break-system-packages
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: flask in /usr/lib/python3/dist-packages (3.0.2)
+Requirement already satisfied: Werkzeug>=3.0.0 in /usr/lib/python3/dist-packages (from flask) (3.0.1)
+Requirement already satisfied: Jinja2>=3.1.2 in /usr/lib/python3/dist-packages (from flask) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.1.2 in /usr/lib/python3/dist-packages (from flask) (2.1.2)
+Requirement already satisfied: click>=8.1.3 in /home/josevicente/.local/lib/python3.12/site-packages (from flask) (8.4.2)
+Requirement already satisfied: blinker>=1.6.2 in /usr/lib/python3/dist-packages (from flask) (1.7.0)
+Requirement already satisfied: MarkupSafe>=2.1.1 in /usr/lib/python3/dist-packages (from Werkzeug>=3.0.0->flask) (2.1.5)
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/001-
+Introduccion$ 

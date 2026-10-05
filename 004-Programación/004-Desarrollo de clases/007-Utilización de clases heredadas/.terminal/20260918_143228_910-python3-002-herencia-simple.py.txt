@@ -1,0 +1,7 @@
+Datetime: 2026-09-18T12:32:28.910Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas
+Command: python3 002-herencia\ simple.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/0
+04-Desarrollo de clases/007-Utilización de clases heredadas$ 

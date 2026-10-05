@@ -1,0 +1,7 @@
+Datetime: 2026-09-25T11:59:07.807Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/008-Concepto de evento
+Command: python3 005-area\ de\ texto.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005
+-Lectura y escritura de información/008-Concepto de evento$ 

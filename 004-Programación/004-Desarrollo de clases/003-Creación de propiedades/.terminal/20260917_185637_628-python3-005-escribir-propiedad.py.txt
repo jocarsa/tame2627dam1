@@ -1,0 +1,9 @@
+Datetime: 2026-09-17T16:56:37.628Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/003-Creación de propiedades
+Command: python3 005-escribir\ propiedad.py
+
+Result:
+0
+naranja
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/004
+-Desarrollo de clases/003-Creación de propiedades$ 

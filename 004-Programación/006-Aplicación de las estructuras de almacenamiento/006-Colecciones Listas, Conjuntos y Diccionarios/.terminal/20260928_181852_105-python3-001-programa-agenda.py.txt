@@ -1,0 +1,26 @@
+Datetime: 2026-09-28T16:18:52.105Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios
+Command: python3 001-programa\ agenda.py
+
+Result:
+  File "/var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios/001-programa agenda.py", line 11
+    apellidos = input("Introduce los apellidos: ")
+                                                  ^
+IndentationError: unindent does not match any outer indentation level
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_006-Aplicación de las estructuras de almacenamiento_006-Colecciones Listas, Conjuntos y Diccionarios_001-programa agenda.py.1000.crash'
+
+Original exception was:
+  File "/var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios/001-programa agenda.py", line 11
+    apellidos = input("Introduce los apellidos: ")
+                                                  ^
+IndentationError: unindent does not match any outer indentation level
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/006-Aplicación 
+de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios$ 

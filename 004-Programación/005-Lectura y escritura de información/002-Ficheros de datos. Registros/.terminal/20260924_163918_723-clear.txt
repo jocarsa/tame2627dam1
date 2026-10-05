@@ -1,0 +1,7 @@
+Datetime: 2026-09-24T14:39:18.723Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y es
+critura de información/002-Ficheros de datos. Registros$ 

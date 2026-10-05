@@ -1,0 +1,14 @@
+Datetime: 2026-10-01T15:08:38.681Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/003-Almacenamiento, recuperación, actualización y eliminación de información en bases de datos
+Command: python3 003-listado\ de\ elementos.py
+
+Result:
+Insertamos un registro
+Dime el nombre del nuevo alumno: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/003-Almacenamiento, recuperación, actualización y eliminación de información en bases de datos/003-listado de elementos.py", line 21, in <module>
+    nombre = input("Dime el nombre del nuevo alumno: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de
+ datos/003-Almacenamiento, recuperación, actualización y eliminación de información en bases de datos$ 

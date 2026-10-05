@@ -1,0 +1,23 @@
+Datetime: 2026-09-24T18:14:18.754Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 013-estructuras\ de\ seleccion.c
+
+Result:
+013-estructuras de seleccion.c: In function ‘main’:
+013-estructuras de seleccion.c:6:16: warning: missing terminating " character
+    6 |         printf("eres un niño \n);
+      |                ^
+013-estructuras de seleccion.c:6:16: error: missing terminating " character
+    6 |         printf("eres un niño \n);
+      |                ^~~~~~~~~~~~~~~~~~
+013-estructuras de seleccion.c:7:3: error: expected expression before ‘}’ token
+    7 |   }
+      |   ^
+013-estructuras de seleccion.c:6:16: error: expected ‘;’ before ‘}’ token
+    6 |         printf("eres un niño \n);
+      |                ^
+      |                ;
+    7 |   }
+      |   ~             
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

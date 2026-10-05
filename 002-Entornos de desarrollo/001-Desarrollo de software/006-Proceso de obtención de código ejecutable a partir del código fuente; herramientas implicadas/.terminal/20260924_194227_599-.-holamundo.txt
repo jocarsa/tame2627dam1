@@ -1,0 +1,8 @@
+Datetime: 2026-09-24T17:42:27.599Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: ./holamundo
+
+Result:
+Hola mundo en C
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

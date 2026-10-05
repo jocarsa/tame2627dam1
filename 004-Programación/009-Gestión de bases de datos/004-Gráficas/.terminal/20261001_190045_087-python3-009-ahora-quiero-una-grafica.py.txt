@@ -1,0 +1,7 @@
+Datetime: 2026-10-01T17:00:45.087Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/004-Gráficas
+Command: python3 009-ahora\ quiero\ una\ grafica.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bas
+es de datos/004-Gráficas$ 

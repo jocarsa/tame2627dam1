@@ -1,0 +1,12 @@
+Datetime: 2026-09-24T17:58:33.599Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 008-strings.c
+
+Result:
+008-strings.c: In function ‘main’:
+008-strings.c:4:24: warning: character constant too long for its type
+    4 |         char inicial = 'jose vicente';
+      |                        ^~~~~~~~~~~~~~
+008-strings.c:4:24: warning: overflow in conversion from ‘int’ to ‘char’ changes value from ‘1701737573’ to ‘101’ [-Woverflow]
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

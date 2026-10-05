@@ -1,0 +1,6 @@
+1 dimension = 1 linea
+2 dimensiones = 1 tabla
+
+3 dimensiones = 1 pallet
+
+4 dimensiones = 

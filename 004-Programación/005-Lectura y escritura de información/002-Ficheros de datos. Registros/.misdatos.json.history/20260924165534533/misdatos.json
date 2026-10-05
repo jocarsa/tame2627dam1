@@ -1,0 +1,20 @@
+{
+  "nombre": "José Vicente Carratalá",
+  "marca": "JOCARSA",
+  "nacimiento": "1978-04-14",
+  "ciudad": "Valencia",
+  "pais": "España",
+  "profesion": "Profesor y desarrollador",
+  "especialidad": "Programación e Inteligencia Artificial",
+  "experiencia_desde": 2000,
+  "tecnologias": [
+    "Python",
+    "PHP",
+    "JavaScript",
+    "C++",
+    "SQL",
+    "Linux",
+    "IA"
+  ],
+  "web": "https://jocarsa.com"
+}

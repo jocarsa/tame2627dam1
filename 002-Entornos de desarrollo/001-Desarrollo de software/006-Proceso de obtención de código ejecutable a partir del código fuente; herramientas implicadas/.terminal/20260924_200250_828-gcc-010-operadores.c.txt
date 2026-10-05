@@ -1,0 +1,15 @@
+Datetime: 2026-09-24T18:02:50.828Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 010-operadores.c
+
+Result:
+010-operadores.c: In function ‘main’:
+010-operadores.c:5:9: warning: implicit declaration of function ‘print’; did you mean ‘printf’? [-Wimplicit-function-declaration]
+    5 |         print(4 + 3);
+      |         ^~~~~
+      |         printf
+/usr/bin/ld: /tmp/ccV3NAFR.o: en la función `main':
+010-operadores.c:(.text+0x13): undefined reference to `print'
+collect2: error: ld returned 1 exit status
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

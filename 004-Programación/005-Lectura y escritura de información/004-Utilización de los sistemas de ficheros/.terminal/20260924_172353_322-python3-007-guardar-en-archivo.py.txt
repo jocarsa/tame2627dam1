@@ -1,0 +1,8 @@
+Datetime: 2026-09-24T15:23:53.322Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/004-Utilización de los sistemas de ficheros
+Command: python3 007-guardar\ en\ archivo.py
+
+Result:
+Tree saved to arbol.txt
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/004-Utilización de los sistemas de ficheros$ 

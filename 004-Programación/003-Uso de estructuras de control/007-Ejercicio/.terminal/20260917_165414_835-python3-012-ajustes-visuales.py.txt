@@ -1,0 +1,23 @@
+Datetime: 2026-09-17T14:54:14.835Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio
+Command: python3 012-ajustes\ visuales.py
+
+Result:
+------------------------------
+Vamos a listar los clientes
+['Juan']
+------------------------------
+------------------------------
+Escoge una opción:
+1.-Leer registros
+2.-Insertar registros
+3.-Actualizar registros
+4.-Eliminar registros
+Introduce tu opción:^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/012-ajustes visuales.py", line 7, in <module>
+    opcion = input("Introduce tu opción:")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/007-Ejercicio$ 

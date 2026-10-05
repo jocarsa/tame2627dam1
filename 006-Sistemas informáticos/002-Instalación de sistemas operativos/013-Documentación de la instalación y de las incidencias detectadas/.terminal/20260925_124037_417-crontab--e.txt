@@ -1,0 +1,8 @@
+Datetime: 2026-09-25T10:40:37.417Z
+Working directory: /var/www/html/tame2627dam1/006-Sistemas informáticos/002-Instalación de sistemas operativos/013-Documentación de la instalación y de las incidencias detectadas
+Command: crontab -e
+
+Result:
+ (B[ Escribiendo... ](B(B (B(B[ 135 líneas escritas ](B(B^O(B Guardar     (B^W(B Buscar      (B^K(B Corta(B^T(B Ejecutar    (B^C(B Ubicación(BX(B Salir       (B^R(B Leer fich.  (B^\(B Reemplazar  (B^U(B Pegar       (B^J(B Justificar  (B^/(B Ir a línea>crontab: installing new crontab
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/006-Sistemas informáticos/002-In
+stalación de sistemas operativos/013-Documentación de la instalación y de las incidencias detectadas$ 

@@ -1,0 +1,15 @@
+{
+	"datos_personales":{
+  	"nombre":"Jose Vicente",
+    "apellidos":"Carratalá Sanchis",
+    "email":{
+    	"personal":"info@josevicentecarratala.com",
+      "trabajo":"info@jocarsa.com"
+    }
+  },
+  "formacion":"Informático",
+  "experiencia":"Muchísima",
+  "idiomas":"Español",
+  "conduccion":"B1",
+  "aficiones":"Musica"
+}

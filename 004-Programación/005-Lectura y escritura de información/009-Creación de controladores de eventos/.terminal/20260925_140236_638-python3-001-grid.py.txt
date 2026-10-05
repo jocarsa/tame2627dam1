@@ -1,0 +1,7 @@
+Datetime: 2026-09-25T12:02:36.638Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/009-Creación de controladores de eventos
+Command: python3 001-grid.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programa
+ción/005-Lectura y escritura de información/009-Creación de controladores de eventos$ 

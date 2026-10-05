@@ -1,0 +1,9 @@
+Datetime: 2026-09-17T17:00:45.400Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/004-Creación de métodos
+Command: python3 002-varios\ metodos.py
+
+Result:
+El gato está maullando
+El gato te araña
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/004
+-Desarrollo de clases/004-Creación de métodos$ 

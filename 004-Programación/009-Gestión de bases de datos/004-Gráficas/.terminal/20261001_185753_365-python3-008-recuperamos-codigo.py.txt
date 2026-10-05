@@ -1,0 +1,14 @@
+Datetime: 2026-10-01T16:57:53.365Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/004-Gráficas
+Command: python3 008-recuperamos\ codigo.py
+
+Result:
+(26, 'Valencia')
+(20, 'Madrid')
+(18, 'Barcelona')
+(12, 'Sevilla')
+(12, 'Alicante')
+(8, 'Bilbao')
+(4, 'Murcia')
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bas
+es de datos/004-Gráficas$ 

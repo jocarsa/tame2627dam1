@@ -1,0 +1,28 @@
+Datetime: 2026-10-01T14:55:09.139Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones
+Command: python3 002-seleccion.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones/002-seleccion.py", line 23, in <module>
+    for fila in filas:
+                ^^^^^
+NameError: name 'filas' is not defined. Did you mean: 'fila'?
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_009-Gestión de bases de datos_002-Establecimiento de conexiones_002-seleccion.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones/002-seleccion.py", line 23, in <module>
+    for fila in filas:
+                ^^^^^
+NameError: name 'filas' is not defined. Did you mean: 'fila'?
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de 
+datos/002-Establecimiento de conexiones$ 

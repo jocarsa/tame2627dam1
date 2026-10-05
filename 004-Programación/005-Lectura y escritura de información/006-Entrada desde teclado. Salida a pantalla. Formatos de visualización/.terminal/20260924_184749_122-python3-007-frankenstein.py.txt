@@ -1,0 +1,36 @@
+Datetime: 2026-09-24T16:47:49.122Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización
+Command: python3 007-frankenstein.py
+
+Result:
+
+------------------------------
+Nombre : nombre
+Apellidos : apellidos
+Email : email
+Telefono : telefono
+
+------------------------------
+Nombre : Jose Vicente
+Apellidos : Carratala
+Email : info@jocarsa.com
+Telefono : 543535
+
+------------------------------
+Nombre : Juan
+Apellidos : Lopez
+Email : juan@lopez.com
+Telefono : 6532534
+------------------------------
+
+Selecciona una opcion
+1.-Insertar un registro
+2.-Listar registros
+Elige una opción: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización/007-frankenstein.py", line 21, in <module>
+    opcion = input("Elige una opción: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización$ 

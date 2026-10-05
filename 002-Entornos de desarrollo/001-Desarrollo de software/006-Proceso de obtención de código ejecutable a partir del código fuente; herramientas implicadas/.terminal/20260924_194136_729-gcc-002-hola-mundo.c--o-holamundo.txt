@@ -1,0 +1,14 @@
+Datetime: 2026-09-24T17:41:36.729Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 002-hola\ mundo.c -o holamundo
+
+Result:
+002-hola mundo.c: In function ‘main’:
+002-hola mundo.c:4:36: error: expected ‘;’ before ‘return’
+    4 |         printf("Hola mundo en C\n")
+      |                                    ^
+      |                                    ;
+    5 |   return 0;
+      |   ~~~~~~                            
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

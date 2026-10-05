@@ -1,0 +1,28 @@
+Datetime: 2026-09-24T15:23:32.455Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/004-Utilización de los sistemas de ficheros
+Command: python3 007-guardar\ en\ archivo.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/004-Utilización de los sistemas de ficheros/007-guardar en archivo.py", line 13, in <module>
+    archivo_salida.carbollose()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.TextIOWrapper' object has no attribute 'carbollose'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_005-Lectura y escritura de información_004-Utilización de los sistemas de ficheros_007-guardar en archivo.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/004-Utilización de los sistemas de ficheros/007-guardar en archivo.py", line 13, in <module>
+    archivo_salida.carbollose()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.TextIOWrapper' object has no attribute 'carbollose'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/004-Utilización de los sistemas de ficheros$ 

@@ -1,0 +1,12 @@
+Datetime: 2026-09-24T18:04:46.462Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: ./a.out
+
+Result:
+7.000000 
+1.000000 
+12.000000 
+1.000000 
+1.000000 
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

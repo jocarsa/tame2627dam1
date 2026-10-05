@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>JOCARSA - Namespace Persona</title>
+</head>
+<body>
+
+    <h1>JOCARSA - Namespace Persona</h1>
+
+    <p>
+        Este URI identifica el espacio de nombres XML utilizado
+        para representar personas en documentos XML de JOCARSA.
+    </p>
+
+    <h2>URI del espacio de nombres</h2>
+
+    <code>https://jocarsa.com/persona</code>
+
+    <h2>Elementos</h2>
+
+    <ul>
+        <li><strong>persona</strong> - Representa una persona.</li>
+        <li><strong>nombre</strong> - Nombre de la persona.</li>
+        <li><strong>apellidos</strong> - Apellidos de la persona.</li>
+        <li><strong>email</strong> - Dirección de correo electrónico.</li>
+    </ul>
+
+    <h2>Ejemplo</h2>
+
+    <pre>
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+
+&lt;jocarsa:persona
+    xmlns:jocarsa="https://jocarsa.com/persona"&gt;
+
+    &lt;jocarsa:nombre&gt;Jose Vicente&lt;/jocarsa:nombre&gt;
+    &lt;jocarsa:apellidos&gt;Carratalá Sanchis&lt;/jocarsa:apellidos&gt;
+    &lt;jocarsa:email&gt;info@josevicentecarratala.com&lt;/jocarsa:email&gt;
+
+&lt;/jocarsa:persona&gt;
+    </pre>
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+Datetime: 2026-09-18T12:31:52.721Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas
+Command: python3 002-herencia\ simple.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/002-herencia simple.py", line 16, in <module>
+    micifu = Gato()
+             ^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/002-herencia simple.py", line 10, in __init__
+    self.super()
+    ^^^^^^^^^^
+AttributeError: 'Gato' object has no attribute 'super'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_004-Desarrollo de clases_007-Utilización de clases heredadas_002-herencia simple.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/002-herencia simple.py", line 16, in <module>
+    micifu = Gato()
+             ^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/002-herencia simple.py", line 10, in __init__
+    self.super()
+    ^^^^^^^^^^
+AttributeError: 'Gato' object has no attribute 'super'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/0
+04-Desarrollo de clases/007-Utilización de clases heredadas$ 

@@ -1,0 +1,3 @@
+nombres = []
+
+nombres.append("Juan")

@@ -1,0 +1,10 @@
+Datetime: 2026-09-25T11:55:13.575Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/008-Concepto de evento
+Command: pytho3n 003-labels.py
+
+Result:
+Orden «pytho3n» no encontrada. Quizá quiso decir:
+  la orden «python3» del paquete deb «python3 (3.12.3-0ubuntu2.1)»
+Pruebe con: sudo apt install <nombre del paquete deb>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programaci
+ón/005-Lectura y escritura de información/008-Concepto de evento$ 

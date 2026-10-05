@@ -1,0 +1,7 @@
+Datetime: 2026-09-17T16:02:33.825Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/002-Bases de datos relacionales/002-Terminología del modelo relacional
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/002-Bas
+es de datos relacionales/002-Terminología del modelo relacional$ 

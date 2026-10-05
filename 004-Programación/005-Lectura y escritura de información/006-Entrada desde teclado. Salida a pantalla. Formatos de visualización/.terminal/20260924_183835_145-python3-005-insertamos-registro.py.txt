@@ -1,0 +1,17 @@
+Datetime: 2026-09-24T16:38:35.145Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización
+Command: python3 005-insertamos\ registro.py
+
+Result:
+Tu archivo ha sido guardado
+Selecciona una opcion
+1.-Insertar un registro
+2.-Listar registros
+Elige una opción: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización/005-insertamos registro.py", line 21, in <module>
+    opcion = input("Elige una opción: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización$ 

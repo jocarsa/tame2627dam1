@@ -1,0 +1,13 @@
+Datetime: 2026-09-24T17:00:55.605Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/007-Interfaces gráficas
+Command: python3 008-escribir\ en\ la\ interfaz.py
+
+Result:
+Hola que tal como estas
+Hola que tal como estas
+Hola que tal como estas
+Hola que tal como estas
+Hola que tal como estas
+Hola que tal como estas
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Le
+ctura y escritura de información/007-Interfaces gráficas$ 

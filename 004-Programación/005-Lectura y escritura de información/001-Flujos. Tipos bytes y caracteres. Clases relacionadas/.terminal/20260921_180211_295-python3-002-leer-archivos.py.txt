@@ -1,0 +1,8 @@
+Datetime: 2026-09-21T16:02:11.295Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas
+Command: python3 002-leer\ archivos.py
+
+Result:
+['Esto es una prueba que escribo']
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-L
+ectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas$ 

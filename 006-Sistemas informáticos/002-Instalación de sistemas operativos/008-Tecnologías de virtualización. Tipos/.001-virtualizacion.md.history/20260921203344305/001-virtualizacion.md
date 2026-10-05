@@ -1,0 +1,1 @@
+Maquinas fisicas: El sistema está instalado en tu propia máquina

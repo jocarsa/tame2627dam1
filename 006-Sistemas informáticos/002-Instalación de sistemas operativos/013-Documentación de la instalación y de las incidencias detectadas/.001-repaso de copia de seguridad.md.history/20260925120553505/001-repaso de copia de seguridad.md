@@ -1,0 +1,1 @@
+mysqldump -u root -p dam1 > backupdam1.sql

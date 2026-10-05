@@ -1,0 +1,1 @@
+Un concepto abstracto que luego puedes reutilizar

@@ -1,0 +1,1 @@
+lista = ['Ana', 'García López', 'ana.garcia@example.com', 'Calle Colón 24, Valencia', '612345678\n']

@@ -1,0 +1,10 @@
+Datetime: 2026-09-21T17:49:46.753Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados
+Command: python3 002-validador.py
+
+Result:
+El XML NO es válido
+Línea: 5
+Error: Element 'correo': This element is not expected. Expected is ( email ).
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/003-Lenguajes de marc
+as y sistemas de gestión de información/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados$ 

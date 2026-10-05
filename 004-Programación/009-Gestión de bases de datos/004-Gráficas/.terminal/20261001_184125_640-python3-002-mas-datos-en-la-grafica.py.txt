@@ -1,0 +1,7 @@
+Datetime: 2026-10-01T16:41:25.640Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/004-Gráficas
+Command: python3 002-mas\ datos\ en\ la\ grafica.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/
+004-Gráficas$ 

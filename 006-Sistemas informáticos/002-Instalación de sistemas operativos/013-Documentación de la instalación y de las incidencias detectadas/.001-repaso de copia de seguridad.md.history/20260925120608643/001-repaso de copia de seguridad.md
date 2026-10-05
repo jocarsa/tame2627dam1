@@ -1,0 +1,1 @@
+mysqldump -u root -p dam1 > backupmanual.sql

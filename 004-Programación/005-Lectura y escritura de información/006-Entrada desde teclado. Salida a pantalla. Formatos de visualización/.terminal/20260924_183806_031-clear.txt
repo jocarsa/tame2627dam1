@@ -1,0 +1,7 @@
+Datetime: 2026-09-24T16:38:06.031Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización$ 

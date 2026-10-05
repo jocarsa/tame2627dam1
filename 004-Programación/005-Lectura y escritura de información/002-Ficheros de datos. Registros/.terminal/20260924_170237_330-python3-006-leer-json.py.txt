@@ -1,0 +1,8 @@
+Datetime: 2026-09-24T15:02:37.330Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros
+Command: python3 006-leer\ json.py
+
+Result:
+José Vicente Carratalá
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y es
+critura de información/002-Ficheros de datos. Registros$ 

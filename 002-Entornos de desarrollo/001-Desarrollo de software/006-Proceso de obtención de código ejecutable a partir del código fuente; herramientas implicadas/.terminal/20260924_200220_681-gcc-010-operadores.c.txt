@@ -1,0 +1,14 @@
+Datetime: 2026-09-24T18:02:20.681Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 010-operadores.c
+
+Result:
+010-operadores.c: In function ‘main’:
+010-operadores.c:5:22: warning: format not a string literal and no format arguments [-Wformat-security]
+    5 |         printf(4 + 3 +"\n");
+      |                      ^
+010-operadores.c:9:16: warning: unknown conversion type character ‘ ’ in format [-Wformat=]
+    9 |   printf("4 % 3 \n");
+      |                ^
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

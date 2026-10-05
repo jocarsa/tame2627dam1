@@ -1,0 +1,7 @@
+Datetime: 2026-09-18T12:04:20.536Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/005-Creación de constructores
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Progr
+amación/004-Desarrollo de clases/005-Creación de constructores$ 

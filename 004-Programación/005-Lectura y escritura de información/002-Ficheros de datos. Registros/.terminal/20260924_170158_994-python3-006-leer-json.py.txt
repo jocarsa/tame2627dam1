@@ -1,0 +1,8 @@
+Datetime: 2026-09-24T15:01:58.994Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros
+Command: python3 006-leer\ json.py
+
+Result:
+{'nombre': 'José Vicente Carratalá', 'marca': 'JOCARSA', 'nacimiento': '1978-04-14', 'ciudad': 'Valencia', 'pais': 'España', 'profesion': 'Profesor y desarrollador', 'especialidad': 'Programación e Inteligencia Artificial', 'experiencia_desde': 2000, 'tecnologias': ['Python', 'PHP', 'JavaScript', 'C++', 'SQL', 'Linux', 'IA'], 'web': 'https://jocarsa.com'}
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y es
+critura de información/002-Ficheros de datos. Registros$ 

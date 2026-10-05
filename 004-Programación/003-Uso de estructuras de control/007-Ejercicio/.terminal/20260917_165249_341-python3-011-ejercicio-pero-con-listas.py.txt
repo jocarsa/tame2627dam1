@@ -1,0 +1,22 @@
+Datetime: 2026-09-17T14:52:49.341Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio
+Command: python3 011-ejercicio\ pero\ con\ listas.py
+
+Result:
+------------------------------
+Programa agenda en funciones:
+v0.1 Jose Vicente Carratala
+------------------------------
+Escoge una opción:
+1.-Leer registros
+2.-Insertar registros
+3.-Actualizar registros
+4.-Eliminar registros
+Introduce tu opción:^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio/011-ejercicio pero con listas.py", line 7, in <module>
+    opcion = input("Introduce tu opción:")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/00
+3-Uso de estructuras de control/007-Ejercicio$ 

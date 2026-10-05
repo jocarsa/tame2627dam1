@@ -1,0 +1,60 @@
+Datetime: 2026-10-01T14:46:43.921Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones
+Command: python3 001-python\ se\ conecta\ a\ mysql.py
+
+Result:
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Access denied for user 'programacion2627'@'localhost' (using password: YES)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones/001-python se conecta a mysql.py", line 5, in <module>
+    connection = mysql.connector.connect(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'programacion2627'@'localhost' (using password: YES)
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_009-Gestión de bases de datos_002-Establecimiento de conexiones_001-python se conecta a mysql.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Access denied for user 'programacion2627'@'localhost' (using password: YES)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/002-Establecimiento de conexiones/001-python se conecta a mysql.py", line 5, in <module>
+    connection = mysql.connector.connect(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'programacion2627'@'localhost' (using password: YES)
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de 
+datos/002-Establecimiento de conexiones$ 

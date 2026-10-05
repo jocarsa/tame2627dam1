@@ -1,0 +1,7 @@
+Datetime: 2026-09-24T15:18:38.988Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/004-Utilización de los sistemas de ficheros
+Command: python3 003-crear\ archivo.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/004-Utilización de los sistemas de ficheros$ 

@@ -1,0 +1,7 @@
+Datetime: 2026-09-21T17:49:27.127Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/003-Lenguajes de marc
+as y sistemas de gestión de información/001-Reconocimiento de las características de lenguajes de marcas/005-Elaboración de documentos bien formados$ 

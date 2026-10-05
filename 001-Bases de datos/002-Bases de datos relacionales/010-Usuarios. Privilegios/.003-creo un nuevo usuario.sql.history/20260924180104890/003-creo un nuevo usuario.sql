@@ -1,0 +1,1 @@
+CREATE USER 'josevicente2627'@'localhost' IDENTIFIED BY 'CEAC123$';

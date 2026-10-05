@@ -1,0 +1,1 @@
+1.-Abrir una terminal en la misma carpeta que está el archivo

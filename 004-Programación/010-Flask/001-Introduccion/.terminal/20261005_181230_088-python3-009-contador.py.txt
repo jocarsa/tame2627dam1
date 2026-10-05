@@ -1,0 +1,21 @@
+Datetime: 2026-10-05T16:12:30.088Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/001-Introduccion
+Command: python3 009-contador.py
+
+Result:
+ * Serving Flask app '009-contador'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Oct/2026 18:11:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:11:58] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [05/Oct/2026 18:11:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/Oct/2026 18:12:07] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:12:07] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [05/Oct/2026 18:12:11] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:12:11] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [05/Oct/2026 18:12:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Oct/2026 18:12:14] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-F
+lask/001-Introduccion$ 

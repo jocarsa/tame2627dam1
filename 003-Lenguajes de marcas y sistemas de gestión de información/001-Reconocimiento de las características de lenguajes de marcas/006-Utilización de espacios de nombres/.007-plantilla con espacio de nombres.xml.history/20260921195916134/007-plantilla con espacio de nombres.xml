@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<jocarsa:persona xmlns:jocarsa="https://jocarsa.com/persona">
+    <jocarsa:nombre>Jose Vicente</jocarsa:nombre>
+    <jocarsa:apellidos>Carratalá Sanchis</jocarsa:apellidos>
+    <jocarsa:email>info@josevicentecarratala.com</jocarsa:email>
+</jocarsa:persona>

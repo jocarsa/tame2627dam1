@@ -1,0 +1,7 @@
+Datetime: 2026-09-17T15:11:04.213Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/003-Uso de estructuras de control/007-Ejercicio
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/003-Uso d
+e estructuras de control/007-Ejercicio$ 

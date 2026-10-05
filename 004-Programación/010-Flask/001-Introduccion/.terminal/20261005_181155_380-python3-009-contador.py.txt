@@ -1,0 +1,32 @@
+Datetime: 2026-10-05T16:11:55.380Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/001-Introduccion
+Command: python3 009-contador.py
+
+Result:
+ * Serving Flask app '009-contador'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+[2026-10-05 18:11:30,223] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/001-Introduccion/009-contador.py", line 9, in inicio
+    contador = contador + 1
+               ^^^^^^^^
+UnboundLocalError: cannot access local variable 'contador' where it is not associated with a value
+127.0.0.1 - - [05/Oct/2026 18:11:30] "GET / HTTP/1.1" 500 -
+127.0.0.1 - - [05/Oct/2026 18:11:30] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-F
+lask/001-Introduccion$ 

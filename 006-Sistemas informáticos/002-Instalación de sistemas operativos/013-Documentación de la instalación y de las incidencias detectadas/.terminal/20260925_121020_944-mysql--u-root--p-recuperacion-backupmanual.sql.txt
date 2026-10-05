@@ -1,0 +1,7 @@
+Datetime: 2026-09-25T10:10:20.944Z
+Working directory: /var/www/html/tame2627dam1/006-Sistemas informáticos/002-Instalación de sistemas operativos/013-Documentación de la instalación y de las incidencias detectadas
+Command: mysql -u root -p recuperacion < backupmanual.sql
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/006-
+Sistemas informáticos/002-Instalación de sistemas operativos/013-Documentación de la instalación y de las incidencias detectadas$ 

@@ -1,0 +1,5 @@
+Datetime: 2026-09-18T12:31:50.312Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas
+Command: clear
+
+Result:

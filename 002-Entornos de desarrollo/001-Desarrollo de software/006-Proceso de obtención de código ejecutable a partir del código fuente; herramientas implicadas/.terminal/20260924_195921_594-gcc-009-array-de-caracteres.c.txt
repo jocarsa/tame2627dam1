@@ -1,0 +1,18 @@
+Datetime: 2026-09-24T17:59:21.594Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 009-array\ de\ caracteres.c
+
+Result:
+009-array de caracteres.c: In function ‘main’:
+009-array de caracteres.c:4:13: error: expected identifier or ‘(’ before ‘[’ token
+    4 |         char[] nombre = 'jose vicente';
+      |             ^
+009-array de caracteres.c:4:25: warning: character constant too long for its type
+    4 |         char[] nombre = 'jose vicente';
+      |                         ^~~~~~~~~~~~~~
+009-array de caracteres.c:5:54: error: ‘nombre’ undeclared (first use in this function)
+    5 |         printf("Que sepais que mi inicial es %c  \n",nombre);
+      |                                                      ^~~~~~
+009-array de caracteres.c:5:54: note: each undeclared identifier is reported only once for each function it appears in
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

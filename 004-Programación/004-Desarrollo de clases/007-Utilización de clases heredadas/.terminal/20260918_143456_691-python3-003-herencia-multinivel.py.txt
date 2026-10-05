@@ -1,0 +1,28 @@
+Datetime: 2026-09-18T12:34:56.691Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas
+Command: python3 003-herencia\ multinivel.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/003-herencia multinivel.py", line 25, in <module>
+    micifu.mamar()
+    ^^^^^^^^^^^^
+AttributeError: 'Tortuga' object has no attribute 'mamar'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_004-Desarrollo de clases_007-Utilización de clases heredadas_003-herencia multinivel.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas/003-herencia multinivel.py", line 25, in <module>
+    micifu.mamar()
+    ^^^^^^^^^^^^
+AttributeError: 'Tortuga' object has no attribute 'mamar'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/0
+04-Desarrollo de clases/007-Utilización de clases heredadas$ 

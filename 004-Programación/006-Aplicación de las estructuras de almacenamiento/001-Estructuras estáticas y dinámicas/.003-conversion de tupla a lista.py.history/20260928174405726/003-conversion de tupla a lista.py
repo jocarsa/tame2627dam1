@@ -1,0 +1,2 @@
+frutas = ("manzana","pera","platano")
+

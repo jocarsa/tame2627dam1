@@ -1,0 +1,1 @@
+SELECT COUNT(cliente) FROM pedidos;

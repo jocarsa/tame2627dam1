@@ -1,0 +1,32 @@
+Datetime: 2026-09-24T15:01:06.886Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros
+Command: python3 006-leer\ json.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros/006-leer json.py", line 3, in <module>
+    contenido = json.loads(archivo)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_005-Lectura y escritura de información_002-Ficheros de datos. Registros_006-leer json.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/002-Ficheros de datos. Registros/006-leer json.py", line 3, in <module>
+    contenido = json.loads(archivo)
+                ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not TextIOWrapper
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y es
+critura de información/002-Ficheros de datos. Registros$ 

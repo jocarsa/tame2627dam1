@@ -1,0 +1,18 @@
+Datetime: 2026-09-21T16:10:10.864Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas
+Command: python3 004-leer\ agenda.py
+
+Result:
+Programa lector agenda v0.1 Jose Vicente Carratala
+Jose Vicente
+
+Juan
+
+Jorge
+
+Jaime
+
+Jose
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-L
+ectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas$ 

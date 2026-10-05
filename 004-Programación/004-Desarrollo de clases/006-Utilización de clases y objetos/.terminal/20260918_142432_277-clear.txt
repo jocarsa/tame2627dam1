@@ -1,0 +1,8 @@
+Datetime: 2026-09-18T12:24:32.277Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/006-Utilización de clases y objetos
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Progr
+amación/004-Desarrollo de clases/006-Utilización de clases y objetos
+$ 

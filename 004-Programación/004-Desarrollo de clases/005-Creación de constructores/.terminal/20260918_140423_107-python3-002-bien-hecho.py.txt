@@ -1,0 +1,9 @@
+Datetime: 2026-09-18T12:04:23.107Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/005-Creación de constructores
+Command: python3 002-bien\ hecho.py
+
+Result:
+Micifú
+naranja
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Progr
+amación/004-Desarrollo de clases/005-Creación de constructores$ 

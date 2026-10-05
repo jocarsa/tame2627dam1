@@ -1,0 +1,17 @@
+Datetime: 2026-09-18T12:19:08.722Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/006-Utilización de clases y objetos
+Command: python3 004-print\ lista.py
+
+Result:
+------------------------------
+[<__main__.Cliente object at 0x7f35f3ba0950>, <__main__.Cliente object at 0x7f35f3ba0a40>]
+------------------------------
+Introducimos  un nuevo cliente
+Dime su nombre: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/006-Utilización de clases y objetos/004-print lista.py", line 12, in <module>
+    nombre = input("Dime su nombre: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Prog
+ramación/004-Desarrollo de clases/006-Utilización de clases y objetos$ 

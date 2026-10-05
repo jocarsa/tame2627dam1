@@ -1,0 +1,5 @@
+clientes = []
+
+# Insertamos
+
+

@@ -1,0 +1,35 @@
+Maquinas fisicas: El sistema está instalado en tu propia máquina
+
+Máquinas virtuales:
+Software que simula otra máquina física
+Crea una "burbuja".
+A esa burbuja le hace creer que es un equipo físico
+Le permite instalar una máquina dentro de otra máquina
+
+A nivel de escritorio:
+VirtualBox
+VMware
+Que disponen de interfaz gráfica de usuario
+
+Virtualización en terminal
+KVM - Qemu
+
+Qemu también se usa para simular Windows en Linux - ejecutar programas sencillos en Linux
+
+Ventajas de las máquinas virtuales:
+Aislamiento
+Recuperación
+Copias de seguridad
+
+Desventajas:
+Penalización en el rendimiento
+No acceso a los recursos físicos del sistema
+
+Crear diferentes entornos te puede servir para diferentes proyectos
+Porque cada proyecto puede tener sus propios requisitos
+
+Docker
+Alternativa a las máquinas virtuales
+Crear unos contenedores (ballenas) 
+Cada contenedor no es un entorno virtual completo
+Si que es un espacio de trabajo donde en cada espacio puedes instalar tus propias librerias

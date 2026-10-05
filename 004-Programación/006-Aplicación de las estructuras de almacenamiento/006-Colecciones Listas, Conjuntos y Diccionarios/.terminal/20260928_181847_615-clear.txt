@@ -1,0 +1,7 @@
+Datetime: 2026-09-28T16:18:47.615Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/006-Aplicación 
+de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios$ 

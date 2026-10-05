@@ -1,0 +1,9 @@
+Datetime: 2026-09-18T12:08:08.064Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/006-Utilización de clases y objetos
+Command: python3 001-creo\ clase\ cliente.py
+
+Result:
+<__main__.Cliente object at 0x7d9f8279c650>
+<__main__.Cliente object at 0x7d9f8279c5f0>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Prog
+ramación/004-Desarrollo de clases/006-Utilización de clases y objetos$ 

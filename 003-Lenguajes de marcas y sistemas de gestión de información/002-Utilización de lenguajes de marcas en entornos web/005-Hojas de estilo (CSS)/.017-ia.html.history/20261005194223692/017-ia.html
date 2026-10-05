@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Se envía al navegador -->
+    <title>Jose Vicente Carratala</title>
+    <meta charset="utf-8">
+    <style>
+      /* Todo lo que pongamos aqui dentro será CSS */
+
+      *{
+        box-sizing:border-box;
+      }
+
+      html{
+        scroll-behavior:smooth;
+      }
+
+      body{
+        background:lightgray;
+        font-family:sans-serif;
+        margin:0px;
+        padding:30px 0px;
+      }
+
+      header,main,footer{
+        background:white;
+        width:800px;
+        max-width:calc(100% - 40px);
+        margin:auto;
+        padding:50px;
+      }
+
+      header{
+        padding-bottom:30px;
+      }
+
+      main{
+        padding-top:20px;
+        padding-bottom:20px;
+      }
+
+      footer{
+        padding-top:20px;
+        padding-bottom:20px;
+        margin-bottom:30px;
+      }
+
+      section{
+        padding:30px 0px;
+        border-bottom:1px solid #ddd;
+      }
+
+      section:last-child{
+        border-bottom:none;
+      }
+
+      img{
+        width:100%;
+        display:block;
+      }
+
+      p{
+        text-align:justify;
+        font-size:11px;
+        line-height:1.7;
+      }
+
+      h1{
+        font-size:35px;
+        margin:0px;
+      }
+
+      h2{
+        font-size:16px;
+        font-weight:normal;
+        margin-top:5px;
+        margin-bottom:25px;
+      }
+
+      h3{
+        font-size:22px;
+        margin-top:0px;
+      }
+
+      h4{
+        font-size:15px;
+        margin-top:0px;
+        margin-bottom:10px;
+      }
+
+      h1,h2,h3,h4,h5,h6{
+        color:indigo;
+      }
+
+      nav{
+        display:flex;
+        gap:5px;
+        flex-wrap:wrap;
+      }
+
+      a{
+        background:indigo;
+        color:white;
+        text-decoration:none;
+        padding:7px 12px;
+        font-size:11px;
+      }
+
+      a:hover{
+        background:#310062;
+      }
+
+      /* FLEX para el form */
+
+      form{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+      }
+
+      input,textarea{
+        padding:10px;
+        border:1px solid #ccc;
+        font-family:sans-serif;
+      }
+
+      textarea{
+        min-height:120px;
+        resize:vertical;
+      }
+
+      input[type="submit"]{
+        background:indigo;
+        color:white;
+        border:none;
+        cursor:pointer;
+      }
+
+      /* GRID para el blog */
+
+      #blog{
+        display:grid;
+        grid-template-columns:repeat(3,1fr);
+        gap:20px;
+      }
+
+      #blog h3{
+        grid-column:1 / -1;
+      }
+
+      #blog article{
+        border:1px solid #ddd;
+        padding:18px;
+        background:#fafafa;
+      }
+
+      #blog article:hover{
+        box-shadow:0px 4px 12px rgba(0,0,0,0.12);
+      }
+
+      #blog article p{
+        margin-bottom:0px;
+      }
+
+      .fecha{
+        color:#888;
+        font-size:9px;
+        margin-bottom:8px;
+      }
+
+      @media(max-width:700px){
+
+        header,main,footer{
+          padding:30px;
+        }
+
+        #blog{
+          grid-template-columns:1fr;
+        }
+
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Lo ve el ser humano en el navegador web -->
+
+    <header>
+      <h1>Jose Vicente Carratala Sanchis</h1>
+      <h2>Programador, profesor y diseñador en Valencia</h2>
+
+      <nav>
+        <a href="#destacado">Destacado</a>
+        <a href="#sobremi">Sobre mi</a>
+        <a href="#blog">Blog</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="destacado">
+
+        <h3>Destacado</h3>
+
+        <img src="josevicente.png" alt="Jose Vicente Carratalá Sanchis">
+
+        <p>
+          <br><b>Profesor, desarrollador y creador de tecnología.</b>
+          <br>
+          <br>
+          Exploro la programación, la inteligencia artificial y el desarrollo
+          de software desde una perspectiva práctica:
+          <b>aprender, construir, experimentar y compartir conocimiento</b>.
+          <br>
+          <br>
+          Creo aplicaciones, herramientas y sistemas que resuelven problemas
+          reales y convierto esa experiencia en formación.
+          <br>
+          <br>
+          <b>Aprendo construyendo. Enseño lo que aprendo.</b>
+        </p>
+
+      </section>
+
+
+      <section id="sobremi">
+
+        <h3>Sobre mi</h3>
+
+        <p>
+          <br>
+          Soy <b>José Vicente Carratalá</b>, profesor y desarrollador
+          especializado en programación, desarrollo de aplicaciones e
+          inteligencia artificial.
+          <br>
+          <br>
+          Mi trayectoria profesional está estrechamente ligada a dos mundos
+          que para mí forman parte de una misma actividad:
+          <b>crear tecnología y enseñar a crearla</b>.
+          <br>
+          <br>
+          Desde el año 2000 trabajo en formación tecnológica y, a lo largo de
+          estos años, he impartido programación, bases de datos, desarrollo
+          web, desarrollo de interfaces, sistemas, acceso a datos,
+          aplicaciones móviles, multimedia, videojuegos y otras áreas
+          relacionadas con el desarrollo de software.
+          <br>
+          <br>
+          Pero mi actividad no se limita a la docencia. Desarrollo
+          continuamente mis propias aplicaciones, plataformas y herramientas:
+          sistemas de gestión, software educativo, automatizaciones, APIs,
+          herramientas de videoconferencia, procesamiento multimedia y
+          soluciones basadas en inteligencia artificial.
+          <br>
+          <br>
+          En los últimos años, buena parte de mi trabajo se ha centrado en la
+          <b>IA aplicada</b>: modelos de lenguaje ejecutados localmente, RAG,
+          agentes, procesamiento automático de documentación, generación y
+          análisis de contenidos, transcripción, visión artificial e
+          integración de modelos de IA dentro de aplicaciones reales.
+          <br>
+          <br>
+          Me interesa especialmente comprender la tecnología desde dentro.
+          Por eso intento no quedarme únicamente en utilizar herramientas
+          existentes:
+          <b>las desmonto conceptualmente, experimento con ellas y construyo
+          mis propias soluciones</b>.
+          <br>
+          <br>
+          Esa forma de trabajar también define mi manera de enseñar. Creo que
+          la programación se aprende programando; las bases de datos,
+          diseñándolas y utilizándolas; y la inteligencia artificial,
+          construyendo sistemas que realmente hagan algo útil.
+          <br>
+          <br>
+          Muchos de mis proyectos nacen precisamente de ese ciclo:
+          <b>una necesidad genera una aplicación, la aplicación genera
+          conocimiento y ese conocimiento vuelve al aula convertido en
+          formación</b>.
+          <br>
+          <br>
+          Mi objetivo sigue siendo el mismo que cuando empecé: continuar
+          aprendiendo, continuar construyendo y compartir por el camino todo
+          aquello que pueda resultar útil a otros.
+        </p>
+
+      </section>
+
+
+      <section id="blog">
+
+        <h3>Blog</h3>
+
+
+        <article>
+          <div class="fecha">5 octubre 2026</div>
+
+          <h4>Construyendo componentes HTML desde cero</h4>
+
+          <p>
+            Durante los últimos días he estado trabajando en una pequeña
+            librería de componentes web propios. La idea es partir de los
+            controles HTML tradicionales y reconstruirlos con JavaScript para
+            tener control completo sobre su apariencia y comportamiento.
+            Inputs, selectores, interruptores, radios, tablas, árboles,
+            editores y otros componentes forman parte de este experimento.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">5 octubre 2026</div>
+
+          <h4>Procesamiento de vídeo en tiempo real con Canvas</h4>
+
+          <p>
+            HTML5 Canvas permite utilizar un vídeo como si fuera una secuencia
+            continua de imágenes. A partir de ahí podemos modificar cada
+            fotograma mediante JavaScript: escala de grises, brillo,
+            contraste, saturación, gamma, negativo, sepia, pixelado o incluso
+            filtros de convolución y detección de bordes.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">5 octubre 2026</div>
+
+          <h4>Subtítulos automáticos con Whisper e IA local</h4>
+
+          <p>
+            Una de las ventajas de trabajar con modelos de inteligencia
+            artificial en local es poder construir pipelines completos sin
+            depender constantemente de servicios externos. Whisper puede
+            transcribir automáticamente una clase o un vídeo y generar
+            subtítulos VTT. Después, un modelo de lenguaje local puede
+            traducirlos a varios idiomas conservando los tiempos originales.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">3 octubre 2026</div>
+
+          <h4>Asignación inteligente de alumnos a empresas</h4>
+
+          <p>
+            En la gestión de prácticas de formación profesional aparece un
+            problema interesante: relacionar alumnos y empresas teniendo en
+            cuenta ubicación, distancia, disponibilidad y preferencias.
+            Estoy trabajando en herramientas que permiten representar esas
+            relaciones sobre un mapa y calcular automáticamente las
+            conexiones geográficamente más adecuadas.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">2 octubre 2026</div>
+
+          <h4>Construyendo una plataforma de formación propia</h4>
+
+          <p>
+            Una plataforma educativa puede ser mucho más que un repositorio
+            de contenidos. En mi plataforma estoy experimentando con
+            entregas, cuestionarios, progreso del alumno, calendarios,
+            recursos multimedia, métricas de consumo de vídeo y generación
+            automática de informes. El objetivo es que los datos ayuden a
+            entender realmente cómo progresa cada alumno.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">28 septiembre 2026</div>
+
+          <h4>Automatizando el procesamiento de material formativo</h4>
+
+          <p>
+            Cuando una asignatura contiene decenas o cientos de vídeos,
+            documentos y recursos, procesarlos manualmente deja de ser
+            razonable. Por eso he construido un pipeline que procesa material
+            formativo, codifica vídeos, sincroniza recursos y realiza
+            transcripciones automáticas, combinando inteligencia artificial
+            local y remota.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">19 septiembre 2026</div>
+
+          <h4>Experimentando con mi propio sistema de videoconferencia</h4>
+
+          <p>
+            Las videoconferencias parecen sencillas hasta que intentas
+            construir una. Señalización, WebRTC, conexiones entre usuarios,
+            vídeo, audio, grabación y recuperación ante errores convierten el
+            problema en un excelente ejercicio de ingeniería. Estoy
+            experimentando con una infraestructura propia orientada
+            especialmente a clases online.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">10 septiembre 2026</div>
+
+          <h4>IA local: ejecutar modelos en tu propio ordenador</h4>
+
+          <p>
+            Ejecutar modelos de lenguaje localmente permite experimentar con
+            inteligencia artificial de una forma diferente. Herramientas como
+            Ollama hacen posible probar distintos modelos, comparar su
+            rendimiento y conectarlos con aplicaciones propias mediante una
+            API. Esto permite construir asistentes, clasificadores,
+            generadores de contenido y sistemas RAG completamente locales.
+          </p>
+        </article>
+
+
+        <article>
+          <div class="fecha">3 septiembre 2026</div>
+
+          <h4>RAG: cuando la inteligencia artificial consulta tus documentos</h4>
+
+          <p>
+            Un modelo de lenguaje conoce aquello con lo que fue entrenado,
+            pero muchas aplicaciones necesitan trabajar con documentación
+            propia. Los sistemas RAG permiten buscar primero la información
+            relevante dentro de nuestros documentos y proporcionar ese
+            contexto al modelo. Es una arquitectura especialmente interesante
+            para legislación, documentación técnica y contenidos educativos.
+          </p>
+        </article>
+
+      </section>
+
+
+      <section id="contacto">
+
+        <h3>Contacto</h3>
+
+        <form>
+
+          <label>Introduce tu nombre</label>
+          <input name="nombre">
+
+          <label>Introduce tu correo</label>
+          <input name="correo" type="email">
+
+          <label>Introduce tu mensaje</label>
+          <textarea name="mensaje"></textarea>
+
+          <input type="submit" value="Enviar mensaje">
+
+        </form>
+
+      </section>
+
+    </main>
+
+
+    <footer>
+      <p>&copy; 2026 Jose Vicente Carratala</p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,14 @@
+Datetime: 2026-09-24T17:59:55.233Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 009-array\ de\ caracteres.c
+
+Result:
+009-array de caracteres.c: In function ‘main’:
+009-array de caracteres.c:5:46: warning: format ‘%c’ expects argument of type ‘int’, but argument 2 has type ‘char *’ [-Wformat=]
+    5 |         printf("Que sepais que mi nombre es %c  \n",nombre);
+      |                                             ~^      ~~~~~~
+      |                                              |      |
+      |                                              int    char *
+      |                                             %s
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

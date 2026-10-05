@@ -1,0 +1,22 @@
+Datetime: 2026-09-21T16:15:07.688Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas
+Command: python3 005-agenda\ completa.py
+
+Result:
+Juan
+
+Jorge
+
+Jaime
+
+Selecciona una opcion
+1.-Introduce un registro
+2.-Selecciona los registros
+Escoge una opción: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas/005-agenda completa.py", line 6, in <module>
+    opcion = input("Escoge una opción: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-L
+ectura y escritura de información/001-Flujos. Tipos bytes y caracteres. Clases relacionadas$ 

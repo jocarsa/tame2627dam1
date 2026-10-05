@@ -1,0 +1,7 @@
+Datetime: 2026-09-17T16:48:28.336Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/003-Creación de propiedades
+Command: python3 001-creo\ clase\ gato.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/004-Desar
+rollo de clases/003-Creación de propiedades$ 

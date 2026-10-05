@@ -1,0 +1,8 @@
+Datetime: 2026-09-18T12:11:25.619Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/006-Utilización de clases y objetos
+Command: python3 002-lista\ de\ clientes.py
+
+Result:
+[<__main__.Cliente object at 0x7ce37ab98740>, <__main__.Cliente object at 0x7ce37ab987a0>]
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Prog
+ramación/004-Desarrollo de clases/006-Utilización de clases y objetos$ 

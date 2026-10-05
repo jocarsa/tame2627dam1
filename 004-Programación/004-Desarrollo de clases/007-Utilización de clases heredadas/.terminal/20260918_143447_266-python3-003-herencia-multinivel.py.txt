@@ -1,0 +1,8 @@
+Datetime: 2026-09-18T12:34:47.266Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/007-Utilización de clases heredadas
+Command: python3 003-herencia\ multinivel.py
+
+Result:
+Este animal está mamando
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/0
+04-Desarrollo de clases/007-Utilización de clases heredadas$ 

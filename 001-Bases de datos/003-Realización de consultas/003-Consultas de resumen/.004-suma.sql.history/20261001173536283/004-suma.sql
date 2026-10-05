@@ -1,0 +1,1 @@
+SELECT SUM(importe) FROM pedidos;

@@ -1,0 +1,8 @@
+Datetime: 2026-09-17T16:50:20.185Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/003-Creación de propiedades
+Command: python3 002-creo\ una\ instancia.py
+
+Result:
+<__main__.Gato object at 0x74c48bf36d50>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/004-Desar
+rollo de clases/003-Creación de propiedades$ 

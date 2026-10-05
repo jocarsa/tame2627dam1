@@ -1,0 +1,17 @@
+Datetime: 2026-09-24T16:46:54.692Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización
+Command: python3 006-listado\ de\ registros.py
+
+Result:
+['nombre|apellidos|email|telefono\n', 'Jose Vicente|Carratala|info@jocarsa.com|543535\n', 'Juan|Lopez|juan@lopez.com|6532534\n']
+Selecciona una opcion
+1.-Insertar un registro
+2.-Listar registros
+Elige una opción: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización/006-listado de registros.py", line 21, in <module>
+    opcion = input("Elige una opción: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización$ 

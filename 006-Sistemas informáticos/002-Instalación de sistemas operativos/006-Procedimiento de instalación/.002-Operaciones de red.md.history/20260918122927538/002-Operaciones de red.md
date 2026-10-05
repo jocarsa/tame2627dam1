@@ -1,0 +1,1 @@
+1.-Cambio la red de NAT -> Adaptador puente

@@ -1,0 +1,4 @@
+ALTER TABLE clientes
+ADD COLUMN Identificador INT AUTO_INCREMENT PRIMARY KEY
+
+SELECT * FROM clientes;

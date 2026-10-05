@@ -1,0 +1,12 @@
+clientes
+  [0] Juan
+  [1] Jorge
+  [2] Jaime
+  [3] Jose
+  
+Cambiar Jose por Javier:
+1.-clientes
+2.-indice
+3.-Jose->Javier
+
+clientes[3] = "Javier"

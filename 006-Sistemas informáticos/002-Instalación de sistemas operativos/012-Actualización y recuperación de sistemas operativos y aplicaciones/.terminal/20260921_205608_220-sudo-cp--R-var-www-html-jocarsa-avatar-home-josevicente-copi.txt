@@ -1,0 +1,8 @@
+Datetime: 2026-09-21T18:56:08.220Z
+Working directory: /var/www/html/tame2627dam1/006-Sistemas informáticos/002-Instalación de sistemas operativos/012-Actualización y recuperación de sistemas operativos y aplicaciones
+Command: sudo cp -R /var/www/html/jocarsa-avatar /home/josevicente/copias/
+
+Result:
+sudo cp -R /var/www/html/jocarsa-avatar /home/josevicente/copias/
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/006-Sistemas informáticos/002-Insta
+lación de sistemas operativos/012-Actualización y recuperación de sistemas operativos y aplicaciones$ 

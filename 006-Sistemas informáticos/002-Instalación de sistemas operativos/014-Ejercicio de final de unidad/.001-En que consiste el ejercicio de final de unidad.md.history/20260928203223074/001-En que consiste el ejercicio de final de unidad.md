@@ -1,0 +1,1 @@
+Analizado sistemas informáticos

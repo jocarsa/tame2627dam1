@@ -1,0 +1,9 @@
+Datetime: 2026-09-17T16:52:35.852Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/004-Desarrollo de clases/003-Creación de propiedades
+Command: python3 003-varios\ gatos.py
+
+Result:
+<__main__.Gato object at 0x7259bbb36e10>
+<__main__.Gato object at 0x7259bbb36e40>
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/004-Desar
+rollo de clases/003-Creación de propiedades$ 

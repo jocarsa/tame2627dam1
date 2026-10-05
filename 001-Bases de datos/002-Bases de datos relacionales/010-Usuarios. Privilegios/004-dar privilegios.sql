@@ -1,0 +1,1 @@
+GRANT USAGE ON *.* TO 'josevicentetame'@'localhost';

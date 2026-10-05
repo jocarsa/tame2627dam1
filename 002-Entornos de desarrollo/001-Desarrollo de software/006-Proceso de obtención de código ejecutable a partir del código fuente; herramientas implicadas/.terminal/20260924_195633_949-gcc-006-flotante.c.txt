@@ -1,0 +1,14 @@
+Datetime: 2026-09-24T17:56:33.949Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarrollo de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas
+Command: gcc 006-flotante.c
+
+Result:
+006-flotante.c: In function ‘main’:
+006-flotante.c:5:38: warning: format ‘%f’ expects argument of type ‘double’, but argument 2 has type ‘int’ [-Wformat=]
+    5 |         printf("Que sepais que mido %f metros \n",altura);
+      |                                     ~^            ~~~~~~
+      |                                      |            |
+      |                                      double       int
+      |                                     %d
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/001-Desarroll
+o de software/006-Proceso de obtención de código ejecutable a partir del código fuente; herramientas implicadas$ 

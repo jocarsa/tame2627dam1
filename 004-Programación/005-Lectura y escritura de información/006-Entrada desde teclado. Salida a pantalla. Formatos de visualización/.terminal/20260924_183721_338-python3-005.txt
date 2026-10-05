@@ -1,0 +1,8 @@
+Datetime: 2026-09-24T16:37:21.338Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización
+Command: python3 005
+
+Result:
+python3: can't open file '/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización/005': [Errno 2] No such file or directory
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y 
+escritura de información/006-Entrada desde teclado. Salida a pantalla. Formatos de visualización$ 

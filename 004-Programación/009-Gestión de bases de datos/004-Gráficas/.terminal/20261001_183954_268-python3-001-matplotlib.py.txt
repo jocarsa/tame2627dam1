@@ -1,0 +1,7 @@
+Datetime: 2026-10-01T16:39:54.268Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/004-Gráficas
+Command: python3 001-matplotlib.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/009-Gestión de bases de datos/
+004-Gráficas$ 

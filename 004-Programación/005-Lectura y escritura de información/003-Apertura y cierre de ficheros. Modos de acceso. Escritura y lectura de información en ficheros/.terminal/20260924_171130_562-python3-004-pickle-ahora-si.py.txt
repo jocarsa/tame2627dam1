@@ -1,0 +1,7 @@
+Datetime: 2026-09-24T15:11:30.562Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/003-Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros
+Command: python3 004-pickle\ ahora\ si.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/005-Lectura y esc
+ritura de información/003-Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros$ 

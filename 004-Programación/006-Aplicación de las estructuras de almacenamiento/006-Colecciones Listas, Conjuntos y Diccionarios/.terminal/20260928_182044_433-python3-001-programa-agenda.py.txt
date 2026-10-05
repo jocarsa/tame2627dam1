@@ -1,0 +1,17 @@
+Datetime: 2026-09-28T16:20:44.433Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios
+Command: python3 001-programa\ agenda.py
+
+Result:
+[{'nombre': 'Jose Vicente', 'apellidos': 'Carratala', 'email': 'info@jocarsa.com'}, {'nombre': 'Juan', 'apellidos': 'Lopez', 'email': 'juan@lopez.com'}, {'nombre': 'Maria', 'apellidos': 'Garcia', 'email': 'maria@garcia.com'}]
+Escoge una opcion
+1.-Introducir un nuevo registro
+2.-Listado de registros
+Elige una opcion: ^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/006-Aplicación de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios/001-programa agenda.py", line 10, in <module>
+    opcion = input("Elige una opcion: ")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/006-Aplicación 
+de las estructuras de almacenamiento/006-Colecciones Listas, Conjuntos y Diccionarios$ 

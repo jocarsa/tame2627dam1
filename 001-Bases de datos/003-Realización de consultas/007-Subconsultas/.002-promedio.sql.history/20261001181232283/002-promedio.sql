@@ -1,0 +1,3 @@
+SELECT
+AVG(importe)
+FROM pedidos;

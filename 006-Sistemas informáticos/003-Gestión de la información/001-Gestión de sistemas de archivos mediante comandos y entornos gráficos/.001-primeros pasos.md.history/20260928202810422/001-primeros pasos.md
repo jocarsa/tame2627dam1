@@ -1,0 +1,1 @@
+Primero sacamos una terminal

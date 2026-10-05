@@ -1,0 +1,30 @@
+Datetime: 2026-09-25T12:01:58.673Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/009-Creación de controladores de eventos
+Command: python3 001-grid.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/009-Creación de controladores de eventos/001-grid.py", line 5, in <module>
+    tk.Label(ventana, text="Insertar").grid(row=0,col=0)
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 2569, in grid_configure
+    self.tk.call(
+_tkinter.TclError: ambiguous option "-col": must be -column, -columnspan, -in, -ipadx, -ipady, -padx, -pady, -row, -rowspan, or -sticky
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_005-Lectura y escritura de información_009-Creación de controladores de eventos_001-grid.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/009-Creación de controladores de eventos/001-grid.py", line 5, in <module>
+    tk.Label(ventana, text="Insertar").grid(row=0,col=0)
+  File "/usr/lib/python3.12/tkinter/__init__.py", line 2569, in grid_configure
+    self.tk.call(
+_tkinter.TclError: ambiguous option "-col": must be -column, -columnspan, -in, -ipadx, -ipady, -padx, -pady, -row, -rowspan, or -sticky
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programa
+ción/005-Lectura y escritura de información/009-Creación de controladores de eventos$ 

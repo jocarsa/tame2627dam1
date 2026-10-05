@@ -1,0 +1,7 @@
+Datetime: 2026-09-25T12:05:04.048Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/005-Lectura y escritura de información/009-Creación de controladores de eventos
+Command: python3 002-panel.py
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programa
+ción/005-Lectura y escritura de información/009-Creación de controladores de eventos$ 
