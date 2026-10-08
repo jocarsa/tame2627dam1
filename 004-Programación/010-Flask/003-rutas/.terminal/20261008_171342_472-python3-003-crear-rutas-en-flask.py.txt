@@ -1,0 +1,13 @@
+Datetime: 2026-10-08T15:13:42.472Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/003-rutas
+Command: python3 003-crear\ rutas\ en\ flask.py
+
+Result:
+ * Serving Flask app '003-crear rutas en flask'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+^C127.0.0.1 - - [08/Oct/2026 17:13:35] "GET /proyectos HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 17:13:37] "GET / HTTP/1.1" 200 -
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/003-rutas$ 

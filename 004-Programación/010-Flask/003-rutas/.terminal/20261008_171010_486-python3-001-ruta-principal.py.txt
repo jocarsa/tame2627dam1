@@ -1,0 +1,12 @@
+Datetime: 2026-10-08T15:10:10.486Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/003-rutas
+Command: python3 001-ruta\ principal.py
+
+Result:
+ * Serving Flask app '001-ruta principal'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [08/Oct/2026 17:09:09] "GET / HTTP/1.1" 200 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/003-rutas$ 

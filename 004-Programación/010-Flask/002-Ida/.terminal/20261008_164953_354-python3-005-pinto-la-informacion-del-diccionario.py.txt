@@ -1,0 +1,33 @@
+Datetime: 2026-10-08T14:49:53.354Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/002-Ida
+Command: python3 005-pinto\ la\ informacion\ del\ diccionario.py
+
+Result:
+ * Serving Flask app '005-pinto la informacion del diccionario'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+[2026-10-08 16:49:34,447] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/002-Ida/005-pinto la informacion del diccionario.py", line 114, in inicio
+    salida += """
+              ^^^
+TypeError: can only concatenate str (not "float") to str
+127.0.0.1 - - [08/Oct/2026 16:49:34] "GET / HTTP/1.1" 500 -
+127.0.0.1 - - [08/Oct/2026 16:49:34] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [08/Oct/2026 16:49:34] "GET /favicon.ico HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010
+-Flask/002-Ida$ 
