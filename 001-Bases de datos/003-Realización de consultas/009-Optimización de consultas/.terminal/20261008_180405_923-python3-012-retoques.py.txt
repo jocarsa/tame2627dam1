@@ -1,0 +1,49 @@
+Datetime: 2026-10-08T16:04:05.923Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas
+Command: python3 012-retoques.py
+
+Result:
+ * Serving Flask app '012-retoques'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:01:13] "GET / HTTP/1.1" 200 -
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:01:41] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:01:41] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:02:30] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:02:30] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/013-retoques css.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/013-retoques css.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/013-retoques css.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:04:03] "GET / HTTP/1.1" 200 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de c
+onsultas/009-Optimización de consultas$ 

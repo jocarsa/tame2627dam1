@@ -1,0 +1,24 @@
+Datetime: 2026-10-08T15:47:34.498Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas
+Command: python3 006-flask\ lo\ pinta\ bonito.py
+
+Result:
+  File "/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/006-flask lo pinta bonito.py", line 25
+    cursor.execute("SELECT * FROM entradas;")
+TabError: inconsistent use of tabs and spaces in indentation
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_001-Bases de datos_003-Realización de consultas_009-Optimización de consultas_006-flask lo pinta bonito.py.1000.crash'
+
+Original exception was:
+  File "/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/006-flask lo pinta bonito.py", line 25
+    cursor.execute("SELECT * FROM entradas;")
+TabError: inconsistent use of tabs and spaces in indentation
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/003-Rea
+lización de consultas/009-Optimización de consultas$ 

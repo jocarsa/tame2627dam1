@@ -1,0 +1,24 @@
+Datetime: 2026-10-08T17:05:46.982Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/005-Ida y vuelta
+Command: python3 003-combinar\ los\ dos\ ejercicios\ en\ uno.py
+
+Result:
+ * Serving Flask app '003-combinar los dos ejercicios en uno'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [08/Oct/2026 19:02:39] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 19:03:00] "GET /admin HTTP/1.1" 200 -
+el titulo es Hoy es nou d'Octubre
+la fecha es 2026-10-09
+el texto es Y hoy es dia festivo
+127.0.0.1 - - [08/Oct/2026 19:03:24] "POST /guardar HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 19:03:29] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 19:03:41] "GET /admin HTTP/1.1" 200 -
+el titulo es Hoy es festivo nacional
+la fecha es 2026-10-12
+el texto es Hoy es el dia de la festividad nacional de España
+127.0.0.1 - - [08/Oct/2026 19:04:01] "POST /guardar HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 19:04:03] "GET / HTTP/1.1" 200 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/005-Ida y vuelta$ 

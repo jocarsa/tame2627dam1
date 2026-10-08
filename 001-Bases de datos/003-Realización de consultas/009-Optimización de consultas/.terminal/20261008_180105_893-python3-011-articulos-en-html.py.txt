@@ -1,0 +1,57 @@
+Datetime: 2026-10-08T16:01:05.893Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas
+Command: python3 011-articulos\ en\ html.py
+
+Result:
+ * Serving Flask app '011-articulos en html'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:00:04] "GET / HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/011-articulos en html.py", line 57, in inicio
+    cuerpo += """
+              ^^^
+TypeError: can only concatenate str (not "datetime.date") to str
+127.0.0.1 - - [08/Oct/2026 18:00:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:00:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:00:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:00:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 304 -
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/011-articulos en html.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [08/Oct/2026 18:00:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [08/Oct/2026 18:00:19] "GET /favicon.ico HTTP/1.1" 404 -
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+ * Detected change in '/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de consultas/009-Optimización de consultas/012-retoques.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/003-Realización de c
+onsultas/009-Optimización de consultas$ 
