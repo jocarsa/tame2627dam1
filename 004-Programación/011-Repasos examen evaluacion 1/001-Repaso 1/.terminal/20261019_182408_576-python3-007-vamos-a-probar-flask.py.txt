@@ -1,0 +1,14 @@
+Datetime: 2026-10-19T16:24:08.576Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/011-Repasos examen evaluacion 1/001-Repaso 1
+Command: python3 007-vamos\ a\ probar\ flask.py
+
+Result:
+ * Serving Flask app '007-vamos a probar flask'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [19/Oct/2026 18:23:46] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 18:23:46] "GET /favicon.ico HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación
+/011-Repasos examen evaluacion 1/001-Repaso 1$ 

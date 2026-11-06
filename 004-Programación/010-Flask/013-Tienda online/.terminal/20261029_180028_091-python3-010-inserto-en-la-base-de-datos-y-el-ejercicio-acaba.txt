@@ -1,0 +1,19 @@
+Datetime: 2026-10-29T17:00:28.091Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online
+Command: python3 010-inserto\ en\ la\ base\ de\ datos\ y\ el\ ejercicio\ acaba.py
+
+Result:
+ * Serving Flask app '010-inserto en la base de datos y el ejercicio acaba'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [29/Oct/2026 18:00:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 18:00:12] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [29/Oct/2026 18:00:12] "GET /static/estilo.css HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2026 18:00:12] "GET /datos HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 18:00:15] "GET /insertarpedido?total=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 18:00:21] "GET /insertarpedido?total=0 HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 18:00:22] "GET /insertarpedido?total=0 HTTP/1.1" 200 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tie
+nda online$ 

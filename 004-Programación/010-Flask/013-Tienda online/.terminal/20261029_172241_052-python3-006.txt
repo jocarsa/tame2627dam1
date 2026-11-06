@@ -1,0 +1,8 @@
+Datetime: 2026-10-29T16:22:41.052Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online
+Command: python3 006-
+
+Result:
+python3: can't open file '/var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/006-': [Errno 2] No such file or directory
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Fl
+ask/013-Tienda online$ 

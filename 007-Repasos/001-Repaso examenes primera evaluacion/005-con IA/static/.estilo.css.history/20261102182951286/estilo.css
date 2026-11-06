@@ -1,0 +1,137 @@
+/* ============ Base ============ */
+:root{
+  --tinta:#1a1a1a;
+  --papel:#faf7f0;
+  --gris:#6b6b6b;
+  --rojo:#8c1d18;
+  --serif:Georgia,"Times New Roman",serif;
+  --display:"Didot","Bodoni MT","Playfair Display",Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:#e8e4da;
+  font-family:var(--serif);
+  color:var(--tinta);
+  padding:24px 12px;
+}
+
+/* ============ Hoja ============ */
+.paper{
+  max-width:1180px;
+  margin:auto;
+  background:var(--papel);
+  padding:36px 44px 28px;
+  box-shadow:0 1px 3px rgba(0,0,0,.18),0 12px 40px rgba(0,0,0,.22);
+  position:relative;
+}
+.paper::before{
+  content:"";
+  position:absolute;inset:0;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.012) 0 2px,transparent 2px 4px);
+  pointer-events:none;
+}
+
+/* ============ Cabecera ============ */
+.kicker-bar{
+  display:flex;justify-content:space-between;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gris);border-bottom:1px solid var(--tinta);padding-bottom:6px;margin-bottom:18px;
+}
+header{text-align:center;border-bottom:6px double var(--tinta);padding-bottom:14px;}
+header h1{
+  font-family:var(--display);
+  font-size:4.6rem;font-weight:900;line-height:.95;
+  text-transform:uppercase;letter-spacing:.01em;
+}
+header h1 .amp{font-style:italic;font-weight:400;text-transform:none;}
+header .lema{
+  margin-top:10px;font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;
+  color:var(--gris);border-top:1px solid var(--tinta);
+  display:inline-block;padding-top:8px;
+}
+.fecha-bar{
+  display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid var(--tinta);border-bottom:1px solid var(--tinta);
+  margin-top:14px;padding:5px 0;
+  font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+}
+.fecha-bar .precio{font-weight:bold;}
+
+/* ============ Rejilla de portada ============ */
+main{
+  display:grid;
+  grid-template-columns:2.2fr 1.4fr;
+  gap:0 26px;
+  margin-top:22px;
+}
+
+/* ---- Noticia principal ---- */
+article.lead{grid-column:1;grid-row:1;}
+article.lead h2{
+  font-family:var(--display);
+  font-size:3rem;line-height:1.04;font-weight:900;
+  letter-spacing:-.01em;margin:10px 0 12px;
+}
+.byline{
+  font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--rojo);
+  border-top:2px solid var(--tinta);border-bottom:1px solid var(--tinta);
+  padding:4px 0;display:inline-block;margin-bottom:4px;
+}
+.entradilla{
+  font-size:1.12rem;line-height:1.5;font-style:italic;
+  color:#3c3c3c;margin-bottom:14px;
+}
+figure.foto{
+  margin:4px 0 16px;border:1px solid var(--tinta);padding:5px;background:#fff;
+}
+figure.foto img{display:block;width:100%;height:280px;object-fit:cover;filter:contrast(1.05);}
+figure.foto figcaption{
+  font-size:.68rem;color:var(--gris);padding:6px 2px 2px;
+  border-bottom:1px solid var(--tinta);
+}
+article.lead .texto{column-count:2;column-gap:26px;column-rule:1px solid #ddd;}
+article.lead .texto p{font-size:.92rem;line-height:1.62;text-align:justify;text-indent:1.4em;}
+article.lead .texto p:first-child{text-indent:0;}
+article.lead .texto p:first-child::first-letter{
+  font-family:var(--display);float:left;
+  font-size:3.6rem;line-height:.8;padding:4px 8px 0 0;font-weight:900;
+}
+
+/* ---- Destacadas y resto ---- */
+article.mini{
+  grid-column:2;
+  border-bottom:1px solid #cfc9bd;padding-bottom:14px;margin-bottom:14px;
+}
+article.mini:first-of-type{
+  border-top:3px solid var(--rojo);padding-top:12px;
+}
+article.mini h3{
+  font-family:var(--display);
+  font-size:1.35rem;line-height:1.12;font-weight:900;margin-bottom:6px;
+}
+article.mini p{font-size:.85rem;line-height:1.55;text-align:justify;color:#2e2e2e;}
+article.mini .tag{
+  display:inline-block;font-size:.6rem;text-transform:uppercase;letter-spacing:.16em;
+  background:var(--tinta);color:var(--papel);padding:2px 8px;margin-bottom:6px;
+}
+article.mini.destacada .tag{background:var(--rojo);}
+article.mini time{
+  display:block;font-size:.65rem;color:var(--gris);
+  text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px;
+}
+
+/* ============ Pie ============ */
+footer{
+  margin-top:22px;border-top:4px double var(--tinta);padding-top:12px;
+  display:flex;justify-content:space-between;
+  font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gris);
+}
+
+/* ============ Responsive ============ */
+@media (max-width:900px){
+  main{grid-template-columns:1fr;}
+  article.lead,article.mini{grid-column:1;}
+  article.lead .texto{column-count:1;}
+  header h1{font-size:2.6rem;}
+  article.lead h2{font-size:2.1rem;}
+}

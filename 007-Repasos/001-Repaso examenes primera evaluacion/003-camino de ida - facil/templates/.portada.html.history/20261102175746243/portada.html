@@ -1,0 +1,7 @@
+<h1>Esto es un periódico</h1>
+{% for noticia in noticias %}
+<h3>{{noticia.titulo}}</h3>
+<time>{{noticia.fecha}}</time>
+<p>{{noticia.autor}}</p>
+<p>{{noticia.texto}}</p>
+{% endfor %}

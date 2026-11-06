@@ -1,0 +1,3 @@
+body{background:grey;font-family:sans-serif;}
+form{width:300px;padding:20px;margin:auto;background:white;display:flex;flex-direction:column;gap:10px;}
+input{padding:10px;}

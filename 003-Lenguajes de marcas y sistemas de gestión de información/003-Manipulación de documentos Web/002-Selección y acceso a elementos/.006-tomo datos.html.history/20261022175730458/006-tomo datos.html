@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <p>Introduce la base imponible</p>
+    <input id="base">
+    <p>Introduce el porcentaje de impuesto</p>
+    <input id="impuesto">
+    <button>Calcula!</button>
+    <output></output>
+    <script>
+      // esta es la zona en la que atrapo la información de HTML
+      // Atrapo la base
+     	let base = document.querySelector("#base")
+      // Atrapo el impuesto
+      let impuesto = document.querySelector("#impuesto")
+      // atrapo el botón
+      let boton = document.querySelector("button")
+      // Los eventos son acciones que realiza el ser humano
+      boton.onclick = function(){
+      	let base_imponible = base.value
+        let cantidad_impuesto = impuesto.value
+        
+      }
+      
+    </script>
+  </body>
+</html>

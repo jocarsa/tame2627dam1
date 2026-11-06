@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El Blog de Jose Vicente</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="contenedor cabecera-interior">
+      <a class="marca" href="/">jocarsa<span class="punto">.</span> <span class="marca-sub">blog</span></a>
+      <button class="boton boton-cabecera" id="abrirFormulario" type="button">+ Nueva noticia</button>
+    </div>
+  </header>
+  <main class="contenedor">
+    <section class="presentacion">
+      <div class="etiqueta">IDEAS · TECNOLOGÍA · ACTUALIDAD</div>
+      <h1>El Blog de <span>Jose Vicente</span></h1>
+      <p>Un espacio para compartir noticias, proyectos e ideas.</p>
+    </section>
+    <section class="barra-listado" aria-label="Noticias publicadas">
+      <div><h2>Últimas publicaciones</h2><p id="contador">Cargando artículos…</p></div>
+      <button id="actualizar" class="boton boton-secundario" type="button">↻ Actualizar</button>
+    </section>
+    <section id="noticias" class="rejilla" aria-live="polite"></section>
+    <p id="estadoListado" class="estado-listado" role="status"></p>
+  </main>
+  <button class="boton-flotante" id="abrirFlotante" type="button" aria-label="Crear noticia" title="Crear noticia">+</button>
+  <div id="modal" class="modal" hidden>
+    <div class="modal-fondo" id="fondoModal"></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="tituloModal">
+      <div class="modal-cabecera"><div><span class="etiqueta">PUBLICACIÓN</span><h2 id="tituloModal">Nueva noticia</h2></div><button class="cerrar" id="cerrarFormulario" type="button" aria-label="Cerrar">×</button></div>
+      <form id="formulario">
+        <label for="titulo">Título</label>
+        <input type="text" id="titulo" name="titulo" maxlength="100" placeholder="Escribe un título interesante" required>
+        <label for="fecha">Fecha de publicación</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <label for="mensaje">Contenido</label>
+        <textarea id="mensaje" name="contenido" rows="8" placeholder="¿Qué quieres contar?" required></textarea>
+        <p id="estadoFormulario" role="status"></p>
+        <div class="acciones"><button type="button" id="cancelar" class="boton boton-secundario">Cancelar</button><button type="submit" id="publicar" class="boton">Publicar noticia</button></div>
+      </form>
+    </section>
+  </div>
+  <footer>© <span id="anio"></span> · El Blog de Jose Vicente</footer>
+  <script>
+    const noticias = document.querySelector('#noticias');
+    const modal = document.querySelector('#modal');
+    const formulario = document.querySelector('#formulario');
+    const estadoFormulario = document.querySelector('#estadoFormulario');
+    const publicar = document.querySelector('#publicar');
+    document.querySelector('#anio').textContent = new Date().getFullYear();
+    document.querySelector('#fecha').value = new Date().toLocaleDateString('en-CA');
+
+    function abrir() {
+      modal.hidden = false;
+      document.body.classList.add('modal-abierto');
+      document.querySelector('#titulo').focus();
+    }
+    function cerrar() {
+      modal.hidden = true;
+      document.body.classList.remove('modal-abierto');
+      estadoFormulario.textContent = '';
+    }
+    document.querySelector('#abrirFormulario').addEventListener('click', abrir);
+    document.querySelector('#abrirFlotante').addEventListener('click', abrir);
+    document.querySelector('#cerrarFormulario').addEventListener('click', cerrar);
+    document.querySelector('#cancelar').addEventListener('click', cerrar);
+    document.querySelector('#fondoModal').addEventListener('click', cerrar);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) cerrar(); });
+
+    function pintarArticulo(articulo) {
+      const tarjeta = document.createElement('article');
+      tarjeta.className = 'tarjeta';
+      const fecha = document.createElement('time');
+      fecha.dateTime = articulo.fecha || '';
+      fecha.textContent = articulo.fecha ? new Date(articulo.fecha + 'T12:00:00').toLocaleDateString('es-ES', {day:'numeric', month:'long', year:'numeric'}) : 'Sin fecha';
+      const titulo = document.createElement('h3');
+      titulo.textContent = articulo.titulo;
+      const contenido = document.createElement('p');
+      contenido.textContent = articulo.contenido;
+      tarjeta.append(fecha, titulo, contenido);
+      return tarjeta;
+    }
+    async function cargarNoticias() {
+      const estado = document.querySelector('#estadoListado');
+      estado.textContent = 'Cargando noticias…';
+      try {
+        const respuesta = await fetch('/datos', {cache:'no-store'});
+        if (!respuesta.ok) throw new Error('No se pudieron cargar las noticias');
+        const datos = await respuesta.json();
+        noticias.replaceChildren(...datos.map(pintarArticulo));
+        document.querySelector('#contador').textContent = `${datos.length} ${datos.length === 1 ? 'artículo publicado' : 'artículos publicados'}`;
+        estado.textContent = datos.length ? '' : 'Todavía no hay publicaciones. ¡Crea la primera!';
+      } catch (error) { estado.textContent = error.message; }
+    }
+    document.querySelector('#actualizar').addEventListener('click', cargarNoticias);
+    formulario.addEventListener('submit', async function(evento) {
+      evento.preventDefault();
+      if (!formulario.reportValidity()) return;
+      publicar.disabled = true;
+      publicar.textContent = 'Publicando…';
+      estadoFormulario.textContent = '';
+      try {
+        const respuesta = await fetch('/recibe', {method:'POST', body:new FormData(formulario)});
+        const datos = await respuesta.json();
+        if (!respuesta.ok) throw new Error(datos.error || 'No se pudo publicar');
+        formulario.reset();
+        cerrar();
+        await cargarNoticias();
+        document.querySelector('#estadoListado').textContent = '✓ Noticia publicada correctamente';
+      } catch (error) { estadoFormulario.textContent = error.message; }
+      finally { publicar.disabled = false; publicar.textContent = 'Publicar noticia'; }
+    });
+    cargarNoticias();
+  </script>
+</body>
+</html>

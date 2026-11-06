@@ -1,0 +1,18 @@
+Datetime: 2026-11-05T16:34:11.530Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/008-Camino de vuelta - json
+Command: python3 002-te\ preparo\ para\ recibir.py
+
+Result:
+ * Serving Flask app '002-te preparo para recibir'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [05/Nov/2026 17:33:27] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 17:33:27] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [05/Nov/2026 17:33:27] "GET /static/estilo.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 17:33:27] "GET /datos HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 17:33:27] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [05/Nov/2026 17:33:29] "GET /recibe&titulo=[object%20HTMLInputElement]&fecha=[object%20HTMLInputElement]&contenido=null HTTP/1.1" 404 -
+127.0.0.1 - - [05/Nov/2026 17:33:51] "GET /recibe&titulo=[object%20HTMLInputElement]&fecha=[object%20HTMLInputElement]&contenido=null HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/008-Camino de vuelta - json$ 

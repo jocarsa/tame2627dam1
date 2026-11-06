@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Calculadora empresarial
+    </title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h3>Ingresos</h3>
+    <label>Número de clientes</label>
+    <input type="number" id="clientes">
+    <label>Ingreso medio por cliente</label>
+    <input type="number" id="ingresomedio">
+    <h3>Gastos</h3>
+    <label>Numero de trabajadores</label>
+    <input type="number" id="numerotrabajadores">
+    <label>Nomina trabajadores</label>
+    <input type="number" id="nominatrabajadores">
+    <label>Seguridad Social</label>
+    <input type="number" id="seguridadsocial" value=32>
+    <button>Calcula</button>
+    <output></output>
+    
+    <script>
+      // Primero cojo elementos
+      let numeroclientes = document.querySelector("#clientes")
+      let ingresoporcliente = document.querySelector("#ingresomedio")
+      let boton = document.querySelector("button")
+      let salida = document.querySelector("output")
+      
+      let numerotrabajadores= document.querySelector("#numerotrabajadores")
+      let nominatrabajadores= document.querySelector("#nominatrabajadores")
+      let seguridadsocial= document.querySelector("#seguridadsocial")
+      
+      // Escucho el boton
+      boton.onclick = function(){
+        let ingresos = numeroclientes.value * ingresoporcliente.value
+        let gastos = numerotrabajadores.value * nominatrabajadores.value*()
+      	salida.textContent = ingresos - gastos
+      }
+    </script>
+  </body>
+</html>

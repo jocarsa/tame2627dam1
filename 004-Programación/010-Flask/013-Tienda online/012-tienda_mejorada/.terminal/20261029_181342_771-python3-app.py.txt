@@ -1,0 +1,35 @@
+Datetime: 2026-10-29T17:13:42.771Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/012-tienda_mejorada
+Command: python3 app.py
+
+Result:
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [29/Oct/2026 18:13:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 18:13:18] "GET /static/tienda.js HTTP/1.1" 304 -
+127.0.0.1 - - [29/Oct/2026 18:13:18] "GET /static/estilo.css HTTP/1.1" 304 -
+[2026-10-29 18:13:34,590] ERROR in app: Error guardando pedido
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 772, in cmd_query
+    self._cmysql.query(
+_mysql_connector.MySQLInterfaceError: Table 'tiendaonlinedamtame2627.pedido_lineas' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/012-tienda_mejorada/app.py", line 85, in crear_pedido
+    cur.execute('INSERT INTO pedido_lineas (pedido_id,producto_id,nombre_producto,cantidad,precio_unitario,subtotal) VALUES (%s,%s,%s,%s,%s,%s)',
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 353, in execute
+    self._connection.cmd_query(
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/opentelemetry/context_propagation.py", line 106, in wrapper
+    result = method(cnx, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 781, in cmd_query
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'tiendaonlinedamtame2627.pedido_lineas' doesn't exist
+127.0.0.1 - - [29/Oct/2026 18:13:34] "POST /api/pedidos HTTP/1.1" 500 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Program
+ación/010-Flask/013-Tienda online/012-tienda_mejorada$ 

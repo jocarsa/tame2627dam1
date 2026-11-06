@@ -1,0 +1,59 @@
+Datetime: 2026-11-05T16:39:37.823Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/009-Camino de vuelta - json
+Command: python3 002-te\ preparo\ para\ recibir.py
+
+Result:
+ * Serving Flask app '002-te preparo para recibir'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 154-183-378
+127.0.0.1 - - [05/Nov/2026 17:39:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 17:39:23] "GET /static/estilo.css HTTP/1.1" 200 -
+127.0.0.1 - - [05/Nov/2026 17:39:23] "GET /datos HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Access denied for user 'blogexamen2627'@'localhost' (using password: NO)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/009-Camino de vuelta - json/002-te preparo para recibir.py", line 22, in datos
+    conexion = conectar()
+               ^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/009-Camino de vuelta - json/002-te preparo para recibir.py", line 9, in conectar
+    return mysql.connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'blogexamen2627'@'localhost' (using password: NO)
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/009-Camino de vuelta - json$ 

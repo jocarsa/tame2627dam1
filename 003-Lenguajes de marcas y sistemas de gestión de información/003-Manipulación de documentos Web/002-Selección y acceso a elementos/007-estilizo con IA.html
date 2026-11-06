@@ -1,0 +1,399 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculadora de IVA</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #e0e7ff, #f8fafc);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #1e293b;
+      padding: 20px;
+    }
+
+    .calculadora {
+      background: white;
+      width: 100%;
+      max-width: 460px;
+      padding: 40px;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(30, 41, 59, 0.12);
+    }
+
+    .icono {
+      width: 55px;
+      height: 55px;
+      background: #eef2ff;
+      color: #4f46e5;
+      display: grid;
+      place-items: center;
+      border-radius: 16px;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin: 0 0 8px;
+    }
+
+    .descripcion {
+      color: #64748b;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .campo {
+      position: relative;
+      margin-bottom: 24px;
+    }
+
+    input {
+      width: 100%;
+      padding: 16px;
+      border: 2px solid #e2e8f0;
+      border-radius: 12px;
+      font-size: 18px;
+      outline: none;
+      transition: 0.2s;
+      background: #f8fafc;
+    }
+
+    input:focus {
+      border-color: #6366f1;
+      background: white;
+    }
+
+    .euro {
+      position: absolute;
+      right: 18px;
+      top: 16px;
+      font-size: 20px;
+      color: #94a3b8;
+    }
+
+    .porcentajes {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .porcentaje {
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #e2e8f0;
+      background: #f8fafc;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      color: #475569;
+      transition: 0.2s;
+    }
+
+    .porcentaje:hover,
+    .porcentaje.activo {
+      background: #eef2ff;
+      color: #4f46e5;
+      border-color: #6366f1;
+    }
+
+    #calcular {
+      width: 100%;
+      background: #4f46e5;
+      color: white;
+      border: none;
+      padding: 17px;
+      border-radius: 12px;
+      font-size: 17px;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.2s;
+    }
+
+    #calcular:hover {
+      background: #4338ca;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(79, 70, 229, 0.25);
+    }
+
+    .resultado {
+      margin-top: 30px;
+      padding: 24px;
+      background: #f8fafc;
+      border-radius: 16px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .fila {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      color: #64748b;
+      gap: 12px;
+    }
+
+    .fila strong {
+      color: #334155;
+    }
+
+    .separador {
+      height: 1px;
+      background: #e2e8f0;
+      margin: 20px 0;
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .total span {
+      font-weight: 600;
+    }
+
+    .total output {
+      font-size: 30px;
+      font-weight: 800;
+      color: #4f46e5;
+    }
+
+    .pie {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 12px;
+      margin-top: 25px;
+    }
+
+    @media (max-width: 480px) {
+      .calculadora {
+        padding: 25px;
+      }
+
+      .total output {
+        font-size: 25px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="calculadora">
+
+    <div class="icono">%</div>
+
+    <h1>Calculadora de IVA</h1>
+
+    <p class="descripcion">
+      Calcula tus impuestos de forma rápida,
+      sencilla y precisa.
+    </p>
+
+    <label for="base">Base imponible</label>
+
+    <div class="campo">
+      <input
+        id="base"
+        type="number"
+        min="0"
+        step="0.01"
+        placeholder="Ej. 1000.00"
+        value="1000"
+      >
+      <span class="euro">€</span>
+    </div>
+
+    <label for="impuesto">Porcentaje de IVA</label>
+
+    <div class="porcentajes">
+      <button class="porcentaje" data-iva="4">4%</button>
+      <button class="porcentaje" data-iva="10">10%</button>
+      <button class="porcentaje activo" data-iva="21">21%</button>
+    </div>
+
+    <div class="campo">
+      <input
+        id="impuesto"
+        type="number"
+        min="0"
+        max="100"
+        step="0.01"
+        value="21"
+      >
+    </div>
+
+    <button id="calcular">Calcular total →</button>
+
+    <section class="resultado">
+
+      <div class="fila">
+        <span>Base imponible</span>
+        <strong id="resultado_base">1.000,00 €</strong>
+      </div>
+
+      <div class="fila">
+        <span>IVA aplicado</span>
+        <strong id="resultado_porcentaje">21%</strong>
+      </div>
+
+      <div class="fila">
+        <span>Importe del IVA</span>
+        <strong id="resultado_iva">210,00 €</strong>
+      </div>
+
+      <div class="separador"></div>
+
+      <div class="total">
+        <span>Total con IVA</span>
+        <output>1.210,00 €</output>
+      </div>
+
+    </section>
+
+    <div class="pie">
+      Calculadora fiscal · Resultados orientativos
+    </div>
+
+  </main>
+
+  <script>
+
+    // ATRAPAMOS LOS ELEMENTOS HTML
+
+    let base = document.querySelector("#base");
+    let impuesto = document.querySelector("#impuesto");
+    let salida = document.querySelector("output");
+    let boton = document.querySelector("#calcular");
+
+    let resultado_base =
+      document.querySelector("#resultado_base");
+
+    let resultado_porcentaje =
+      document.querySelector("#resultado_porcentaje");
+
+    let resultado_iva =
+      document.querySelector("#resultado_iva");
+
+    let porcentajes =
+      document.querySelectorAll(".porcentaje");
+
+
+    // FUNCIÓN PARA FORMATEAR EUROS
+
+    function euros(cantidad) {
+      return cantidad.toLocaleString("es-ES", {
+        style: "currency",
+        currency: "EUR"
+      });
+    }
+
+
+    // EVENTO DEL BOTÓN CALCULAR
+
+    boton.onclick = function() {
+
+      // ENTRADAS
+
+      let base_imponible = base.value * 1;
+      let cantidad_impuesto = impuesto.value * 1;
+
+      if (
+        base.value === "" ||
+        impuesto.value === "" ||
+        !Number.isFinite(base_imponible) ||
+        !Number.isFinite(cantidad_impuesto) ||
+        base_imponible < 0 ||
+        cantidad_impuesto < 0 ||
+        cantidad_impuesto > 100
+      ) {
+        alert("Introduce una base válida y un IVA entre 0 y 100.");
+        return;
+      }
+
+      // CÁLCULOS
+
+      let total_iva =
+        base_imponible * (cantidad_impuesto / 100);
+
+      let total = base_imponible + total_iva;
+
+      // SALIDAS
+
+      resultado_base.textContent = euros(base_imponible);
+
+      resultado_porcentaje.textContent =
+        cantidad_impuesto + "%";
+
+      resultado_iva.textContent = euros(total_iva);
+
+      salida.textContent = euros(total);
+
+    };
+
+
+    // BOTONES RÁPIDOS DE IVA
+
+    porcentajes.forEach(function(boton_iva) {
+
+      boton_iva.onclick = function() {
+
+        impuesto.value = boton_iva.dataset.iva;
+
+        porcentajes.forEach(function(b) {
+          b.classList.remove("activo");
+        });
+
+        boton_iva.classList.add("activo");
+
+        boton.click();
+
+      };
+
+    });
+
+
+    // RECALCULAR AL CAMBIAR LOS VALORES
+
+    base.oninput = function() {
+      boton.click();
+    };
+
+    impuesto.oninput = function() {
+
+      porcentajes.forEach(function(b) {
+        b.classList.toggle(
+          "activo",
+          b.dataset.iva == impuesto.value
+        );
+      });
+
+      boton.click();
+
+    };
+
+  </script>
+
+</body>
+</html>

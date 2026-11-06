@@ -1,0 +1,22 @@
+<!doctype html>
+  <html>
+  	<head>
+    </head>
+    <body>
+    <header>
+    	<h1>La tienda de Jose Vicente</h1>
+    </header>
+    <main>
+      {% for producto in productos %}
+      <article>
+      	<h3>{{producto.nombre}}</h3>
+        <p>{{producto.descripcion}}</p>
+        <p>{{producto.precio}}</p>
+      </article>
+      {% endfor %}
+    </main>
+    <footer>
+      (c) 2026 Jose Vicente Carratala
+    </footer>
+  </body>
+</html>

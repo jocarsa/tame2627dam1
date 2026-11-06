@@ -1,0 +1,56 @@
+Datetime: 2026-10-26T18:52:15.809Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/012-jocarsa_blog_mejorado
+Command: python3 001-miniflask.py
+
+Result:
+ * Serving Flask app '001-miniflask'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [26/Oct/2026 19:51:35] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 19:51:35] "GET /static/estilo.css HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2026 19:51:35] "GET /static/codigo.js HTTP/1.1" 200 -
+[2026-10-26 19:51:35,325] ERROR in app: Exception on /articulos [GET]
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Access denied for user 'blogdamtame2627'@'localhost' (using password: NO)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/012-jocarsa_blog_mejorado/001-miniflask.py", line 30, in articulos
+    return jsonify(consultar('SELECT id,titulo,fecha,contenido FROM articulos ORDER BY fecha DESC,id DESC'))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/012-jocarsa_blog_mejorado/001-miniflask.py", line 13, in consultar
+    db = conexion()
+         ^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/012-jocarsa_blog_mejorado/001-miniflask.py", line 10, in conexion
+    return mysql.connector.connect(host=os.getenv('DB_HOST','localhost'), user=os.getenv('DB_USER','blogdamtame2627'), password=os.getenv('DB_PASSWORD',''), database=os.getenv('DB_NAME','blogdamtame2627'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.ProgrammingError: 1045 (28000): Access denied for user 'blogdamtame2627'@'localhost' (using password: NO)
+127.0.0.1 - - [26/Oct/2026 19:51:35] "GET /articulos HTTP/1.1" 500 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/
+010-Flask/012-jocarsa_blog_mejorado$ 

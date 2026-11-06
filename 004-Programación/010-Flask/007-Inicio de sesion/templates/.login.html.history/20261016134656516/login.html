@@ -1,0 +1,110 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JOCARSA | Acceso</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter,Arial,sans-serif;
+  background:#f3f5f9;
+  color:#172033;
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+}
+.contenedor{
+  width:min(950px,94%);
+  min-height:530px;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  background:white;
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 20px 60px #17203318;
+}
+.presentacion{
+  background:linear-gradient(140deg,#101d39,#334f9e);
+  color:white;
+  padding:55px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.logo{font-size:25px;font-weight:800;letter-spacing:3px}
+.presentacion h1{font-size:38px;line-height:1.2}
+.presentacion p{color:#c5d2f2;line-height:1.8}
+.formulario{
+  padding:65px 55px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+h2{font-size:29px;margin-bottom:8px}
+.subtitulo{color:#8290a5;margin-bottom:35px}
+label{display:block;margin:20px 0 9px;font-weight:600}
+input{
+  width:100%;
+  padding:15px;
+  border:1px solid #dce2ed;
+  border-radius:9px;
+  font-size:15px;
+  outline:none;
+}
+input:focus{border-color:#526bd4}
+button{
+  width:100%;
+  margin-top:30px;
+  padding:16px;
+  border:0;
+  border-radius:9px;
+  background:#425ed0;
+  color:white;
+  font-size:16px;
+  font-weight:700;
+  cursor:pointer;
+}
+button:hover{background:#304bb8}
+.pie{margin-top:35px;text-align:center;color:#9aa4b5;font-size:12px}
+@media(max-width:700px){
+  .contenedor{grid-template-columns:1fr}
+  .presentacion{padding:25px;min-height:160px}
+  .presentacion h1{font-size:24px}
+  .formulario{padding:35px}
+}
+</style>
+</head>
+<body>
+<div class="contenedor">
+  <section class="presentacion">
+    <div class="logo">JOCARSA</div>
+    <div>
+      <h1>Tu espacio de trabajo digital.</h1>
+      <p>Gestiona tus proyectos, analiza tus datos
+      y controla tu actividad desde un único lugar.</p>
+    </div>
+    <small>© 2026 JOCARSA</small>
+  </section>
+
+  <section class="formulario">
+    <h2>Bienvenido</h2>
+    <p class="subtitulo">Accede a tu panel de administración</p>
+    <form method="POST" action="{{ url_for('iniciar_sesion') }}">
+      <label>Usuario</label>
+      <input type="text" name="usuario"
+             placeholder="Introduce tu usuario" required autofocus>
+
+      <label>Contraseña</label>
+      <input type="password" name="contrasena"
+             placeholder="Introduce tu contraseña" required>
+
+      <button type="submit">Iniciar sesión →</button>
+    </form>
+    <div class="pie">Plataforma de gestión · Versión 1.0</div>
+  </section>
+</div>
+</body>
+</html>

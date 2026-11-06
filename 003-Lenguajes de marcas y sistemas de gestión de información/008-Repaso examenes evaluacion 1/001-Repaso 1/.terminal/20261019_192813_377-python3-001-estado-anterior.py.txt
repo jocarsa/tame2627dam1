@@ -1,0 +1,28 @@
+Datetime: 2026-10-19T17:28:13.377Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/008-Repaso examenes evaluacion 1/001-Repaso 1
+Command: python3 001-estado\ anterior.py
+
+Result:
+ * Serving Flask app '001-estado anterior'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [19/Oct/2026 19:27:12] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:12] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:27:12] "GET /static/front.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:12] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:27:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:43] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:27:43] "GET /static/front.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:43] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:27:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:57] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:27:57] "GET /static/front.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:27:57] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:28:10] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:28:10] "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 -
+127.0.0.1 - - [19/Oct/2026 19:28:10] "GET /static/front.css HTTP/1.1" 200 -
+127.0.0.1 - - [19/Oct/2026 19:28:10] "GET /favicon.ico HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/0
+03-Lenguajes de marcas y sistemas de gestión de información/008-Repaso examenes evaluacion 1/001-Repaso 1$ 

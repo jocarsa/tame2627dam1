@@ -1,0 +1,7 @@
+Datetime: 2026-10-19T16:14:06.663Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/011-Repasos examen evaluacion 1/001-Repaso 1
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación
+/011-Repasos examen evaluacion 1/001-Repaso 1$ 

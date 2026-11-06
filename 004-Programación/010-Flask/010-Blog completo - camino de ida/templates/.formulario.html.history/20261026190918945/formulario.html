@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Crear un nuevo artículo</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/admin.css">
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="/nuevo">Nuevo articulo</a>
+        <a href="/listado">Listado de artículos</a>
+      </nav>
+      <section>
+        <h3>Nuevo artículo</h3>
+        <form action="/inserta" method="POST">
+          <label for="titulo">Inserta el titulo del artículo</label>
+          <input type="text" name="tiulo" id="titulo">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

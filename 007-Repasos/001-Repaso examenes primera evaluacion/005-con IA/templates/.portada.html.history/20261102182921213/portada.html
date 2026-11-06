@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>El periódico de Jose Vicente</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <div class="paper">
+
+      <div class="kicker-bar">
+        <span>Edición matinal</span>
+        <span>El periódico de Jose Vicente</span>
+        <span>www.josevicente.news</span>
+      </div>
+
+      <header>
+        <h1>El Periódico <span class="amp">de</span> Jose Vicente</h1>
+        <p class="lema">Noticias de actualidad — Veraz, independiente y con estilo</p>
+        <div class="fecha-bar">
+          <span>{{ fecha }}</span>
+          <span class="precio">1,20 €</span>
+          <span>Madrid · España</span>
+        </div>
+      </header>
+
+      <main>
+        {% for noticia in noticias %}
+
+          {% if loop.first %}
+          <!-- Noticia principal -->
+          <article class="lead">
+            <span class="byline">{{ noticia.autor }}</span>
+            <h2>{{ noticia.titulo }}</h2>
+            <figure class="foto">
+              {% if noticia.imagen %}
+              <img src="static/img/{{ noticia.imagen }}" alt="{{ noticia.titulo }}">
+              {% endif %}
+              <figcaption>{{ noticia.titulo }}</figcaption>
+            </figure>
+            <p class="entradilla">{{ noticia.entradilla }}</p>
+            <div class="texto">
+              <p>{{ noticia.texto }}</p>
+            </div>
+          </article>
+          {% elif loop.index <= 3 %}
+          <!-- Destacadas -->
+          <article class="mini destacada">
+            <span class="tag">{{ noticia.seccion }}</span>
+            <h3>{{ noticia.titulo }}</h3>
+            <p>{{ noticia.texto }}</p>
+          </article>
+          {% else %}
+          <!-- Resto de noticias -->
+          <article class="mini">
+            <span class="tag">{{ noticia.seccion }}</span>
+            <h3>{{ noticia.titulo }}</h3>
+            <p>{{ noticia.texto }}</p>
+          </article>
+          {% endif %}
+
+        {% endfor %}
+      </main>
+
+      <footer>
+        <span>&copy; 2026 Jose Vicente Carratala</span>
+        <span>Impreso en HTML y CSS</span>
+      </footer>
+
+    </div>
+  </body>
+</html>

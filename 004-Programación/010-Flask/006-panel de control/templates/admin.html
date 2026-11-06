@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+
+:root{--primary:#4f46e5;--primary-dark:#3730a3;--ink:#172033;--muted:#64748b;--line:#e2e8f0;--surface:#fff;--background:#f4f6fb}
+*{box-sizing:border-box}html{min-height:100%}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--background)}
+body{min-height:100vh;display:flex;flex-direction:column}header{padding:24px 36px;background:#171c36;color:white;font-size:1.45rem;font-weight:750;letter-spacing:-.03em;box-shadow:0 3px 18px #11182718}main{display:flex;flex:1;min-height:0}nav{width:240px;flex-shrink:0;background:#202744;padding:26px 14px;display:flex;flex-direction:column;gap:7px}nav a{display:block;padding:13px 16px;border-radius:10px;color:#dbe4ff;text-decoration:none;font-weight:550;transition:background .2s,transform .2s}nav a:hover,nav a:focus-visible{background:#38436c;color:white;transform:translateX(3px)}section{flex:1;min-width:0;padding:36px;overflow:auto}table{width:100%;border-collapse:separate;border-spacing:0;background:white;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 10px 35px #1e293b0b}thead{background:#eef2ff;color:#343b78}th,td{padding:16px 20px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}td{font-size:.93rem;line-height:1.5}tbody tr:nth-child(even){background:#f8faff}tbody tr:hover{background:#eef2ff}tbody tr:last-child td{border-bottom:0}@media(max-width:760px){header{padding:18px}main{flex-direction:column}nav{width:100%;flex-direction:row;overflow-x:auto;padding:12px}nav a{white-space:nowrap}section{padding:16px;overflow-x:auto}table{min-width:650px}}
+
+</style>
+  </head>
+  <body>
+    <header>
+      {{enviotienda}}
+    </header>
+    <main>
+      <nav>
+        <a href="">Productos</a>
+        <a href="">Clientes</a>
+        <a href="">Pedidos</a>
+        <a href="">Categorias</a>
+        <a href="">Devoluciones</a>
+        <a href="">Estadísticas</a>
+        <a href="">Configuración</a>
+      </nav>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th><th>Descripcion</th><th>Precio</th><th>Imagen</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for producto in enviolista %}
+            <tr>
+              <td>{{producto.nombre}}</td><td>{{producto.descripcion}}</td><td>{{producto.precio}}</td><td>{{producto.imagen}}</td>
+            </tr>
+            {% endfor %}
+            
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

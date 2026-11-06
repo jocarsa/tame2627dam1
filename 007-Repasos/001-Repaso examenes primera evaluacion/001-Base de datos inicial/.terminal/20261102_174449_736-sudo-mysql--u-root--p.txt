@@ -1,0 +1,7 @@
+Datetime: 2026-11-02T16:44:49.736Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/001-Base de datos inicial
+Command: sudo mysql -u root -p
+
+Result:
+Bye
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/001-Base de datos inicial$ 

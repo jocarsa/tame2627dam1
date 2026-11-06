@@ -1,0 +1,3 @@
+body{font-family:serif;background:lightgray;}
+header,main,footer{width:800px;background:white;padding:30px;margin:auto;}
+header{text-align:center;}

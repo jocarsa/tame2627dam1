@@ -1,0 +1,7 @@
+Datetime: 2026-11-05T15:55:46.516Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json
+Command: sudo mysql -u root -p
+
+Result:
+Bye
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json$ 

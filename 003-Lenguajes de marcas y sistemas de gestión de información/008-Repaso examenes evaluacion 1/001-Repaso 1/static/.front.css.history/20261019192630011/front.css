@@ -1,0 +1,4 @@
+body{background:grey;}
+header,main,footer{background:white;padding:20px;margin:auto;width:800px;}
+header{text-align:center;}
+main{display:grid;grid-template-columns:repeat(3,1fr);}

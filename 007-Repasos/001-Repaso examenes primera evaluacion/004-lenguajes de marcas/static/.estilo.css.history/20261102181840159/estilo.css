@@ -1,0 +1,5 @@
+body{font-family:serif;background:lightgray;}
+header,main,footer{width:800px;background:white;padding:30px;margin:auto;}
+header{text-align:center;}
+main{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;}
+article p{text-align:justify;}

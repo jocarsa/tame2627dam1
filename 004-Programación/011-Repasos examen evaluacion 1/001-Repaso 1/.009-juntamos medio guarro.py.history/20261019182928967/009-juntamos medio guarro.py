@@ -1,0 +1,51 @@
+from flask import Flask
+import mysql.connector
+
+connection = mysql.connector.connect(
+        host='localhost',
+        user='tiendaexamen',
+        password='TAME123$',
+        database='tiendaexamen'
+    )
+cursor = connection.cursor()
+
+aplicacion = Flask(__name__)
+
+@aplicacion.route("/")
+def inicio():
+	cursor.execute("SELECT * FROM productos;")
+	productos = cursor.fetchall()
+	cadena = """
+  <!doctype html>
+  <html>
+  	<head>
+    </head>
+    <body>
+    <header>
+    	<h1>La tienda de Jose Vicente</h1>
+    </header>
+    <main>
+  """
+	for producto in productos:
+		cadena += """
+    	<article>
+      	<h3>"""+producto[1]+"""</h3>
+        <p>"""+producto[2]+"""</p>
+        <p>"""+producto[3]+""" €</p>
+      </article>
+    """
+	cadena += """
+    </main>
+    <footer>
+      (c) 2026 Jose Vicente Carratala
+    </footer>
+    </body>
+    </html>
+  """
+	return cadena
+  
+if __name__ == "__main__":
+  aplicacion.run()
+  
+cursor.close()
+connection.close()

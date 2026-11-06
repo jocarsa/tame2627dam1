@@ -1,0 +1,30 @@
+Datetime: 2026-10-29T17:09:18.380Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/012-tienda_mejorada
+Command: python3 app.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/012-tienda_mejorada/app.py", line 7, in <module>
+    app.secret_key = os.environ['FLASK_SECRET_KEY']
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 685, in __getitem__
+KeyError: 'FLASK_SECRET_KEY'
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_004-Programación_010-Flask_013-Tienda online_012-tienda_mejorada_app.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online/012-tienda_mejorada/app.py", line 7, in <module>
+    app.secret_key = os.environ['FLASK_SECRET_KEY']
+                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 685, in __getitem__
+KeyError: 'FLASK_SECRET_KEY'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programa
+ción/010-Flask/013-Tienda online/012-tienda_mejorada$ 

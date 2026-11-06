@@ -1,0 +1,57 @@
+Datetime: 2026-10-15T14:49:51.488Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/006-panel de control
+Command: python3 006-pero\ quiero\ un\ diccionario.py
+
+Result:
+{'id': 1, 'nombre': 'Portátil NovaBook 15', 'descripcion': 'Portátil de 15.6 pulgadas con procesador de 8 núcleos, 16 GB de RAM y SSD de 512 GB.', 'imagen': 'portatil01.jpg', 'precio': Decimal('749.99')}
+{'id': 2, 'nombre': 'Portátil UltraTech 14', 'descripcion': 'Ordenador portátil ligero de 14 pulgadas con 8 GB de RAM y SSD de 256 GB.', 'imagen': 'portatil02.jpg', 'precio': Decimal('529.90')}
+{'id': 3, 'nombre': 'Portátil GamerX 17', 'descripcion': 'Portátil gaming de 17 pulgadas con gráfica dedicada, 32 GB de RAM y SSD de 1 TB.', 'imagen': 'portatil03.jpg', 'precio': Decimal('1499.00')}
+{'id': 4, 'nombre': 'Mini PC CompactOne', 'descripcion': 'Miniordenador compacto con procesador de 4 núcleos, 8 GB de RAM y SSD de 256 GB.', 'imagen': 'minipc01.jpg', 'precio': Decimal('289.99')}
+{'id': 5, 'nombre': 'PC Sobremesa OfficePro', 'descripcion': 'Ordenador de sobremesa para oficina con 16 GB de RAM y SSD de 512 GB.', 'imagen': 'pc01.jpg', 'precio': Decimal('599.00')}
+{'id': 6, 'nombre': 'PC Gaming Titan', 'descripcion': 'Equipo gaming con procesador de 12 núcleos, 32 GB de RAM y tarjeta gráfica de 12 GB.', 'imagen': 'pc02.jpg', 'precio': Decimal('1899.00')}
+{'id': 7, 'nombre': 'PC Workstation Pro', 'descripcion': 'Estación de trabajo profesional con 64 GB de RAM y almacenamiento SSD de 2 TB.', 'imagen': 'pc03.jpg', 'precio': Decimal('2499.00')}
+{'id': 8, 'nombre': 'Monitor Vision 24', 'descripcion': 'Monitor LED de 24 pulgadas Full HD con conexión HDMI y DisplayPort.', 'imagen': 'monitor01.jpg', 'precio': Decimal('139.90')}
+{'id': 9, 'nombre': 'Monitor Vision 27', 'descripcion': 'Monitor IPS de 27 pulgadas con resolución QHD y frecuencia de 144 Hz.', 'imagen': 'monitor02.jpg', 'precio': Decimal('279.99')}
+{'id': 10, 'nombre': 'Monitor UltraWide 34', 'descripcion': 'Monitor panorámico curvo de 34 pulgadas con resolución 3440x1440.', 'imagen': 'monitor03.jpg', 'precio': Decimal('499.00')}
+{'id': 11, 'nombre': 'Teclado Mecánico RedFire', 'descripcion': 'Teclado mecánico con iluminación RGB y switches de alta precisión.', 'imagen': 'teclado01.jpg', 'precio': Decimal('79.99')}
+{'id': 12, 'nombre': 'Teclado SlimOffice', 'descripcion': 'Teclado de perfil bajo y conexión USB para uso profesional.', 'imagen': 'teclado02.jpg', 'precio': Decimal('24.90')}
+{'id': 13, 'nombre': 'Teclado Inalámbrico AirKeys', 'descripcion': 'Teclado Bluetooth compacto compatible con Windows, Linux y macOS.', 'imagen': 'teclado03.jpg', 'precio': Decimal('49.99')}
+{'id': 14, 'nombre': 'Ratón Gaming Falcon', 'descripcion': 'Ratón óptico gaming de 16000 DPI con seis botones programables.', 'imagen': 'raton01.jpg', 'precio': Decimal('45.90')}
+{'id': 15, 'nombre': 'Ratón Inalámbrico Silent', 'descripcion': 'Ratón ergonómico inalámbrico con clic silencioso y batería recargable.', 'imagen': 'raton02.jpg', 'precio': Decimal('29.99')}
+{'id': 16, 'nombre': 'Ratón Vertical ErgoPlus', 'descripcion': 'Ratón vertical diseñado para mejorar la ergonomía durante el trabajo.', 'imagen': 'raton03.jpg', 'precio': Decimal('39.90')}
+{'id': 17, 'nombre': 'Auriculares SoundMax', 'descripcion': 'Auriculares estéreo con micrófono integrado y conexión USB.', 'imagen': 'auriculares01.jpg', 'precio': Decimal('34.99')}
+{'id': 18, 'nombre': 'Auriculares Gaming Thunder', 'descripcion': 'Auriculares gaming con sonido envolvente virtual y micrófono ajustable.', 'imagen': 'auriculares02.jpg', 'precio': Decimal('89.90')}
+{'id': 19, 'nombre': 'Auriculares Bluetooth AirSound', 'descripcion': 'Auriculares inalámbricos con cancelación de ruido y autonomía de 30 horas.', 'imagen': 'auriculares03.jpg', 'precio': Decimal('119.00')}
+{'id': 20, 'nombre': 'Altavoces StereoBox', 'descripcion': 'Sistema de altavoces 2.0 para ordenador con potencia de 20 W.', 'imagen': 'altavoces01.jpg', 'precio': Decimal('49.99')}
+{'id': 21, 'nombre': 'Webcam ClearView HD', 'descripcion': 'Cámara web Full HD 1080p con micrófono integrado.', 'imagen': 'webcam01.jpg', 'precio': Decimal('59.90')}
+{'id': 22, 'nombre': 'Webcam StreamPro 4K', 'descripcion': 'Cámara web 4K para videoconferencias y retransmisiones en directo.', 'imagen': 'webcam02.jpg', 'precio': Decimal('149.00')}
+{'id': 23, 'nombre': 'Micrófono USB VoicePro', 'descripcion': 'Micrófono de condensador USB con soporte de sobremesa.', 'imagen': 'microfono01.jpg', 'precio': Decimal('69.99')}
+{'id': 24, 'nombre': 'Micrófono StudioCast', 'descripcion': 'Micrófono profesional con filtro antipop y brazo articulado.', 'imagen': 'microfono02.jpg', 'precio': Decimal('129.90')}
+{'id': 25, 'nombre': 'Disco SSD FlashDrive 500GB', 'descripcion': 'Unidad SSD SATA de 500 GB con velocidad de lectura de 550 MB/s.', 'imagen': 'ssd01.jpg', 'precio': Decimal('49.99')}
+{'id': 26, 'nombre': 'Disco SSD TurboNVMe 1TB', 'descripcion': 'Unidad SSD NVMe de 1 TB con velocidad de lectura de hasta 3500 MB/s.', 'imagen': 'ssd02.jpg', 'precio': Decimal('89.90')}
+{'id': 27, 'nombre': 'Disco SSD HyperSpeed 2TB', 'descripcion': 'Unidad SSD NVMe PCIe 4.0 de 2 TB para equipos de alto rendimiento.', 'imagen': 'ssd03.jpg', 'precio': Decimal('179.99')}
+{'id': 28, 'nombre': 'Disco HDD DataStore 2TB', 'descripcion': 'Disco duro mecánico de 2 TB y 7200 RPM para almacenamiento masivo.', 'imagen': 'hdd01.jpg', 'precio': Decimal('69.90')}
+{'id': 29, 'nombre': 'Disco Externo PocketDisk 1TB', 'descripcion': 'Disco duro externo USB 3.0 de 1 TB con diseño compacto.', 'imagen': 'externo01.jpg', 'precio': Decimal('64.99')}
+{'id': 30, 'nombre': 'Memoria USB FlashGo 128GB', 'descripcion': 'Memoria USB 3.2 de 128 GB con carcasa metálica.', 'imagen': 'usb01.jpg', 'precio': Decimal('19.99')}
+{'id': 31, 'nombre': 'Memoria RAM SpeedCore 16GB', 'descripcion': 'Módulo de memoria DDR4 de 16 GB a 3200 MHz.', 'imagen': 'ram01.jpg', 'precio': Decimal('54.90')}
+{'id': 32, 'nombre': 'Memoria RAM HyperCore 32GB', 'descripcion': 'Kit de memoria DDR5 de 32 GB a 5600 MHz.', 'imagen': 'ram02.jpg', 'precio': Decimal('139.99')}
+{'id': 33, 'nombre': 'Procesador CoreMax 6', 'descripcion': 'Procesador de 6 núcleos y 12 hilos con frecuencia turbo de 4.5 GHz.', 'imagen': 'cpu01.jpg', 'precio': Decimal('189.00')}
+{'id': 34, 'nombre': 'Procesador CoreMax 12', 'descripcion': 'Procesador de 12 núcleos y 24 hilos para aplicaciones exigentes.', 'imagen': 'cpu02.jpg', 'precio': Decimal('429.99')}
+{'id': 35, 'nombre': 'Placa Base TechBoard B650', 'descripcion': 'Placa base ATX con soporte DDR5, PCIe 4.0 y conectividad USB-C.', 'imagen': 'placa01.jpg', 'precio': Decimal('169.90')}
+{'id': 36, 'nombre': 'Tarjeta Gráfica PixelForce 8GB', 'descripcion': 'Tarjeta gráfica dedicada de 8 GB para videojuegos y edición multimedia.', 'imagen': 'gpu01.jpg', 'precio': Decimal('329.99')}
+{'id': 37, 'nombre': 'Tarjeta Gráfica PixelForce 16GB', 'descripcion': 'Tarjeta gráfica de 16 GB con aceleración de ray tracing.', 'imagen': 'gpu02.jpg', 'precio': Decimal('699.00')}
+{'id': 38, 'nombre': 'Fuente Alimentación PowerMax 650W', 'descripcion': 'Fuente de alimentación de 650 W con certificación 80 Plus Bronze.', 'imagen': 'fuente01.jpg', 'precio': Decimal('79.90')}
+{'id': 39, 'nombre': 'Fuente Alimentación PowerMax 850W', 'descripcion': 'Fuente modular de 850 W con certificación 80 Plus Gold.', 'imagen': 'fuente02.jpg', 'precio': Decimal('139.99')}
+{'id': 40, 'nombre': 'Caja Gaming CrystalRGB', 'descripcion': 'Caja ATX con panel lateral de cristal templado y ventiladores RGB.', 'imagen': 'caja01.jpg', 'precio': Decimal('99.90')}
+{'id': 41, 'nombre': 'Refrigeración Líquida AquaCool 240', 'descripcion': 'Sistema de refrigeración líquida con radiador de 240 mm.', 'imagen': 'refrigeracion01.jpg', 'precio': Decimal('119.99')}
+{'id': 42, 'nombre': 'Ventilador SilentFan 120', 'descripcion': 'Ventilador de 120 mm con funcionamiento silencioso.', 'imagen': 'ventilador01.jpg', 'precio': Decimal('14.99')}
+{'id': 43, 'nombre': 'Router WiFi 6 NetWave', 'descripcion': 'Router inalámbrico WiFi 6 de doble banda con cuatro puertos Gigabit.', 'imagen': 'router01.jpg', 'precio': Decimal('89.90')}
+{'id': 44, 'nombre': 'Switch Gigabit NetHub 8', 'descripcion': 'Switch de red con ocho puertos Ethernet Gigabit.', 'imagen': 'switch01.jpg', 'precio': Decimal('39.99')}
+{'id': 45, 'nombre': 'Adaptador WiFi USB AirConnect', 'descripcion': 'Adaptador inalámbrico USB de doble banda para ordenadores.', 'imagen': 'wifi01.jpg', 'precio': Decimal('24.90')}
+{'id': 46, 'nombre': 'Cable HDMI UltraHD 2m', 'descripcion': 'Cable HDMI de 2 metros compatible con resolución 4K.', 'imagen': 'cable01.jpg', 'precio': Decimal('12.99')}
+{'id': 47, 'nombre': 'Hub USB-C MultiPort', 'descripcion': 'Adaptador USB-C con HDMI, USB 3.0 y lector de tarjetas.', 'imagen': 'hub01.jpg', 'precio': Decimal('44.90')}
+{'id': 48, 'nombre': 'Base Refrigeradora CoolPad', 'descripcion': 'Base refrigeradora para portátiles de hasta 17 pulgadas.', 'imagen': 'base01.jpg', 'precio': Decimal('34.99')}
+{'id': 49, 'nombre': 'Silla Gaming ErgoSeat', 'descripcion': 'Silla ergonómica gaming con respaldo reclinable y reposabrazos ajustables.', 'imagen': 'silla01.jpg', 'precio': Decimal('219.00')}
+{'id': 50, 'nombre': 'Impresora LaserPrint 200', 'descripcion': 'Impresora láser monocromo con conexión USB y WiFi.', 'imagen': 'impresora01.jpg', 'precio': Decimal('159.90')}
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/006-panel de 
+control$ 

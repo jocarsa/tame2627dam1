@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>El blog de Jose Vicente</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Jose Vicente Carratala</h1>
+      <h2>Blog personal</h2>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      let principal = document.querySelector("main")
+      fetch("/articulos")
+      .then(function(resultado){return resultado.json()}) // Lo que viene, viene como json
+      .then(function(datos){
+      	datos.forEach(function(articulo){ // Para cada uno de los articulos que han llegado
+          // A principal, añadele algo
+        	principal.innerHTML += `
+          
+          `
+        })
+      })
+    </script>
+  </body>
+</html>

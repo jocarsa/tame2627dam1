@@ -1,0 +1,60 @@
+INSERT INTO productos (nombre, descripcion, imagen, precio) VALUES
+('Portátil NovaBook 15', 'Portátil de 15.6 pulgadas con procesador de 8 núcleos, 16 GB de RAM y SSD de 512 GB.', 'portatil01.jpg', 749.99),
+('Portátil UltraTech 14', 'Ordenador portátil ligero de 14 pulgadas con 8 GB de RAM y SSD de 256 GB.', 'portatil02.jpg', 529.90),
+('Portátil GamerX 17', 'Portátil gaming de 17 pulgadas con gráfica dedicada, 32 GB de RAM y SSD de 1 TB.', 'portatil03.jpg', 1499.00),
+('Mini PC CompactOne', 'Miniordenador compacto con procesador de 4 núcleos, 8 GB de RAM y SSD de 256 GB.', 'minipc01.jpg', 289.99),
+('PC Sobremesa OfficePro', 'Ordenador de sobremesa para oficina con 16 GB de RAM y SSD de 512 GB.', 'pc01.jpg', 599.00),
+
+('PC Gaming Titan', 'Equipo gaming con procesador de 12 núcleos, 32 GB de RAM y tarjeta gráfica de 12 GB.', 'pc02.jpg', 1899.00),
+('PC Workstation Pro', 'Estación de trabajo profesional con 64 GB de RAM y almacenamiento SSD de 2 TB.', 'pc03.jpg', 2499.00),
+('Monitor Vision 24', 'Monitor LED de 24 pulgadas Full HD con conexión HDMI y DisplayPort.', 'monitor01.jpg', 139.90),
+('Monitor Vision 27', 'Monitor IPS de 27 pulgadas con resolución QHD y frecuencia de 144 Hz.', 'monitor02.jpg', 279.99),
+('Monitor UltraWide 34', 'Monitor panorámico curvo de 34 pulgadas con resolución 3440x1440.', 'monitor03.jpg', 499.00),
+
+('Teclado Mecánico RedFire', 'Teclado mecánico con iluminación RGB y switches de alta precisión.', 'teclado01.jpg', 79.99),
+('Teclado SlimOffice', 'Teclado de perfil bajo y conexión USB para uso profesional.', 'teclado02.jpg', 24.90),
+('Teclado Inalámbrico AirKeys', 'Teclado Bluetooth compacto compatible con Windows, Linux y macOS.', 'teclado03.jpg', 49.99),
+('Ratón Gaming Falcon', 'Ratón óptico gaming de 16000 DPI con seis botones programables.', 'raton01.jpg', 45.90),
+('Ratón Inalámbrico Silent', 'Ratón ergonómico inalámbrico con clic silencioso y batería recargable.', 'raton02.jpg', 29.99),
+
+('Ratón Vertical ErgoPlus', 'Ratón vertical diseñado para mejorar la ergonomía durante el trabajo.', 'raton03.jpg', 39.90),
+('Auriculares SoundMax', 'Auriculares estéreo con micrófono integrado y conexión USB.', 'auriculares01.jpg', 34.99),
+('Auriculares Gaming Thunder', 'Auriculares gaming con sonido envolvente virtual y micrófono ajustable.', 'auriculares02.jpg', 89.90),
+('Auriculares Bluetooth AirSound', 'Auriculares inalámbricos con cancelación de ruido y autonomía de 30 horas.', 'auriculares03.jpg', 119.00),
+('Altavoces StereoBox', 'Sistema de altavoces 2.0 para ordenador con potencia de 20 W.', 'altavoces01.jpg', 49.99),
+
+('Webcam ClearView HD', 'Cámara web Full HD 1080p con micrófono integrado.', 'webcam01.jpg', 59.90),
+('Webcam StreamPro 4K', 'Cámara web 4K para videoconferencias y retransmisiones en directo.', 'webcam02.jpg', 149.00),
+('Micrófono USB VoicePro', 'Micrófono de condensador USB con soporte de sobremesa.', 'microfono01.jpg', 69.99),
+('Micrófono StudioCast', 'Micrófono profesional con filtro antipop y brazo articulado.', 'microfono02.jpg', 129.90),
+('Disco SSD FlashDrive 500GB', 'Unidad SSD SATA de 500 GB con velocidad de lectura de 550 MB/s.', 'ssd01.jpg', 49.99),
+
+('Disco SSD TurboNVMe 1TB', 'Unidad SSD NVMe de 1 TB con velocidad de lectura de hasta 3500 MB/s.', 'ssd02.jpg', 89.90),
+('Disco SSD HyperSpeed 2TB', 'Unidad SSD NVMe PCIe 4.0 de 2 TB para equipos de alto rendimiento.', 'ssd03.jpg', 179.99),
+('Disco HDD DataStore 2TB', 'Disco duro mecánico de 2 TB y 7200 RPM para almacenamiento masivo.', 'hdd01.jpg', 69.90),
+('Disco Externo PocketDisk 1TB', 'Disco duro externo USB 3.0 de 1 TB con diseño compacto.', 'externo01.jpg', 64.99),
+('Memoria USB FlashGo 128GB', 'Memoria USB 3.2 de 128 GB con carcasa metálica.', 'usb01.jpg', 19.99),
+
+('Memoria RAM SpeedCore 16GB', 'Módulo de memoria DDR4 de 16 GB a 3200 MHz.', 'ram01.jpg', 54.90),
+('Memoria RAM HyperCore 32GB', 'Kit de memoria DDR5 de 32 GB a 5600 MHz.', 'ram02.jpg', 139.99),
+('Procesador CoreMax 6', 'Procesador de 6 núcleos y 12 hilos con frecuencia turbo de 4.5 GHz.', 'cpu01.jpg', 189.00),
+('Procesador CoreMax 12', 'Procesador de 12 núcleos y 24 hilos para aplicaciones exigentes.', 'cpu02.jpg', 429.99),
+('Placa Base TechBoard B650', 'Placa base ATX con soporte DDR5, PCIe 4.0 y conectividad USB-C.', 'placa01.jpg', 169.90),
+
+('Tarjeta Gráfica PixelForce 8GB', 'Tarjeta gráfica dedicada de 8 GB para videojuegos y edición multimedia.', 'gpu01.jpg', 329.99),
+('Tarjeta Gráfica PixelForce 16GB', 'Tarjeta gráfica de 16 GB con aceleración de ray tracing.', 'gpu02.jpg', 699.00),
+('Fuente Alimentación PowerMax 650W', 'Fuente de alimentación de 650 W con certificación 80 Plus Bronze.', 'fuente01.jpg', 79.90),
+('Fuente Alimentación PowerMax 850W', 'Fuente modular de 850 W con certificación 80 Plus Gold.', 'fuente02.jpg', 139.99),
+('Caja Gaming CrystalRGB', 'Caja ATX con panel lateral de cristal templado y ventiladores RGB.', 'caja01.jpg', 99.90),
+
+('Refrigeración Líquida AquaCool 240', 'Sistema de refrigeración líquida con radiador de 240 mm.', 'refrigeracion01.jpg', 119.99),
+('Ventilador SilentFan 120', 'Ventilador de 120 mm con funcionamiento silencioso.', 'ventilador01.jpg', 14.99),
+('Router WiFi 6 NetWave', 'Router inalámbrico WiFi 6 de doble banda con cuatro puertos Gigabit.', 'router01.jpg', 89.90),
+('Switch Gigabit NetHub 8', 'Switch de red con ocho puertos Ethernet Gigabit.', 'switch01.jpg', 39.99),
+('Adaptador WiFi USB AirConnect', 'Adaptador inalámbrico USB de doble banda para ordenadores.', 'wifi01.jpg', 24.90),
+
+('Cable HDMI UltraHD 2m', 'Cable HDMI de 2 metros compatible con resolución 4K.', 'cable01.jpg', 12.99),
+('Hub USB-C MultiPort', 'Adaptador USB-C con HDMI, USB 3.0 y lector de tarjetas.', 'hub01.jpg', 44.90),
+('Base Refrigeradora CoolPad', 'Base refrigeradora para portátiles de hasta 17 pulgadas.', 'base01.jpg', 34.99),
+('Silla Gaming ErgoSeat', 'Silla ergonómica gaming con respaldo reclinable y reposabrazos ajustables.', 'silla01.jpg', 219.00),
+('Impresora LaserPrint 200', 'Impresora láser monocromo con conexión USB y WiFi.', 'impresora01.jpg', 159.90);

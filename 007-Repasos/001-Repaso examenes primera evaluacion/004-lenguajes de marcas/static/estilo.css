@@ -1,0 +1,6 @@
+body{font-family:serif;background:LightBlue;}
+header,main,footer{width:1200px;background:white;padding:30px;margin:auto;}
+header{text-align:center;}
+main{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+article p{text-align:justify;}
+h1,h2,h3{color:indigo;}

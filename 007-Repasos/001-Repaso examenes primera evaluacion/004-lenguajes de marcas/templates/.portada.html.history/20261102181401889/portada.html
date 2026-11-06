@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>El periódico de Jose Vicente</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+  </body>
+</html>
+
+<h1>Esto es un periódico</h1>
+{% for noticia in noticias %}
+<h3>{{noticia.titulo}}</h3>
+<time>{{noticia.fecha}}</time>
+<p>{{noticia.autor}}</p>
+<p>{{noticia.texto}}</p>
+{% endfor %}

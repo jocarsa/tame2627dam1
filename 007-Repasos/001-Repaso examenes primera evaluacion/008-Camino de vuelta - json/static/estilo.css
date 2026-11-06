@@ -1,0 +1,3 @@
+body,html{background:lightgray;}
+header,main,footer{background:white;padding:50px;margin:auto;width:800px;}
+section{display:flex;flex-direction:column;gap:10px;}

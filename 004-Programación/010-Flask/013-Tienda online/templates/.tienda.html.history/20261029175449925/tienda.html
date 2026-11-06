@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>La tienda de Jose Vicente</h1>
+      <h2>Artículos deportivos</h2>
+    </header>
+    <main>
+      
+    </main>
+    <footer>
+    </footer>
+    <aside>
+      <button id="procesarpedido">Insertar el pedido en la base de datos</button>
+    </aside>
+    <script>
+      // Creo un carrito de compra vacío
+      let carrito = 0
+      // Seleccionamos el contenedor porque es donde vamos a pintar cosas
+      let contenedor = document.querySelector("main")
+      fetch("/datos") // Vete y busca los datos y traemelos
+      .then(function(resultado){return resultado.json()}) // Lo que viene, viene en JSON
+      .then(function(datos){	// Vamos a ver qué es lo que viene
+      	console.log(datos)
+        // ahora repaso uno a uno los productos
+        datos.forEach(function(producto){ 
+          // Y pinto cada producto dentro del contenedor - uso el truco opentick para multilinea
+        	contenedor.innerHTML += `
+          	<article>
+            	<h3>`+producto.nombre+`</h3>
+              <p>`+producto.descripcion+`</p>
+              <button>`+producto.precio+`</button>
+            </article>
+          `
+        })
+        // Cojo los botones SOLO cuando los hayan pintado
+        let botones = document.querySelectorAll("button") // No cojo un boton, cojo TODOS los botones
+        // Y ahora quiero escuchar a cada uno de los botones
+        botones.forEach(function(boton){
+          // Quiero escuchar si alguien hace click en los botones
+          boton.onclick = function(){
+            console.log("Me has hecho click")
+            carrito += boton.textContent*1
+            console.log(carrito)
+          }
+        })
+      })
+      // Cojo, no cualquier boton, sino el boton que está en el aside
+      let botonprocesar = document.querySelector("#procesarpedido")
+      // Cuando pulse el boton procesar, vamos a ver qué hacemos
+      botonprocesar.onclick = function(){
+        console.log("Vamos alla")
+      	fetch("/insertarpedido?total="+carrito)
+      }
+    </script>
+  </body>
+</html>
+
+
+
+
+

@@ -1,0 +1,94 @@
+Datetime: 2026-11-02T16:50:46.033Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil
+Command: python3 003-ahora\ render\ template.py
+
+Result:
+ * Serving Flask app '003-ahora render template'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+[2026-11-02 17:50:20,697] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil/003-ahora render template.py", line 19, in inicio
+    return render_template("portada.html",noticias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render_template() takes 1 positional argument but 2 were given
+127.0.0.1 - - [02/Nov/2026 17:50:20] "GET / HTTP/1.1" 500 -
+[2026-11-02 17:50:20,848] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil/003-ahora render template.py", line 19, in inicio
+    return render_template("portada.html",noticias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: render_template() takes 1 positional argument but 2 were given
+127.0.0.1 - - [02/Nov/2026 17:50:20] "GET / HTTP/1.1" 500 -
+127.0.0.1 - - [02/Nov/2026 17:50:20] "GET /favicon.ico HTTP/1.1" 404 -
+^C^CTraceback (most recent call last):
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil/003-ahora render template.py", line 25, in <module>
+    cursor.close()
+    ^^^^^^
+NameError: name 'cursor' is not defined
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 123, in apport_excepthook
+    report.add_package_info()
+  File "/usr/lib/python3/dist-packages/apport/report.py", line 442, in add_package_info
+    package = apport.fileutils.find_file_package(self["ExecutablePath"])
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport/fileutils.py", line 175, in find_file_package
+    return packaging.get_file_package(file)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport/packaging_impl/apt_dpkg.py", line 657, in get_file_package
+    match = self.__fgrep_files(file, all_lists)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport/packaging_impl/apt_dpkg.py", line 599, in __fgrep_files
+    fgrep = subprocess.run(
+            ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 2115, in _communicate
+    ready = selector.select(timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil/003-ahora render template.py", line 25, in <module>
+    cursor.close()
+    ^^^^^^
+NameError: name 'cursor' is not defined
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/002-camino de vuelta - facil$ 

@@ -1,0 +1,15 @@
+Datetime: 2026-10-29T16:17:49.190Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online
+Command: python3 006-repaso\ jsonify.py
+
+Result:
+ * Serving Flask app '006-repaso jsonify'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+[{'id': 1, 'nombre': 'Balón de fútbol Adidas', 'descripcion': 'Balón de fútbol tamaño 5', 'precio': Decimal('29.99')}, {'id': 2, 'nombre': 'Balón de baloncesto Nike', 'descripcion': 'Balón de baloncesto de cuero sintético', 'precio': Decimal('34.50')}, {'id': 3, 'nombre': 'Raqueta de tenis Wilson', 'descripcion': 'Raqueta de tenis para principiantes', 'precio': Decimal('89.99')}, {'id': 4, 'nombre': 'Zapatillas running Asics', 'descripcion': 'Zapatillas ligeras para correr', 'precio': Decimal('119.95')}, {'id': 5, 'nombre': 'Mancuernas 5 kg', 'descripcion': 'Juego de dos mancuernas de 5 kg', 'precio': Decimal('39.99')}, {'id': 6, 'nombre': 'Esterilla de yoga', 'descripcion': 'Esterilla antideslizante de 6 mm', 'precio': Decimal('19.95')}, {'id': 7, 'nombre': 'Bicicleta de montaña', 'descripcion': 'Bicicleta MTB de 21 velocidades', 'precio': Decimal('499.00')}, {'id': 8, 'nombre': 'Casco de ciclismo', 'descripcion': 'Casco ligero con ventilación', 'precio': Decimal('45.90')}, {'id': 9, 'nombre': 'Guantes de boxeo', 'descripcion': 'Guantes de entrenamiento de 12 oz', 'precio': Decimal('49.99')}, {'id': 10, 'nombre': 'Cuerda para saltar', 'descripcion': 'Comba ajustable para entrenamiento', 'precio': Decimal('12.50')}, {'id': 11, 'nombre': 'Gafas de natación', 'descripcion': 'Gafas con protección antivaho', 'precio': Decimal('18.95')}, {'id': 12, 'nombre': 'Aletas de natación', 'descripcion': 'Aletas cortas para entrenamiento', 'precio': Decimal('32.00')}, {'id': 13, 'nombre': 'Mochila deportiva', 'descripcion': 'Mochila de 30 litros impermeable', 'precio': Decimal('44.95')}, {'id': 14, 'nombre': 'Balón de voleibol', 'descripcion': 'Balón oficial de voleibol', 'precio': Decimal('27.99')}, {'id': 15, 'nombre': 'Patines en línea', 'descripcion': 'Patines ajustables con ruedas de 80 mm', 'precio': Decimal('129.00')}, {'id': 16, 'nombre': 'Tabla de skate', 'descripcion': 'Monopatín de madera de arce', 'precio': Decimal('79.95')}, {'id': 17, 'nombre': 'Banda elástica', 'descripcion': 'Banda de resistencia para ejercicios', 'precio': Decimal('14.99')}, {'id': 18, 'nombre': 'Pesa rusa 12 kg', 'descripcion': 'Kettlebell de hierro fundido', 'precio': Decimal('54.90')}, {'id': 19, 'nombre': 'Red de bádminton', 'descripcion': 'Red portátil con soportes', 'precio': Decimal('39.50')}, {'id': 20, 'nombre': 'Reloj deportivo', 'descripcion': 'Reloj con cronómetro y pulsómetro', 'precio': Decimal('159.99')}]
+127.0.0.1 - - [29/Oct/2026 17:17:32] "GET /datos HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 17:17:32] "GET /favicon.ico HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Fl
+ask/013-Tienda online$ 

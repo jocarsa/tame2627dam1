@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>La tienda de Jose Vicente</h1>
+      <h2>Artículos deportivos</h2>
+    </header>
+    <main>
+      
+    </main>
+    <footer>
+    </footer>
+    <script>
+      fetch("/datos") // Vete y busca los datos y traemelos
+      .then(function(resultado){return resultado.json()}) // Lo que viene, viene en JSON
+      .then(function(datos){	// Vamos a ver qué es lo que viene
+      	console.log(datos)
+        datos.forEach(function(producto){ // ahora repaso uno a uno los productos
+        	
+        })
+      })
+    </script>
+  </body>
+</html>

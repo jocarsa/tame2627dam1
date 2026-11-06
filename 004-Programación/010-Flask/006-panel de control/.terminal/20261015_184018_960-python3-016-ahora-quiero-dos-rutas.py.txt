@@ -1,0 +1,41 @@
+Datetime: 2026-10-15T16:40:18.960Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/006-panel de control
+Command: python3 016-ahora\ quiero\ dos\ rutas.py
+
+Result:
+ * Serving Flask app '016-ahora quiero dos rutas'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [15/Oct/2026 18:39:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Oct/2026 18:39:54] "GET /favicon.ico HTTP/1.1" 404 -
+[2026-10-15 18:40:03,750] ERROR in app: Exception on /admin [GET]
+Traceback (most recent call last):
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 311, in execute
+    raise ProgrammingError
+mysql.connector.errors.ProgrammingError: Unknown error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/tame2627dam1/004-Programación/010-Flask/006-panel de control/016-ahora quiero dos rutas.py", line 31, in admin
+    cursor.execute("SELECT * FROM productos;")
+  File "/home/josevicente/.local/lib/python3.12/site-packages/mysql/connector/cursor_cext.py", line 313, in execute
+    raise ProgrammingError("Cursor is not connected", 2055) from err
+mysql.connector.errors.ProgrammingError: 2055: Cursor is not connected
+127.0.0.1 - - [15/Oct/2026 18:40:03] "GET /admin HTTP/1.1" 500 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Flask/006-panel de
+ control$ 

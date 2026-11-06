@@ -1,0 +1,23 @@
+Datetime: 2026-11-05T16:04:48.393Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json
+Command: python3 005-ahora\ ruta\ secundaria.py
+
+Result:
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json/005-ahora ruta secundaria.py", line 23
+    return noticias
+TabError: inconsistent use of tabs and spaces in indentation
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_007-Repasos_001-Repaso examenes primera evaluacion_007-camino de ida - json_005-ahora ruta secundaria.py.1000.crash'
+
+Original exception was:
+  File "/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json/005-ahora ruta secundaria.py", line 23
+    return noticias
+TabError: inconsistent use of tabs and spaces in indentation
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/007-camino de ida - json$ 

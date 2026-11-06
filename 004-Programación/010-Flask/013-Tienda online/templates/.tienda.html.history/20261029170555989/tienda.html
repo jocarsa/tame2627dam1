@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Tienda online</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>La tienda de Jose Vicente</h1>
+      <h2>Artículos deportivos</h2>
+    </header>
+    <main>
+      {% for producto in productos %}
+      	<article>
+          <h3>{{producto.nombre}}</h3>
+          <p>{{producto.descripcion}}</p>
+          <button>{{producto.precio}}</button>
+      	</article>
+      {% endfor %}
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

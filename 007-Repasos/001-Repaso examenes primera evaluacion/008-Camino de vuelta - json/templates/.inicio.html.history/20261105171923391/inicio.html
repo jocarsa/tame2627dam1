@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="static/estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>El Blog de Jose Vicente</h1>
+    </header>
+    <main>
+      <section>
+        <h3>Nueva noticia</h3>
+        <input type="text" id="titulo">
+      </section>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      let principal = document.querySelector("main")			// Selecciono el elemento principal
+      fetch("/datos")																			// vete y busca los datos
+      .then(function(resultado){return resultado.json()})	// Que sepas que viene en formato json
+      .then(function(datos){															// Aqui vienen los datos
+      	console.log(datos)																// Pintamelos en la consola
+        datos.forEach(function(articulo){									// Haz algo para cada uno de los datos
+        	// A lo que valga principal le añado algo
+          principal.innerHTML += `
+          	<article>
+            	<h3>`+articulo.titulo+`</h3>
+              <time>`+articulo.fecha+`</time>
+              <p>`+articulo.contenido+`</p>
+            </article>
+          `
+        })
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El periódico de Jose Vicente</title>
+<style>
+:root{
+  --tinta:#1a1a1a;
+  --papel:#faf7f0;
+  --gris:#6b6b6b;
+  --filete:#1a1a1a;
+  --rojo:#8c1d18;
+  --serif:"Georgia","Times New Roman",serif;
+  --display:"Didot","Bodoni MT","Playfair Display",Georgia,serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:#e8e4da;
+  font-family:var(--serif);
+  color:var(--tinta);
+  padding:24px 12px;
+}
+/* ---------- Hoja del periódico ---------- */
+.paper{
+  max-width:1180px;
+  margin:auto;
+  background:var(--papel);
+  padding:36px 44px 28px;
+  box-shadow:0 1px 3px rgba(0,0,0,.18),0 12px 40px rgba(0,0,0,.22);
+  position:relative;
+}
+/* textura sutil de papel */
+.paper::before{
+  content:"";
+  position:absolute;inset:0;
+  background:repeating-linear-gradient(0deg,rgba(0,0,0,.012) 0 2px,transparent 2px 4px);
+  pointer-events:none;
+}
+/* ---------- Cabecera ---------- */
+.masthead{text-align:center;border-bottom:6px double var(--filete);padding-bottom:14px;}
+.kicker-bar{
+  display:flex;justify-content:space-between;
+  font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--gris);border-bottom:1px solid var(--filete);padding-bottom:6px;margin-bottom:18px;
+}
+h1{
+  font-family:var(--display);
+  font-size:4.6rem;
+  font-weight:900;
+  letter-spacing:.01em;
+  line-height:.95;
+  text-transform:uppercase;
+}
+h1 .amp{font-style:italic;font-weight:400;}
+.masthead .lema{
+  margin-top:10px;
+  font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gris);
+  border-top:1px solid var(--filete);
+  display:inline-block;padding-top:8px;
+}
+.fecha-bar{
+  display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid var(--filete);border-bottom:1px solid var(--filete);
+  margin-top:14px;padding:5px 0;
+  font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;
+}
+.fecha-bar .precio{font-weight:bold;}
+/* ---------- Rejilla de portada ---------- */
+.front{
+  display:grid;
+  grid-template-columns:2.2fr 1px 1.4fr;
+  gap:0 26px;
+  margin-top:22px;
+}
+.filete-v{background:var(--filete);width:1px;}
+/* ---------- Noticia principal ---------- */
+.lead h2{
+  font-family:var(--display);
+  font-size:3rem;
+  line-height:1.04;
+  font-weight:900;
+  letter-spacing:-.01em;
+  margin:10px 0 12px;
+}
+.entradilla{
+  font-size:1.12rem;
+  line-height:1.5;
+  font-style:italic;
+  color:#3c3c3c;
+  margin-bottom:14px;
+}
+.lead .texto{column-count:2;column-gap:26px;column-rule:1px solid #ddd;}
+.lead .texto p{font-size:.92rem;line-height:1.62;text-align:justify;text-indent:1.4em;}
+.lead .texto p:first-child{ text-indent:0;}
+.lead .texto p:first-child::first-letter{
+  font-family:var(--display);
+  float:left;
+  font-size:3.6rem;
+  line-height:.8;
+  padding:4px 8px 0 0;
+  font-weight:900;
+}
+figure.foto{
+  margin:4px 0 16px;
+  border:1px solid var(--filete);
+  padding:5px;
+  background:#fff;
+}
+figure.foto .img{
+  height:280px;
+  background:
+    radial-gradient(circle at 30% 40%,rgba(255,255,255,.25),transparent 60%),
+    repeating-linear-gradient(45deg,#2f2a26 0 14px,#3a3430 14px 28px);
+  filter:contrast(1.05);
+}
+figcaption{
+  font-size:.68rem;color:var(--gris);padding:6px 2px 2px;
+  border-bottom:1px solid var(--filete);
+}
+.byline{
+  font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--rojo);
+  border-top:2px solid var(--filete);border-bottom:1px solid var(--filete);
+  padding:4px 0;display:inline-block;margin-bottom:4px;
+}
+/* ---------- Destacados ---------- */
+.destacados h3.sec-title{
+  font-size:.8rem;text-transform:uppercase;letter-spacing:.2em;
+  border-top:3px solid var(--rojo);padding-top:8px;margin-bottom:14px;
+}
+article.mini{
+  border-bottom:1px solid #cfc9bd;
+  padding-bottom:14px;margin-bottom:14px;
+}
+article.mini h4{
+  font-family:var(--display);
+  font-size:1.35rem;line-height:1.12;font-weight:900;margin-bottom:6px;
+}
+article.mini p{font-size:.85rem;line-height:1.55;text-align:justify;color:#2e2e2e;}
+article.mini .tag{
+  display:inline-block;font-size:.6rem;text-transform:uppercase;letter-spacing:.16em;
+  background:var(--tinta);color:var(--papel);padding:2px 8px;margin-bottom:6px;
+}
+article.mini.destacada .tag{background:var(--rojo);}
+/* ---------- Franja inferior: opinión + breves ---------- */
+.inferior{
+  display:grid;
+  grid-template-columns:1fr 1fr 1px 1fr;
+  gap:26px;
+  margin-top:10px;
+  border-top:4px double var(--filete);
+  padding-top:18px;
+}
+.opinion h5, .breves h5{
+  font-size:.8rem;text-transform:uppercase;letter-spacing:.2em;margin-bottom:12px;
+}
+.opinion h5{color:var(--rojo);}
+blockquote{
+  font-family:var(--display);font-style:italic;
+  font-size:1.25rem;line-height:1.35;
+  border-left:3px solid var(--rojo);padding-left:14px;margin-bottom:10px;
+}
+.opinion .autor{font-size:.7rem;text-transform:uppercase;letter-spacing:.12em;color:var(--gris);}
+.breves ul{list-style:none;}
+.breves li{
+  font-size:.83rem;line-height:1.5;padding:7px 0;border-bottom:1px dotted #b8b2a4;
+}
+.breves li::before{content:"■ ";color:var(--rojo);font-size:.6rem;vertical-align:2px;}
+/* tiradores laterales */
+.tiradores{border-left:1px solid var(--filete);padding-left:0;}
+.tiradores div{
+  font-size:.75rem;font-weight:bold;text-transform:uppercase;letter-spacing:.08em;
+  border-bottom:1px solid var(--filete);padding:8px 0 8px 12px;
+}
+/* ---------- Pie ---------- */
+footer{
+  margin-top:22px;border-top:4px double var(--filete);padding-top:12px;
+  display:flex;justify-content:space-between;
+  font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gris);
+}
+/* ---------- Responsive ---------- */
+@media (max-width:900px){
+  .front{grid-template-columns:1fr;}
+  .filete-v{display:none;}
+  .lead .texto{column-count:1;}
+  .inferior{grid-template-columns:1fr;}
+  h1{font-size:2.6rem;}
+  .lead h2{font-size:2.1rem;}
+}
+</style>
+</head>
+<body>
+<div class="paper">
+
+  <div class="kicker-bar">
+    <span>Edición matinal · Nº 4.821</span>
+    <span>El periódico de Jose Vicente</span>
+    <span>www.josevicente.news</span>
+  </div>
+
+  <header class="masthead">
+    <h1>El Periódico <span class="amp">de</span> Jose Vicente</h1>
+    <p class="lema">Noticias de actualidad — Veraz, independiente y con estilo</p>
+    <div class="fecha-bar">
+      <span>Lunes, 2 de noviembre de 2026</span>
+      <span class="precio">1,20 €</span>
+      <span>Madrid · España</span>
+    </div>
+  </header>
+
+  <div class="front">
+    <!-- Noticia principal -->
+    <section class="lead">
+      <span class="byline">Portada · Redacción Jefe</span>
+      <h2>La gran transformación digital del periodismo ya está aquí</h2>
+      <p class="entradilla">Los periódicos del siglo XXI combinan la elegancia del papel con la potencia de la maquetación moderna: tipografía display, columnas clásicas y jerarquía visual impecable.</p>
+      <figure class="foto">
+        <div class="img"></div>
+        <figcaption>Imagen de portada: las rotativas de la nueva era. / Archivo</figcaption>
+      </figure>
+      <div class="texto">
+        <p>Hay portadas que se recuerdan durante décadas. No por el papel en el que se imprimieron, sino por cómo contaron lo que pasó ese día. La maquetación de un periódico es, en el fondo, una promesa: la de guiar al lector por lo más importante sin que pierda el hilo.</p>
+        <p>La noticia principal ocupa el lugar de honor, con una tipografía display de gran tamaño y una entradilla en cursiva que resume el asunto. Las columnas justificadas, con su filete fino en medio, evocan la prensa clásica mientras el diseño responde a cualquier pantalla.</p>
+        <p>La letra capitular abre el texto como en los viejos manuscritos, y las líneas de colores —negro para la tinta, rojo para el acento— mantienen la coherencia visual de las cabeceras más prestigiosas.</p>
+        <p>Todo esto se consigue con una sola hoja de estilos: rejillas CSS, tipografías serif del sistema y unos cuantos filetes dobles bien colocados.</p>
+      </div>
+    </section>
+
+    <div class="filete-v"></div>
+
+    <!-- Destacados -->
+    <section class="destacados">
+      <h3 class="sec-title">Destacados</h3>
+      <article class="mini destacada">
+        <span class="tag">Última hora</span>
+        <h4>La revista de estilo lanza su nuevo diseño en papel digital</h4>
+        <p>La combinación de columnas clásicas y rejillas modernas se impone en las redacciones europeas como el estándar del nuevo periodismo visual.</p>
+      </article>
+      <article class="mini">
+        <span class="tag">Tecnología</span>
+        <h4>CSS demuestra que ya no necesita a nadie para maquetar</h4>
+        <p>Grid, flexbox y tipografía variable permiten reconstruir la estética de la gran prensa con unas decenas de líneas de código.</p>
+      </article>
+      <article class="mini">
+        <span class="tag">Cultura</span>
+        <h4>La letra capitular vuelve a las portadas del siglo XXI</h4>
+        <p>El recurso tipográfico favorito de los incunables resurge gracias a un simple pseudo-elemento y mucho gusto editorial.</p>
+      </article>
+    </section>
+  </div>
+
+  <!-- Franja inferior -->
+  <div class="inferior">
+    <section class="opinion">
+      <h5>Opinión</h5>
+      <blockquote>“Un buen diseño no se nota: se lee.”</blockquote>
+      <p class="autor">— Jose Vicente Carratala, director</p>
+    </section>
+
+    <section class="breves">
+      <h5>Breves</h5>
+      <ul>
+        <li>El número de columnas de la portada sube a dos en la edición digital.</li>
+        <li>Los filetes dobles experimentan un renacimiento inesperado.</li>
+        <li>La tipografía serif de sistema, protagonista del diseño retro.</li>
+      </ul>
+    </section>
+
+    <div class="tiradores">
+      <div>Política</div>
+      <div>Economía</div>
+      <div>Deportes</div>
+      <div>Cultura</div>
+      <div>Espectáculos</div>
+      <div>Opinión</div>
+    </div>
+  </div>
+
+  <footer>
+    <span>© 2026 Jose Vicente Carratala</span>
+    <span>Impreso en HTML y CSS</span>
+  </footer>
+
+</div>
+</body>
+</html>

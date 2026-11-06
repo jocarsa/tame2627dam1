@@ -1,0 +1,103 @@
+
+[
+  {
+    "titulo": "JOCARSA impulsa el desarrollo de inteligencia artificial local",
+    "fecha": "2026-10-22",
+    "contenido": "JOCARSA continúa explorando soluciones de inteligencia artificial ejecutadas en servidores propios, utilizando modelos de lenguaje locales para mejorar la privacidad y reducir la dependencia de servicios externos."
+  },
+  {
+    "titulo": "JOCARSA desarrolla su propio motor de bases de datos",
+    "fecha": "2026-10-21",
+    "contenido": "El proyecto JocarsaBBDD avanza con una arquitectura que integra operaciones relacionales y herramientas de mapeo objeto-relacional, buscando facilitar su utilización desde Python y PHP."
+  },
+  {
+    "titulo": "JOCARSA investiga embeddings con dimensiones semánticas personalizadas",
+    "fecha": "2026-10-20",
+    "contenido": "La compañía experimenta con vectores semánticos de 256 dimensiones definidas manualmente y especializadas en informática, programación y desarrollo de software."
+  },
+  {
+    "titulo": "JOCARSA mejora su plataforma de gestión de prácticas",
+    "fecha": "2026-10-19",
+    "contenido": "La aplicación jocarsa | practicas incorpora herramientas para gestionar alumnos, empresas y convenios, además de filtros avanzados y sistemas de seguimiento de solicitudes."
+  },
+  {
+    "titulo": "JOCARSA amplía las herramientas de diseño arquitectónico",
+    "fecha": "2026-10-18",
+    "contenido": "El software de arquitectura de JOCARSA permite diseñar planos bidimensionales mediante paredes, puertas, ventanas, mobiliario e instalaciones eléctricas organizadas por capas."
+  },
+  {
+    "titulo": "JOCARSA presenta nuevas funciones para su editor de código remoto",
+    "fecha": "2026-10-17",
+    "contenido": "El editor web de JOCARSA incorpora exploración de archivos, pestañas, visualización previa de páginas y herramientas de edición que permiten trabajar con proyectos desde el navegador."
+  },
+  {
+    "titulo": "JOCARSA experimenta con simulaciones de vida artificial",
+    "fecha": "2026-10-16",
+    "contenido": "Un proyecto experimental simula organismos virtuales capaces de alimentarse, descansar, reproducirse y evolucionar dentro de un entorno digital con ciclos de día y noche."
+  },
+  {
+    "titulo": "JOCARSA apuesta por asistentes de inteligencia artificial integrados",
+    "fecha": "2026-10-15",
+    "contenido": "La solución jocarsa | ayuda explora nuevas formas de ofrecer asistencia contextual mediante modelos de lenguaje, interfaces conversacionales y herramientas integrables en aplicaciones web."
+  },
+  {
+    "titulo": "JOCARSA desarrolla herramientas para preservar recuerdos digitales",
+    "fecha": "2026-10-14",
+    "contenido": "Los proyectos relacionados con memoria digital investigan cómo organizar experiencias, documentos y recuerdos mediante estructuras cronológicas y técnicas de inteligencia artificial."
+  },
+  {
+    "titulo": "JOCARSA mejora su sistema de dictado inteligente",
+    "fecha": "2026-10-13",
+    "contenido": "La aplicación jocarsa | dictado combina reconocimiento de voz mediante Whisper con modelos de lenguaje capaces de transformar transcripciones en mensajes estructurados."
+  },
+  {
+    "titulo": "JOCARSA impulsa una red social profesional propia",
+    "fecha": "2026-10-12",
+    "contenido": "La plataforma jocarsa | red permite crear perfiles profesionales, publicar contenidos, establecer contactos y organizar publicaciones mediante categorías."
+  },
+  {
+    "titulo": "JOCARSA desarrolla un sistema de cuestionarios educativos",
+    "fecha": "2026-10-11",
+    "contenido": "La aplicación jocarsa | cuestionarios ofrece herramientas para crear actividades de evaluación, administrar usuarios y consultar estadísticas de rendimiento académico."
+  },
+  {
+    "titulo": "JOCARSA incorpora nuevas herramientas de análisis educativo",
+    "fecha": "2026-10-10",
+    "contenido": "Las plataformas educativas de JOCARSA avanzan en la visualización de resultados mediante paneles estadísticos, calendarios de actividad y mapas de calor."
+  },
+  {
+    "titulo": "JOCARSA moderniza sus herramientas de control de asistencia",
+    "fecha": "2026-10-09",
+    "contenido": "El sistema jocarsa | asistencias facilita el registro de presencia, la gestión de grupos y la importación de información mediante archivos CSV."
+  },
+  {
+    "titulo": "JOCARSA explora nuevas aplicaciones de inteligencia artificial educativa",
+    "fecha": "2026-10-08",
+    "contenido": "La combinación de modelos de lenguaje, bases de datos vectoriales y materiales docentes abre nuevas posibilidades para construir asistentes educativos especializados."
+  },
+  {
+    "titulo": "JOCARSA desarrolla una plataforma de comunicación digital",
+    "fecha": "2026-10-07",
+    "contenido": "Las herramientas de comunicación de JOCARSA incorporan funcionalidades de mensajería, gestión de usuarios y nuevas posibilidades de integración con inteligencia artificial."
+  },
+  {
+    "titulo": "JOCARSA presenta su cuaderno digital de evaluación",
+    "fecha": "2026-10-06",
+    "contenido": "La aplicación jocarsa | cuaderno permite organizar calificaciones, definir bloques de evaluación y calcular resultados mediante sistemas de ponderación configurables."
+  },
+  {
+    "titulo": "JOCARSA experimenta con procesamiento multimedia inteligente",
+    "fecha": "2026-10-05",
+    "contenido": "Los proyectos multimedia de JOCARSA exploran la reproducción de vídeo, la aplicación de filtros visuales y la integración de subtítulos y transcripciones automáticas."
+  },
+  {
+    "titulo": "JOCARSA apuesta por la automatización de procesos empresariales",
+    "fecha": "2026-10-04",
+    "contenido": "La integración de inteligencia artificial con bases de datos y aplicaciones empresariales permite experimentar con consultas en lenguaje natural y generación automatizada de documentos."
+  },
+  {
+    "titulo": "JOCARSA consolida su ecosistema de aplicaciones tecnológicas",
+    "fecha": "2026-10-03",
+    "contenido": "El ecosistema JOCARSA reúne herramientas de gestión empresarial, educación, programación, comunicación e inteligencia artificial, con el objetivo de ofrecer soluciones digitales integradas."
+  }
+]

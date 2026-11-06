@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      html,body{width:100%;height:100%;padding:0x;margin:0px;}
+      body{display:flex;flex-direction:column;}
+      header{background:indigo;color:white;padding:20px;}
+      main{display:flex;height:100%;}
+      nav{flex:1;padding:20px;background:indigo;color:white;}
+      section{flex:8;padding:20px;}
+      table{width:100%;}
+      table thead{background:indigo;color:white;}
+      table td{padding:10px;}
+      table tbody tr:nth-child(odd){background:lightgray;}
+      nav{display:flex;flex-direction:column;gap:20px;}
+    </style>
+  </head>
+  <body>
+    <header>
+      {{enviotienda}}
+    </header>
+    <main>
+      <nav>
+        <a href="">Productos</a>
+        <a href="">Clientes</a>
+        <a href="">Pedidos</a>
+        <a href="">Categorias</a>
+        <a href="">Devoluciones</a>
+        <a href="">Estadísticas</a>
+        <a href="">Configuración</a>
+      </nav>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>Nombre</th><th>Descripcion</th><th>Precio</th><th>Imagen</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for producto in enviolista %}
+            <tr>
+              <td>{{producto.nombre}}</td><td>{{producto.descripcion}}</td><td>{{producto.precio}}</td><td>{{producto.imagen}}</td>
+            </tr>
+            {% endfor %}
+            
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <header>
+      <h1>El Blog de Jose Vicente</h1>
+    </header>
+    <main>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      fetch("/datos")																			// vete y busca los datos
+      .then(function(resultado){return resultado.json()})	// Que sepas que viene en formato json
+      .then(function(datos){															// Aqui vienen los datos
+      	console.log(datos)																// Pintamelos en la consola
+        
+      })
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+Datetime: 2026-11-06T11:33:14.579Z
+Working directory: /var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/010-Simulacro de sistemas informaticos
+Command: ssh josevicente@192.168.4.38
+
+Result:
+sudo shutdown now
+josevicente@ubuntuserver:~/examen$ client_loop: send disconnect: Broken pipe
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/007-Repasos/001-Repaso examenes primera evaluacion/010-Simulacro de sistemas informaticos$ 

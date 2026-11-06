@@ -1,0 +1,563 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jocarsa | Calculadora empresarial</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --fondo: #101318;
+      --panel: #1a2029;
+      --campo: #111820;
+      --borde: #303b48;
+      --texto: #eef3f8;
+      --suave: #9aa9b9;
+      --acento: #76b7f5;
+      --verde: #65d6a0;
+      --rojo: #ff828d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--fondo);
+      color: var(--texto);
+      font: 15px/1.5 system-ui, sans-serif;
+    }
+    header {
+      border-bottom: 1px solid var(--borde);
+      background: var(--panel);
+      padding: 22px max(24px, calc((100vw - 1250px)/2));
+    }
+    header h1 { margin: 0; font-size: 23px; }
+    header p { margin: 4px 0 0; color: var(--suave); }
+    main {
+      max-width: 1250px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .columnas {
+      display: grid;
+      grid-template-columns: 350px minmax(0, 1fr);
+      gap: 20px;
+      align-items: start;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--borde);
+      border-radius: 12px;
+      padding: 23px;
+      margin-bottom: 20px;
+    }
+    h2 { margin: 0 0 20px; font-size: 17px; }
+    h3 {
+      color: var(--acento);
+      font-size: 14px;
+      margin: 24px 0 12px;
+    }
+    label {
+      display: block;
+      color: var(--suave);
+      margin: 13px 0 6px;
+      font-size: 13px;
+    }
+    input {
+      width: 100%;
+      padding: 11px 12px;
+      background: var(--campo);
+      color: var(--texto);
+      border: 1px solid var(--borde);
+      border-radius: 7px;
+      font: inherit;
+      outline: none;
+    }
+    input:focus { border-color: var(--acento); }
+    button {
+      cursor: pointer;
+      background: var(--acento);
+      color: #101820;
+      font-weight: 700;
+      padding: 12px 16px;
+      border: 0;
+      border-radius: 7px;
+      width: 100%;
+      margin-top: 20px;
+    }
+    button:hover { filter: brightness(1.1); }
+    .indicadores {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .indicador {
+      background: var(--campo);
+      border: 1px solid var(--borde);
+      border-radius: 9px;
+      padding: 19px;
+      min-width: 0;
+    }
+    .indicador span {
+      display: block;
+      color: var(--suave);
+      font-size: 12px;
+    }
+    .indicador strong {
+      display: block;
+      font-size: clamp(19px, 2.5vw, 29px);
+      margin-top: 7px;
+      overflow-wrap: anywhere;
+    }
+    .positivo { color: var(--verde); }
+    .negativo { color: var(--rojo); }
+    .azul { color: var(--acento); }
+    .fila {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      border-bottom: 1px solid var(--borde);
+      padding: 12px 0;
+    }
+    .fila span:first-child { color: var(--suave); }
+    .fila strong { text-align: right; }
+    .fila.total {
+      border: 0;
+      font-size: 18px;
+      padding-top: 20px;
+    }
+    canvas {
+      width: 100%;
+      height: 300px;
+      display: block;
+    }
+    .leyenda {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      color: var(--suave);
+      font-size: 12px;
+      margin-top: 10px;
+    }
+    .punto {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 6px;
+    }
+    .nota { color: var(--suave); font-size: 12px; }
+    footer {
+      color: var(--suave);
+      text-align: center;
+      padding: 20px;
+      font-size: 12px;
+    }
+    @media(max-width: 800px) {
+      .columnas { grid-template-columns: 1fr; }
+      .indicadores { grid-template-columns: 1fr 1fr; }
+      main { padding: 0 12px; }
+      .panel { padding: 16px; }
+    }
+    @media(max-width: 440px) {
+      .indicadores { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>jocarsa | calculadora empresarial</h1>
+  <p>Simulador de ingresos, gastos y rentabilidad</p>
+</header>
+
+<main>
+  <div class="columnas">
+    <section>
+      <div class="panel">
+        <h2>Configuración del negocio</h2>
+
+        <h3>01 — Ingresos</h3>
+
+        <label for="clientes">Número de clientes</label>
+        <input type="number" id="clientes" value="10" min="0">
+
+        <label for="ingresomedio">
+          Ingreso mensual por cliente (€ sin IVA)
+        </label>
+        <input type="number" id="ingresomedio" value="300" min="0">
+
+        <h3>02 — Personal</h3>
+
+        <label for="numerotrabajadores">
+          Número de trabajadores
+        </label>
+        <input type="number" id="numerotrabajadores" value="1" min="0">
+
+        <label for="nominatrabajadores">
+          Salario bruto mensual por trabajador (€)
+        </label>
+        <input type="number" id="nominatrabajadores" value="1500" min="0">
+
+        <label for="seguridadsocial">
+          Seguridad Social empresarial (%)
+        </label>
+        <input type="number" id="seguridadsocial" value="32" min="0">
+
+        <h3>03 — Fiscalidad</h3>
+
+        <label for="iva">IVA (%)</label>
+        <input type="number" id="iva" value="21" min="0">
+
+        <label for="irpf">Retención IRPF (%)</label>
+        <input type="number" id="irpf" value="15" min="0">
+
+        <label for="autonomos">
+          Cuota mensual de autónomos (€)
+        </label>
+        <input type="number" id="autonomos" value="80" min="0">
+
+        <h3>04 — Otros costes</h3>
+
+        <label for="otrosgastos">
+          Otros gastos mensuales (€)
+        </label>
+        <input type="number" id="otrosgastos" value="0" min="0">
+
+        <label for="inversion">
+          Inversión inicial (€)
+        </label>
+        <input type="number" id="inversion" value="4600" min="0">
+
+        <button id="calcular">Calcular rentabilidad</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="panel">
+        <h2>Resumen mensual</h2>
+        <div class="indicadores">
+          <div class="indicador">
+            <span>Facturación con IVA</span>
+            <strong id="facturacion" class="azul">0 €</strong>
+          </div>
+          <div class="indicador">
+            <span>Ingresos sin IVA</span>
+            <strong id="ingresos">0 €</strong>
+          </div>
+          <div class="indicador">
+            <span>Gastos mensuales</span>
+            <strong id="gastos">0 €</strong>
+          </div>
+          <div class="indicador">
+            <span>Beneficio mensual</span>
+            <strong id="beneficio">0 €</strong>
+          </div>
+          <div class="indicador">
+            <span>Beneficio anual estimado</span>
+            <strong id="anual">0 €</strong>
+          </div>
+          <div class="indicador">
+            <span>Clientes para cubrir gastos</span>
+            <strong id="equilibrio">0</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Desglose económico mensual</h2>
+        <div id="desglose"></div>
+      </div>
+
+      <div class="panel">
+        <h2>Rentabilidad según número de clientes</h2>
+        <canvas id="grafica"></canvas>
+        <div class="leyenda">
+          <span><i class="punto" style="background:#76b7f5"></i>Ingresos</span>
+          <span><i class="punto" style="background:#ff828d"></i>Gastos</span>
+          <span><i class="punto" style="background:#65d6a0"></i>Beneficio</span>
+        </div>
+        <p class="nota">
+          La gráfica mantiene constantes los trabajadores y
+          gastos configurados, y modifica el número de clientes.
+        </p>
+      </div>
+
+      <div class="panel">
+        <h2>Recuperación de la inversión</h2>
+        <div id="recuperacion"></div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  jocarsa | Simulación orientativa de viabilidad empresarial
+</footer>
+
+<script>
+  // ELEMENTOS
+  let numeroclientes = document.querySelector("#clientes");
+  let ingresoporcliente = document.querySelector("#ingresomedio");
+  let numerotrabajadores = document.querySelector("#numerotrabajadores");
+  let nominatrabajadores = document.querySelector("#nominatrabajadores");
+  let seguridadsocial = document.querySelector("#seguridadsocial");
+
+  let boton = document.querySelector("#calcular");
+
+  // FUNCIONES AUXILIARES
+  function numero(id) {
+    return Math.max(0, Number(document.querySelector("#" + id).value) || 0);
+  }
+
+  function euros(cantidad) {
+    return cantidad.toLocaleString("es-ES", {
+      style: "currency",
+      currency: "EUR"
+    });
+  }
+
+  function mostrar(id, contenido) {
+    document.querySelector("#" + id).textContent = contenido;
+  }
+
+  function fila(nombre, valor) {
+    return `
+      <div class="fila">
+        <span>${nombre}</span>
+        <strong>${euros(valor)}</strong>
+      </div>
+    `;
+  }
+
+  // CÁLCULO PRINCIPAL
+  function calcular() {
+    let clientes = numero("clientes");
+    let precio = numero("ingresomedio");
+    let trabajadores = numero("numerotrabajadores");
+    let nomina = numero("nominatrabajadores");
+    let porcentajeSS = numero("seguridadsocial");
+
+    let iva = numero("iva");
+    let irpf = numero("irpf");
+    let autonomos = numero("autonomos");
+    let otrosgastos = numero("otrosgastos");
+    let inversion = numero("inversion");
+
+    // INGRESOS
+    let ingresos = clientes * precio;
+    let cantidadIVA = ingresos * iva / 100;
+    let facturacion = ingresos + cantidadIVA;
+    let retencionIRPF = ingresos * irpf / 100;
+
+    // GASTOS
+    let salarios = trabajadores * nomina;
+    let costeSS = salarios * porcentajeSS / 100;
+    let gastos = salarios + costeSS + autonomos + otrosgastos;
+
+    // RESULTADOS
+    let beneficio = ingresos - gastos;
+    let anual = beneficio * 12;
+    let equilibrio = precio > 0
+      ? Math.ceil(gastos / precio)
+      : null;
+
+    // MOSTRAR INDICADORES
+    mostrar("facturacion", euros(facturacion));
+    mostrar("ingresos", euros(ingresos));
+    mostrar("gastos", euros(gastos));
+    mostrar("beneficio", euros(beneficio));
+    mostrar("anual", euros(anual));
+    mostrar("equilibrio", equilibrio === null ? "—" : equilibrio);
+
+    // COLORES SEGÚN RENTABILIDAD
+    for (let id of ["beneficio", "anual"]) {
+      let elemento = document.querySelector("#" + id);
+      elemento.className = beneficio >= 0 ? "positivo" : "negativo";
+    }
+
+    // DESGLOSE
+    let desglose = document.querySelector("#desglose");
+
+    desglose.innerHTML =
+      fila("Ingresos sin IVA", ingresos) +
+      fila("IVA repercutido", cantidadIVA) +
+      fila("Facturación total", facturacion) +
+      fila("Retención IRPF hipotética", retencionIRPF) +
+      fila("Salarios brutos", salarios) +
+      fila("Seguridad Social empresarial", costeSS) +
+      fila("Cuota de autónomos", autonomos) +
+      fila("Otros gastos", otrosgastos) +
+      `
+      <div class="fila total">
+        <span>Beneficio operativo</span>
+        <strong class="${beneficio >= 0 ? 'positivo' : 'negativo'}">
+          ${euros(beneficio)}
+        </strong>
+      </div>
+      <p class="nota">
+        El IVA no se considera ingreso propio.
+        La retención IRPF es un anticipo fiscal y no se resta
+        como gasto empresarial.
+      </p>
+      `;
+
+    // RECUPERACIÓN
+    let recuperacion = document.querySelector("#recuperacion");
+
+    if (beneficio > 0) {
+      let meses = Math.ceil(inversion / beneficio);
+
+      recuperacion.innerHTML = `
+        <div class="indicador">
+          <span>Meses necesarios para recuperar la inversión</span>
+          <strong class="positivo">${meses} meses</strong>
+        </div>
+        <p class="nota">
+          Suponiendo que el beneficio mensual permanece constante
+          y se destina íntegramente a recuperar la inversión.
+        </p>
+      `;
+    } else {
+      recuperacion.innerHTML = `
+        <div class="indicador">
+          <span>Recuperación de inversión</span>
+          <strong class="negativo">No recuperable con este escenario</strong>
+        </div>
+      `;
+    }
+
+    dibujarGrafica(precio, gastos, clientes);
+  }
+
+  // GRÁFICA CANVAS SIN LIBRERÍAS
+  function dibujarGrafica(precio, gastos, clientes) {
+    let canvas = document.querySelector("#grafica");
+    let contexto = canvas.getContext("2d");
+
+    let ancho = canvas.clientWidth;
+    let alto = canvas.clientHeight;
+    let escala = window.devicePixelRatio || 1;
+
+    canvas.width = ancho * escala;
+    canvas.height = alto * escala;
+    contexto.setTransform(escala, 0, 0, escala, 0, 0);
+
+    contexto.clearRect(0, 0, ancho, alto);
+
+    let izquierda = 58;
+    let derecha = 15;
+    let arriba = 20;
+    let abajo = 38;
+
+    let anchoGrafica = ancho - izquierda - derecha;
+    let altoGrafica = alto - arriba - abajo;
+
+    let maxClientes = Math.max(20, Math.ceil(clientes * 1.5));
+    let maxIngresos = maxClientes * precio;
+
+    let maxY = Math.max(maxIngresos, gastos, 100) * 1.15;
+    let minY = Math.min(0, -gastos) * 1.15;
+    let rangoY = maxY - minY;
+
+    function x(cliente) {
+      return izquierda + cliente / maxClientes * anchoGrafica;
+    }
+
+    function y(valor) {
+      return arriba + (maxY - valor) / rangoY * altoGrafica;
+    }
+
+    // REJILLA
+    contexto.font = "11px system-ui";
+    contexto.strokeStyle = "#303b48";
+    contexto.fillStyle = "#9aa9b9";
+    contexto.lineWidth = 1;
+
+    for (let i = 0; i <= 5; i++) {
+      let valor = minY + rangoY * i / 5;
+      let py = y(valor);
+
+      contexto.beginPath();
+      contexto.moveTo(izquierda, py);
+      contexto.lineTo(ancho - derecha, py);
+      contexto.stroke();
+
+      contexto.textAlign = "right";
+      contexto.fillText(
+        Math.round(valor).toLocaleString("es-ES"),
+        izquierda - 8,
+        py + 4
+      );
+    }
+
+    // EJE CLIENTES
+    for (let i = 0; i <= 5; i++) {
+      let cantidad = Math.round(maxClientes * i / 5);
+      contexto.textAlign = "center";
+      contexto.fillText(cantidad, x(cantidad), alto - 12);
+    }
+
+    // LÍNEA CERO
+    contexto.strokeStyle = "#7e8d9d";
+    contexto.beginPath();
+    contexto.moveTo(izquierda, y(0));
+    contexto.lineTo(ancho - derecha, y(0));
+    contexto.stroke();
+
+    // FUNCIÓN DIBUJAR LÍNEA
+    function linea(funcion, color) {
+      contexto.beginPath();
+      contexto.strokeStyle = color;
+      contexto.lineWidth = 2.5;
+
+      for (let c = 0; c <= maxClientes; c++) {
+        let px = x(c);
+        let py = y(funcion(c));
+
+        if (c === 0) contexto.moveTo(px, py);
+        else contexto.lineTo(px, py);
+      }
+
+      contexto.stroke();
+    }
+
+    linea(c => c * precio, "#76b7f5");
+    linea(c => gastos, "#ff828d");
+    linea(c => c * precio - gastos, "#65d6a0");
+
+    // MARCAR ESCENARIO ACTUAL
+    if (clientes <= maxClientes) {
+      let px = x(clientes);
+      let py = y(clientes * precio - gastos);
+
+      contexto.setLineDash([4, 4]);
+      contexto.strokeStyle = "#9aa9b9";
+      contexto.lineWidth = 1;
+      contexto.beginPath();
+      contexto.moveTo(px, arriba);
+      contexto.lineTo(px, alto - abajo);
+      contexto.stroke();
+      contexto.setLineDash([]);
+
+      contexto.fillStyle = "#65d6a0";
+      contexto.beginPath();
+      contexto.arc(px, py, 5, 0, Math.PI * 2);
+      contexto.fill();
+    }
+  }
+
+  // EVENTOS
+  boton.onclick = calcular;
+
+  document.querySelectorAll("input").forEach(function(input) {
+    input.addEventListener("input", calcular);
+  });
+
+  window.addEventListener("resize", calcular);
+
+  // PRIMER CÁLCULO
+  calcular();
+</script>
+
+</body>
+</html>

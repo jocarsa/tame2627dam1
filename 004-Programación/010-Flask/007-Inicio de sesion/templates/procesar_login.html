@@ -1,0 +1,67 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verificando acceso</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:#f3f5f9;
+  font-family:Arial,sans-serif;
+  display:grid;
+  place-items:center;
+  min-height:100vh;
+}
+.tarjeta{
+  background:white;
+  width:min(420px,90%);
+  padding:55px 35px;
+  border-radius:18px;
+  text-align:center;
+  box-shadow:0 15px 45px #17203315;
+}
+.icono{
+  width:75px;height:75px;
+  border-radius:50%;
+  display:grid;place-items:center;
+  margin:0 auto 25px;
+  font-size:35px;
+}
+.correcto{background:#dcfce7;color:#15803d}
+.error{background:#fee2e2;color:#dc2626}
+h2{color:#172033}
+p{color:#8792a5;line-height:1.6}
+a{color:#425ed0;text-decoration:none;font-weight:bold}
+</style>
+</head>
+<body>
+<div class="tarjeta">
+{% if pasas == "si" %}
+  <div class="icono correcto">✓</div>
+  <h2>Acceso autorizado</h2>
+  <p>Bienvenido, {{ usuario }}.</p>
+  <p>Estamos preparando tu escritorio...</p>
+  <a href="{{ url_for('escritorio') }}">Continuar ahora →</a>
+{% else %}
+  <div class="icono error">✕</div>
+  <h2>Acceso denegado</h2>
+  <p>El usuario o la contraseña no son correctos.</p>
+  <p>Volviendo a la pantalla de acceso...</p>
+  <a href="{{ url_for('inicio') }}">Volver al login →</a>
+{% endif %}
+</div>
+
+<script>
+setTimeout(function(){
+  {% if pasas == "si" %}
+  window.location.replace("{{ url_for('escritorio') }}");
+  {% else %}
+  window.location.replace("{{ url_for('inicio') }}");
+  {% endif %}
+}, 2000);
+</script>
+</body>
+</html>

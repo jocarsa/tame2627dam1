@@ -1,0 +1,7 @@
+Datetime: 2026-10-16T11:01:49.574Z
+Working directory: /var/www/html/tame2627dam1/006-Sistemas informáticos/003-Gestión de la información/002-Estructura de directorios de sistemas operativos libres y propietarios
+Command: ssh josevicente@192.168.4.51
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/006-Sistemas informáticos/003-Gestión de la inf
+ormación/002-Estructura de directorios de sistemas operativos libres y propietarios$ 

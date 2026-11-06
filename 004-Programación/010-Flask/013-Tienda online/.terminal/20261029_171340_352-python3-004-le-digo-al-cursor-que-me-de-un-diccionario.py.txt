@@ -1,0 +1,15 @@
+Datetime: 2026-10-29T16:13:40.352Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/010-Flask/013-Tienda online
+Command: python3 004-le\ digo\ al\ cursor\ que\ me\ de\ un\ diccionario.py
+
+Result:
+ * Serving Flask app '004-le digo al cursor que me de un diccionario'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on http://127.0.0.1:5000
+Press CTRL+C to quit
+127.0.0.1 - - [29/Oct/2026 17:09:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 17:09:56] "GET /static/estilo.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Oct/2026 17:09:57] "GET /favicon.ico HTTP/1.1" 404 -
+^Cjosevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/010-Fl
+ask/013-Tienda online$ 

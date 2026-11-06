@@ -1,0 +1,3 @@
+SELECT * FROM noticias;
+
+EXIT;
