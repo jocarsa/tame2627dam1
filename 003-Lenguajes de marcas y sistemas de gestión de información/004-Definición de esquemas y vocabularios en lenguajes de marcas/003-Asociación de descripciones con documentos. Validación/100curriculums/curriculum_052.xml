@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Raúl</nombre>
+    <apellidos>Ibáñez Roca</apellidos>
+    <fecha_nacimiento>1991-11-26</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona052@example.com</email>
+    <telefono>+34 600 151 251</telefono>
+    <web>https://example.com/perfil/052</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2001</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2003</inicio>
+      <fin>2005</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>1996</inicio>
+      <fin>1999</fin>
+    </titulo>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>CSS</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Django</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

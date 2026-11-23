@@ -1,0 +1,179 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum>
+  <datos_personales>
+    <nombre>José Vicente</nombre>
+    <apellidos>Carratalá Sanchis</apellidos>
+    <fecha_nacimiento>1978-04-14</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>info@josevicentecarratala.com</email>
+    <telefono>+34 620 89 17 18</telefono>
+    <web>https://jocarsa.com</web>
+    <profesion>
+      Profesor, programador y diseñador 3D
+    </profesion>
+    <perfil>
+      Profesional con más de 25 años de experiencia
+      en desarrollo de software, diseño 3D,
+      formación tecnológica e inteligencia artificial.
+      Fundador de JOCARSA y docente especializado
+      en programación y sistemas informáticos.
+    </perfil>
+  </datos_personales>
+
+  <experiencia>
+    <puesto>
+      <empresa>JOCARSA</empresa>
+      <cargo>Fundador y desarrollador</cargo>
+      <inicio>2000</inicio>
+      <fin>Actualidad</fin>
+      <funciones>
+        Desarrollo de aplicaciones web,
+        plataformas SaaS, ERP, CRM,
+        bases de datos e inteligencia artificial.
+      </funciones>
+    </puesto>
+
+    <puesto>
+      <empresa>CEAC</empresa>
+      <cargo>Profesor de Formación Profesional</cargo>
+      <inicio>2025</inicio>
+      <fin>Actualidad</fin>
+      <funciones>
+        Docencia de programación y desarrollo
+        de aplicaciones multiplataforma.
+      </funciones>
+    </puesto>
+
+    <puesto>
+      <empresa>TAME Formación</empresa>
+      <cargo>Profesor de informática</cargo>
+      <inicio>2020</inicio>
+      <fin>Actualidad</fin>
+      <funciones>
+        Formación en programación,
+        bases de datos y desarrollo web.
+      </funciones>
+    </puesto>
+
+    <puesto>
+      <empresa>Mastermedia</empresa>
+      <cargo>Profesor</cargo>
+      <inicio>2022</inicio>
+      <fin>2025</fin>
+    </puesto>
+
+    <puesto>
+      <empresa>IMF</empresa>
+      <cargo>Profesor de ciclos formativos</cargo>
+      <inicio>2023</inicio>
+      <fin>2024</fin>
+    </puesto>
+
+    <puesto>
+      <empresa>Capitol Formación</empresa>
+      <cargo>Profesor de Formación Profesional</cargo>
+      <inicio>2017</inicio>
+      <fin>2024</fin>
+    </puesto>
+
+    <puesto>
+      <empresa>LinkedIn Learning</empresa>
+      <cargo>Autor de cursos tecnológicos</cargo>
+      <inicio>2010</inicio>
+      <fin>2020</fin>
+    </puesto>
+
+    <puesto>
+      <empresa>Universal Arts School</empresa>
+      <cargo>Profesor de másteres</cargo>
+      <inicio>2006</inicio>
+      <fin>2019</fin>
+    </puesto>
+
+    <puesto>
+      <empresa>Universitat Politècnica de València</empresa>
+      <cargo>Profesor externo</cargo>
+      <inicio>2000</inicio>
+      <fin>2017</fin>
+    </puesto>
+  </experiencia>
+
+  <formacion>
+    <titulo>
+      <nombre>
+        Ingeniería Técnica en Diseño Industrial
+      </nombre>
+      <centro>
+        Universitat Politècnica de València
+      </centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+
+    <titulo>
+      <nombre>
+        Máster en Inteligencia Artificial y Big Data
+      </nombre>
+    </titulo>
+
+    <titulo>
+      <nombre>
+        Máster de Formación del Profesorado
+      </nombre>
+      <centro>UDIMA</centro>
+    </titulo>
+  </formacion>
+
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>C</lenguaje>
+      <lenguaje>C++</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>Bash</lenguaje>
+    </programacion>
+
+    <tecnologias>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>Node.js</tecnologia>
+      <tecnologia>MySQL</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>Apache</tecnologia>
+      <tecnologia>Docker</tecnologia>
+      <tecnologia>Moodle</tecnologia>
+      <tecnologia>APIs REST</tecnologia>
+    </tecnologias>
+
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>RAG</tecnologia>
+      <tecnologia>QLoRA</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Desarrollo interactivo</especialidad>
+    </diseno>
+  </competencias>
+
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma>Inglés</idioma>
+    <idioma nivel="basico">Alemán</idioma>
+  </idiomas>
+</curriculum>

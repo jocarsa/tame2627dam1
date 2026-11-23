@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <button id="primero">Primero</button>
+    <button id="segundo">Segundo</button>
+    <button id="tercero">Tercero</button>
+    <button id="cuarto">Cuarto</button>
+    <output></output>
+    <script>
+      let salida = document.querySelector("output")
+      
+      let primero = document.querySelector("#primero")
+      primero.onclick = function(){
+      	salida.textContent = "Primero"
+      }
+      
+      let segundo = document.querySelector("#segundo")
+      segundo.onclick = function(){
+      	salida.textContent = "segundo"
+      }
+      
+      let tercero = document.querySelector("#tercero")
+      tercero.onclick = function(){
+      	salida.textContent = "tercero"
+      }
+      
+      let cuarto = document.querySelector("#cuarto")
+      cuarto.onclick = function(){
+      	salida.textContent = "cuarto"
+      }
+      
+      // Code Smell = Huele mal por repetición
+    </script>
+  </body>
+</html>

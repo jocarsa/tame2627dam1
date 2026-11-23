@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Hugo</nombre>
+    <apellidos>García López</apellidos>
+    <fecha_nacimiento>1982-06-14</fecha_nacimiento>
+    <ciudad>Sevilla</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona084@example.com</email>
+    <telefono>+34 600 183 283</telefono>
+    <web>https://example.com/perfil/084</web>
+    <profesion>Diseñadora UX/UI</profesion>
+    <perfil>Profesional de diseñadora ux/ui con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2014</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2009</inicio>
+      <fin>2012</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>C++</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Django</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

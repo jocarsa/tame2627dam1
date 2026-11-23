@@ -1,0 +1,34 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <output></output>
+    <script>
+      function calculaDoble(numero){
+      	console.log("El doble de tu edad es: ",edad*2)
+      }
+      
+      function validaEmail(email){
+      	if(email.includes("@")){
+        	console.log("Tu email es valido")
+        }else{
+        	console.log("Tu email no es valido")
+        }
+      }
+      
+      function saluda(nombre,apellidos,edad,email){
+      	// Primero el nombre
+        console.log("Hola, ",nombre,apellidos)
+        // Ahora vamos con la edad
+        
+        // Ahora vamos a validar el email
+        validaEmail(email)
+      }
+      
+      saluda("Jose Vicente","Carratala",48,"info@jocarsa.com")
+    </script>
+  </body>
+</html>

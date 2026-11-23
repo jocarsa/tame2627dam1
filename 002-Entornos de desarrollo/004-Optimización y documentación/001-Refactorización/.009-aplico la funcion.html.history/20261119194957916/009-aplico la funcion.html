@@ -1,0 +1,38 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <output></output>
+    <script>
+      let salida = document.querySelector("output");
+
+      function saluda(edad,nombre,email){
+        return edad+" "+nombre+" "+email+"<br>";
+      }
+
+      salida.innerHTML += saluda(48,"Jose Vicente","info@josevicentecarratala.com");
+
+      salida.innerHTML += saluda(56,"Jose Juan","jose@juan.com");
+
+      salida.innerHTML += saluda(32,"Maria Garcia","maria@ejemplo.com");
+
+      salida.innerHTML += saluda(25,"Carlos Martinez","carlos@ejemplo.com");
+
+      salida.innerHTML += saluda(41,"Ana Lopez","ana@ejemplo.com");
+
+      salida.innerHTML += saluda(29,"Pedro Sanchez","pedro@ejemplo.com");
+
+      salida.innerHTML += saluda(37,"Laura Fernandez","laura@ejemplo.com");
+
+      salida.innerHTML += saluda(22,"David Romero","david@ejemplo.com");
+
+      salida.innerHTML += saluda(53,"Carmen Ruiz","carmen@ejemplo.com");
+
+      salida.innerHTML += saluda(34,"Javier Torres","javier@ejemplo.com");
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Rubén</nombre>
+    <apellidos>Herrera León</apellidos>
+    <fecha_nacimiento>1986-09-24</fecha_nacimiento>
+    <ciudad>Granada</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona060@example.com</email>
+    <telefono>+34 600 159 259</telefono>
+    <web>https://example.com/perfil/060</web>
+    <profesion>Consultora tecnológica</profesion>
+    <perfil>Profesional de consultora tecnológica con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2010</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2005</inicio>
+      <fin>2008</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>React</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

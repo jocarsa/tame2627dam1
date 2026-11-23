@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Adrián</nombre>
+    <apellidos>Suárez Campos</apellidos>
+    <fecha_nacimiento>2000-06-12</fecha_nacimiento>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona096@example.com</email>
+    <telefono>+34 600 195 295</telefono>
+    <web>https://example.com/perfil/096</web>
+    <profesion>Especialista en ciberseguridad</profesion>
+    <perfil>Profesional de especialista en ciberseguridad con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2009</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2011</inicio>
+      <fin>2013</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2013</inicio>
+      <fin>2015</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2004</inicio>
+      <fin>2007</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>Bash</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>React</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>RAG</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Víctor</nombre>
+    <apellidos>Romero Vidal</apellidos>
+    <fecha_nacimiento>fecha-desconocida</fecha_nacimiento>
+    <ciudad>Sevilla</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona074@example.com</email>
+    <telefono>+34 600 173 273</telefono>
+    <web>https://example.com/perfil/074</web>
+    <profesion>Diseñadora UX/UI</profesion>
+    <perfil>Profesional de diseñadora ux/ui con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2017</inicio>
+      <fin>2020</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>C++</lenguaje>
+      <lenguaje>SQL</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>MySQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

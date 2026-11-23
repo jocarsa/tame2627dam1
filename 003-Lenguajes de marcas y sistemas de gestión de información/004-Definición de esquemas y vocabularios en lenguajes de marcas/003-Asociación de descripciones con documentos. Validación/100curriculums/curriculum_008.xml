@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Sergio</nombre>
+    <apellidos>Romero Vidal</apellidos>
+    <fecha_nacimiento>1971-11-12</fecha_nacimiento>
+    <ciudad>Alicante</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona008@example.com</email>
+    <telefono>+34 600 107 207</telefono>
+    <web>https://example.com/perfil/008</web>
+    <profesion>Desarrolladora de inteligencia artificial</profesion>
+    <perfil>Profesional de desarrolladora de inteligencia artificial con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2016</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2018</inicio>
+      <fin>2020</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2011</inicio>
+      <fin>2014</fin>
+    </titulo>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2012</inicio>
+      <fin>2015</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>MySQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

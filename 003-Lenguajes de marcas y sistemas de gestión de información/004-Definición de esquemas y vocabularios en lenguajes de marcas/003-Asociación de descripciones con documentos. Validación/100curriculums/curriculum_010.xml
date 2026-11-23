@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Álvaro</nombre>
+    <apellidos>Navarro Torres</apellidos>
+    <fecha_nacimiento>1999-11-13</fecha_nacimiento>
+    <ciudad>Granada</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona010@example.com</email>
+    <telefono>+34 600 109 209</telefono>
+    <web>https://example.com/perfil/010</web>
+    <profesion>Consultora tecnológica</profesion>
+    <perfil>Profesional de consultora tecnológica con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2019</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2021</inicio>
+      <fin>2023</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2014</inicio>
+      <fin>2017</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>CSS</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

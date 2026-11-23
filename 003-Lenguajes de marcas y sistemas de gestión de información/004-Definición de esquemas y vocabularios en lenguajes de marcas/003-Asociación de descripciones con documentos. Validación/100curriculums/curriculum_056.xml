@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Adrián</nombre>
+    <apellidos>Vega Domínguez</apellidos>
+    <fecha_nacimiento>1987-10-04</fecha_nacimiento>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona056@example.com</email>
+    <telefono>+34 600 155 255</telefono>
+    <web>https://example.com/perfil/056</web>
+    <profesion>Especialista en ciberseguridad</profesion>
+    <perfil>Profesional de especialista en ciberseguridad con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2006</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2001</inicio>
+      <fin>2004</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>CSS</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

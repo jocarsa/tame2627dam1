@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Inés</nombre>
+    <apellidos>García López</apellidos>
+    <fecha_nacimiento>1978-09-18</fecha_nacimiento>
+    <ciudad>Valladolid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona099@example.com</email>
+    <telefono>+34 600 198 298</telefono>
+    <web>https://example.com/perfil/099</web>
+    <profesion>Diseñador 3D</profesion>
+    <perfil>Profesional de diseñador 3d con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2008</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2010</inicio>
+      <fin>2012</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2012</inicio>
+      <fin>2014</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2003</inicio>
+      <fin>2006</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>SQL</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>PyTorch</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

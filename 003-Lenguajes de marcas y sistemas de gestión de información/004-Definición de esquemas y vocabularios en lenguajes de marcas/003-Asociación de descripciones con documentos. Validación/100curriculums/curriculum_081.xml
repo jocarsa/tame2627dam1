@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Lucía</nombre>
+    <apellidos>Suárez Campos</apellidos>
+    <fecha_nacimiento>1974-12-23</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona081@example.com</email>
+    <telefono>+34 600 180 280</telefono>
+    <web>https://example.com/perfil/081</web>
+    <profesion>Desarrollador web</profesion>
+    <perfil>Profesional de desarrollador web con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2025</inicio>
+      <fin>2026</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2017</inicio>
+      <fin>2020</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>CSS</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

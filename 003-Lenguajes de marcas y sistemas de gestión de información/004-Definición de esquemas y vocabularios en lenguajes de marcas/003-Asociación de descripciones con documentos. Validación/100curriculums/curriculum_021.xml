@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Lucía</nombre>
+    <apellidos>Ortega Gil</apellidos>
+    <fecha_nacimiento>1989-02-09</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona021@example.com</email>
+    <telefono>+34 600 120 220</telefono>
+    <web>https://example.com/perfil/021</web>
+    <profesion>Desarrollador web</profesion>
+    <perfil>Profesional de desarrollador web con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2025</inicio>
+      <fin>2026</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2017</inicio>
+      <fin>2020</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

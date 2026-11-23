@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Pablo</nombre>
+    <apellidos>Castro Molina</apellidos>
+    <fecha_nacimiento>1997-06-25</fecha_nacimiento>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona006@example.com</email>
+    <telefono>+34 600 105 205</telefono>
+    <web>https://example.com/perfil/006</web>
+    <profesion>Especialista en ciberseguridad</profesion>
+    <perfil>Profesional de especialista en ciberseguridad con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2015</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2017</inicio>
+      <fin>2019</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2010</inicio>
+      <fin>2013</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>MySQL</tecnologia>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Sara</nombre>
+    <apellidos>Romero Vidal</apellidos>
+    <fecha_nacimiento>1988-09-18</fecha_nacimiento>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona057@example.com</email>
+    <telefono>+34 600 156 256</telefono>
+    <web>https://example.com/perfil/057</web>
+    <profesion>Docente de informática</profesion>
+    <perfil>Profesional de docente de informática con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2018</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2013</inicio>
+      <fin>2016</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Node.js</tecnologia>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

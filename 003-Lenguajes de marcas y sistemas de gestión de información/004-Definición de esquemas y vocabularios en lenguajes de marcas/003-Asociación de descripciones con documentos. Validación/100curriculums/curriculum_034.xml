@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Víctor</nombre>
+    <apellidos>Moreno Serrano</apellidos>
+    <fecha_nacimiento>1979-11-27</fecha_nacimiento>
+    <ciudad>Sevilla</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona034@example.com</email>
+    <telefono>+34 600 133 233</telefono>
+    <web>https://example.com/perfil/034</web>
+    <profesion>Diseñadora UX/UI</profesion>
+    <perfil>Profesional de diseñadora ux/ui con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2016</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2018</inicio>
+      <fin>2020</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2011</inicio>
+      <fin>2014</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2012</inicio>
+      <fin>2015</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Linux</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

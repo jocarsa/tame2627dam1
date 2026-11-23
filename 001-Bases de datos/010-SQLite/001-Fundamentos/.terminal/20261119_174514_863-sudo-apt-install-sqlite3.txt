@@ -1,0 +1,11 @@
+Datetime: 2026-11-19T16:45:14.863Z
+Working directory: /var/www/html/tame2627dam1/001-Bases de datos/010-SQLite/001-Fundamentos
+Command: sudo apt install sqlite3
+
+Result:
+Leyendo lista de paquetes... 0%Leyendo lista de paquetes... 100%Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... 0%Creando árbol de dependencias... 0%Creando árbol de dependencias... 50%Creando árbol de dependencias... 50%Creando árbol de dependencias... Hecho
+Leyendo la información de estado... 0%Leyendo la información de estado... 0%Leyendo la información de estado... Hecho
+sqlite3 ya está en su versión más reciente (3.45.1-1ubuntu2.9).
+0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 232 no actualizados.
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/001-Bases de datos/010-SQLite/001-Fundamentos$ 

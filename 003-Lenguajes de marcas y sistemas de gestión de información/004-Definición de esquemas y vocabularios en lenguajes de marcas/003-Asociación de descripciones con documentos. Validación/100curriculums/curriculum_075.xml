@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Marta</nombre>
+    <apellidos>Cortés Blanco</apellidos>
+    <fecha_nacimiento>1998-11-27</fecha_nacimiento>
+    <ciudad>Bilbao</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona075@example.com</email>
+    <telefono>+34 600 174 274</telefono>
+    <web>https://example.com/perfil/075</web>
+    <profesion>Ingeniero de software</profesion>
+    <perfil>Profesional de ingeniero de software con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2006</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2008</inicio>
+      <fin>2010</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2010</inicio>
+      <fin>2012</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2001</inicio>
+      <fin>2004</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2002</inicio>
+      <fin>2005</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>Docker</tecnologia>
+      <tecnologia>React</tecnologia>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

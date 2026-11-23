@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Daniel</nombre>
+    <apellidos>Romero Vidal</apellidos>
+    <fecha_nacimiento>1973-01-01</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona042@example.com</email>
+    <telefono>+34 600 141 241</telefono>
+    <web>https://example.com/perfil/042</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2025</inicio>
+      <fin>2026</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2017</inicio>
+      <fin>2020</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>React</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>RAG</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

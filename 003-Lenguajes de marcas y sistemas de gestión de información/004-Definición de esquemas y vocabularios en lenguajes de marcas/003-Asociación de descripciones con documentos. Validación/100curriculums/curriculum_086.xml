@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Pablo</nombre>
+    <apellidos>Ibáñez Roca</apellidos>
+    <fecha_nacimiento>1983-02-18</fecha_nacimiento>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona086@example.com</email>
+    <telefono>+34 600 185 285</telefono>
+    <web>https://example.com/perfil/086</web>
+    <profesion>Especialista en ciberseguridad</profesion>
+    <perfil>Profesional de especialista en ciberseguridad con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2006</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2008</inicio>
+      <fin>2010</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2001</inicio>
+      <fin>2004</fin>
+    </titulo>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2002</inicio>
+      <fin>2005</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>MySQL</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>Django</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

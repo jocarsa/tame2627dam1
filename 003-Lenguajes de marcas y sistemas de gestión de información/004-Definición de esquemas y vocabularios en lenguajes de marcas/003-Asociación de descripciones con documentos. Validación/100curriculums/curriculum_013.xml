@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Paula</nombre>
+    <apellidos>Suárez Campos</apellidos>
+    <fecha_nacimiento>1991-08-18</fecha_nacimiento>
+    <ciudad>Barcelona</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona013@example.com</email>
+    <telefono>+34 600 112 212</telefono>
+    <web>https://example.com/perfil/013</web>
+    <profesion>Administrador de sistemas</profesion>
+    <perfil>Profesional de administrador de sistemas con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2004</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2006</inicio>
+      <fin>2008</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2008</inicio>
+      <fin>2010</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>1999</inicio>
+      <fin>2002</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>SQL</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Node.js</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <output></output>
+    <script>
+      let salida = document.querySelector("output")
+      
+      let botones = document.querySelectorAll("button")
+      
+      botones.forEach(function(boton){
+      	boton.onclick = function(){
+        	salida.textContent = boton.textContent + " hola"
+        }
+      })
+    </script>
+  </body>
+</html>

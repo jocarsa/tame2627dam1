@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Daniel</nombre>
+    <apellidos>Moreno Serrano</apellidos>
+    <fecha_nacimiento>1970-02-20</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona002@example.com</email>
+    <telefono>+34 600 101 201</telefono>
+    <web>https://example.com/perfil/002</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2019</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2021</inicio>
+      <fin>2023</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2014</inicio>
+      <fin>2017</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>Bash</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Docker</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

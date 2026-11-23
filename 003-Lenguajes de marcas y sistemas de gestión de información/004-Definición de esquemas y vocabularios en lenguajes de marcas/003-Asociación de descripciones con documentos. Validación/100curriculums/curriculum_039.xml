@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Inés</nombre>
+    <apellidos>Vega Domínguez</apellidos>
+    <fecha_nacimiento>2000-09-05</fecha_nacimiento>
+    <ciudad>Valladolid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona039@example.com</email>
+    <telefono>+34 600 138 238</telefono>
+    <web>https://example.com/perfil/039</web>
+    <profesion>Diseñador 3D</profesion>
+    <perfil>Profesional de diseñador 3d con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2004</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2006</inicio>
+      <fin>2008</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>1999</inicio>
+      <fin>2002</fin>
+    </titulo>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2000</inicio>
+      <fin>2003</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

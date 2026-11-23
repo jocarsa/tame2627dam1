@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Irene</nombre>
+    <apellidos>Navarro Torres</apellidos>
+    <fecha_nacimiento>1993-03-18</fecha_nacimiento>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona027@example.com</email>
+    <telefono>+34 600 126 226</telefono>
+    <web>https://example.com/perfil/027</web>
+    <profesion>Docente de informática</profesion>
+    <perfil>Profesional de docente de informática con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2002</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2004</inicio>
+      <fin>2006</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2006</inicio>
+      <fin>2008</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Docker</tecnologia>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>Django</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

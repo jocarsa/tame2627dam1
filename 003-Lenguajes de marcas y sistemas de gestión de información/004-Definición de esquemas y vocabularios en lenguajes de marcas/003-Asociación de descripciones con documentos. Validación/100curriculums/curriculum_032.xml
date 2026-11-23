@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Raúl</nombre>
+    <apellidos>Ramos Ferrer</apellidos>
+    <fecha_nacimiento>1991-11-20</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona032@example.com</email>
+    <telefono>+34 600 131 231</telefono>
+    <web>https://example.com/perfil/032</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2001</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>1996</inicio>
+      <fin>1999</fin>
+    </titulo>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Git</tecnologia>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>React</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

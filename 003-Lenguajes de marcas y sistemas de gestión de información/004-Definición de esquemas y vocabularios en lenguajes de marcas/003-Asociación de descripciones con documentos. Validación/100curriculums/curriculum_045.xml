@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Elena</nombre>
+    <apellidos>Herrera León</apellidos>
+    <fecha_nacimiento>1998-04-10</fecha_nacimiento>
+    <ciudad>Bilbao</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona045@example.com</email>
+    <telefono>+34 600 144 244</telefono>
+    <web>https://example.com/perfil/045</web>
+    <profesion>Ingeniero de software</profesion>
+    <perfil>Profesional de ingeniero de software con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2002</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2004</inicio>
+      <fin>2006</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2006</inicio>
+      <fin>2008</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>MySQL</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

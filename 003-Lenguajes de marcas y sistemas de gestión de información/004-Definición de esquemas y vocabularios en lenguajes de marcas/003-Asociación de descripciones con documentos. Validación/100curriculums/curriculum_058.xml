@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Javier</nombre>
+    <apellidos>Cortés Blanco</apellidos>
+    <fecha_nacimiento>1990-05-24</fecha_nacimiento>
+    <ciudad>Alicante</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona058@example.com</email>
+    <telefono>+34 600 157 257</telefono>
+    <web>https://example.com/perfil/058</web>
+    <profesion>Desarrolladora de inteligencia artificial</profesion>
+    <perfil>Profesional de desarrolladora de inteligencia artificial con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2017</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2019</inicio>
+      <fin>2021</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2012</inicio>
+      <fin>2015</fin>
+    </titulo>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2013</inicio>
+      <fin>2016</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Docker</tecnologia>
+      <tecnologia>Git</tecnologia>
+      <tecnologia>MySQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

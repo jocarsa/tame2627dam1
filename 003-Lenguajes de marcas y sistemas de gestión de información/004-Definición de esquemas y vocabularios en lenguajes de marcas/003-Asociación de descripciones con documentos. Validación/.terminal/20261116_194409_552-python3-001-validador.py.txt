@@ -1,0 +1,9 @@
+Datetime: 2026-11-16T18:44:09.552Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación
+Command: python3 001-validador.py
+
+Result:
+XML no válido
+curriculum.xml:8:0:ERROR:SCHEMASV:SCHEMAV_ELEMENT_CONTENT: Element 'codigo_postal': This element is not expected. Expected is ( pais ).
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/003-Lenguaje
+s de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación$ 

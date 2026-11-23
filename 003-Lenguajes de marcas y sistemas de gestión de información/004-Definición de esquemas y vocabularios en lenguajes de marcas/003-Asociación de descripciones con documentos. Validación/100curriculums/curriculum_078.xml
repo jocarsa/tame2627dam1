@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Javier</nombre>
+    <apellidos>Sánchez Pérez</apellidos>
+    <fecha_nacimiento>1974-11-13</fecha_nacimiento>
+    <ciudad>Alicante</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona078@example.com</email>
+    <telefono>+34 600 177 277</telefono>
+    <web>https://example.com/perfil/078</web>
+    <profesion>Desarrolladora de inteligencia artificial</profesion>
+    <perfil>Profesional de desarrolladora de inteligencia artificial con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2005</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2000</inicio>
+      <fin>2003</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>C++</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

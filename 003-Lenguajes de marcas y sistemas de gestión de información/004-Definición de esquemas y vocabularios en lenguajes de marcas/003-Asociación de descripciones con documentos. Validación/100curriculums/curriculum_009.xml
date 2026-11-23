@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Clara</nombre>
+    <apellidos>Cortés Blanco</apellidos>
+    <fecha_nacimiento>1991-08-20</fecha_nacimiento>
+    <ciudad>Valladolid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona009@example.com</email>
+    <telefono>+34 600 108 208</telefono>
+    <web>https://example.com/perfil/009</web>
+    <profesion>Diseñador 3D</profesion>
+    <perfil>Profesional de diseñador 3d con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2015</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2017</inicio>
+      <fin>2019</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2010</inicio>
+      <fin>2013</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>Node.js</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

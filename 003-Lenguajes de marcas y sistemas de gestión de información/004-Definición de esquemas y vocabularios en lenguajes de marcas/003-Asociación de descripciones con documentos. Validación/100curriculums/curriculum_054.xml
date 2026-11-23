@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Víctor</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1983-07-05</fecha_nacimiento>
+    <ciudad>Sevilla</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona054@example.com</email>
+    <telefono>+34 600 153 253</telefono>
+    <web>https://example.com/perfil/054</web>
+    <profesion>Diseñadora UX/UI</profesion>
+    <perfil>Profesional de diseñadora ux/ui con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Diseñadora UX/UI</cargo>
+      <inicio>2009</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñadora ux/ui.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2004</inicio>
+      <fin>2007</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Paula</nombre>
+    <apellidos>Vega Domínguez</apellidos>
+    <fecha_nacimiento>1995-11-07</fecha_nacimiento>
+    <ciudad>Barcelona</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona073@example.com</email>
+    <telefono>+34 600 172 272</telefono>
+    <web>https://example.com/perfil/073</web>
+    <profesion>Administrador de sistemas</profesion>
+    <perfil>Profesional de administrador de sistemas con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2012</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2007</inicio>
+      <fin>2010</fin>
+    </titulo>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2008</inicio>
+      <fin>2011</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>C++</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>React</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Raúl</nombre>
+    <apellidos>Castro Molina</apellidos>
+    <fecha_nacimiento>1992-08-02</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona072@example.com</email>
+    <telefono>+34 600 171 271</telefono>
+    <web>https://example.com/perfil/072</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2025</inicio>
+      <fin>2026</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Docker</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Elena</nombre>
+    <apellidos>Moreno Serrano</apellidos>
+    <fecha_nacimiento>1973-01-13</fecha_nacimiento>
+    <ciudad>Bilbao</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona085@example.com</email>
+    <telefono>+34 600 184 284</telefono>
+    <web>https://example.com/perfil/085</web>
+    <profesion>Ingeniero de software</profesion>
+    <perfil>Profesional de ingeniero de software con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2009</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2011</inicio>
+      <fin>2013</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2013</inicio>
+      <fin>2015</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2004</inicio>
+      <fin>2007</fin>
+    </titulo>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2005</inicio>
+      <fin>2008</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>C++</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>MySQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

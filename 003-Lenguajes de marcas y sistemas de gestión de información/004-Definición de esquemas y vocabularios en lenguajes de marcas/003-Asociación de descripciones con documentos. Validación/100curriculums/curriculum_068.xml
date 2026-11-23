@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Sergio</nombre>
+    <apellidos>Moreno Serrano</apellidos>
+    <fecha_nacimiento>1978-05-06</fecha_nacimiento>
+    <ciudad>Alicante</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona068@example.com</email>
+    <telefono>+34 600 167 267</telefono>
+    <web>https://example.com/perfil/068</web>
+    <profesion>Desarrolladora de inteligencia artificial</profesion>
+    <perfil>Profesional de desarrolladora de inteligencia artificial con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2004</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>1999</inicio>
+      <fin>2002</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2000</inicio>
+      <fin>2003</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>C++</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

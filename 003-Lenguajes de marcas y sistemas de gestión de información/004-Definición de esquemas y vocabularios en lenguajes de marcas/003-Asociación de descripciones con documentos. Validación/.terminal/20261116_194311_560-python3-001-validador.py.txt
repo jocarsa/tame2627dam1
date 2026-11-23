@@ -1,0 +1,46 @@
+Datetime: 2026-11-16T18:43:11.560Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación
+Command: python3 001-validador.py
+
+Result:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación/001-validador.py", line 4, in <module>
+    xsd = etree.XMLSchema(etree.parse("esquema.xsd"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2044, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2070, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 1961, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1230, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "esquema.xsd", line 2
+lxml.etree.XMLSyntaxError: XML declaration allowed only at the start of the document, line 2, column 6
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '/var/crash/_var_www_html_tame2627dam1_003-Lenguajes de marcas y sistemas de gestión de información_004-Definición de esquemas y vocabularios en lenguajes de marcas_003-Asociación de descripciones con documentos. Validación_001-validador.py.1000.crash'
+
+Original exception was:
+Traceback (most recent call last):
+  File "/var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación/001-validador.py", line 4, in <module>
+    xsd = etree.XMLSchema(etree.parse("esquema.xsd"))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3716, in lxml.etree.parse
+  File "src/lxml/parser.pxi", line 2044, in lxml.etree._parseDocument
+  File "src/lxml/parser.pxi", line 2070, in lxml.etree._parseDocumentFromURL
+  File "src/lxml/parser.pxi", line 1961, in lxml.etree._parseDocFromFile
+  File "src/lxml/parser.pxi", line 1230, in lxml.etree._BaseParser._parseDocFromFile
+  File "src/lxml/parser.pxi", line 647, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 765, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 689, in lxml.etree._raiseParseError
+  File "esquema.xsd", line 2
+lxml.etree.XMLSyntaxError: XML declaration allowed only at the start of the document, line 2, column 6
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/003-Lenguaje
+s de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación$ 

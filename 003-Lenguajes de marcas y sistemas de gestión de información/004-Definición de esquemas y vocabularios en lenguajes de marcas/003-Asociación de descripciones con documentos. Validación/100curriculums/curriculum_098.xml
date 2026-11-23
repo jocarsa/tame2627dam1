@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Javier</nombre>
+    <apellidos>Ramos Ferrer</apellidos>
+    <fecha_nacimiento>1974-01-11</fecha_nacimiento>
+    <ciudad>Alicante</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona098@example.com</email>
+    <telefono>+34 600 197 297</telefono>
+    <web>https://example.com/perfil/098</web>
+    <profesion>Desarrolladora de inteligencia artificial</profesion>
+    <perfil>Profesional de desarrolladora de inteligencia artificial con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2009</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Desarrolladora de inteligencia artificial</cargo>
+      <inicio>2011</inicio>
+      <fin>2013</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrolladora de inteligencia artificial.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2004</inicio>
+      <fin>2007</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2005</inicio>
+      <fin>2008</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>Python</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

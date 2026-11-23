@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Nuria</nombre>
+    <apellidos>Martínez Ruiz</apellidos>
+    <fecha_nacimiento>1976-02-20</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona031@example.com</email>
+    <telefono>+34 600 130 230</telefono>
+    <web>https://example.com/perfil/031</web>
+    <profesion>Desarrollador web</profesion>
+    <perfil>Profesional de desarrollador web con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2015</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2010</inicio>
+      <fin>2013</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

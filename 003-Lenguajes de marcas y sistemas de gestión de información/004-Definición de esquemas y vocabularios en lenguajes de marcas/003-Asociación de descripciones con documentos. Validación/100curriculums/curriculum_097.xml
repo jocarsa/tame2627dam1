@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Sara</nombre>
+    <apellidos>Martínez Ruiz</apellidos>
+    <fecha_nacimiento>1981-07-20</fecha_nacimiento>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona097@example.com</email>
+    <telefono>+34 600 196 296</telefono>
+    <web>https://example.com/perfil/097</web>
+    <profesion>Docente de informática</profesion>
+    <perfil>Profesional de docente de informática con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2000</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>1995</inicio>
+      <fin>1998</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>PHP</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

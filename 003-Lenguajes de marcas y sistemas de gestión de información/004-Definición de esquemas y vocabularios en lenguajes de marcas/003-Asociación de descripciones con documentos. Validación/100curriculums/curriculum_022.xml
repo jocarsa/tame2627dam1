@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Daniel</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1977-09-25</fecha_nacimiento>
+    <ciudad>Madrid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona022@example.com</email>
+    <telefono>+34 600 121 221</telefono>
+    <web>https://example.com/perfil/022</web>
+    <profesion>Analista de datos</profesion>
+    <perfil>Profesional de analista de datos con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Analista de datos</cargo>
+      <inicio>2005</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de analista de datos.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2000</inicio>
+      <fin>2003</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>Bash</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>Linux</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

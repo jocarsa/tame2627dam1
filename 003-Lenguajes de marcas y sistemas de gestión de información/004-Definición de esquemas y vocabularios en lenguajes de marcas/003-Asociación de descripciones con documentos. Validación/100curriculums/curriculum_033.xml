@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Paula</nombre>
+    <apellidos>García López</apellidos>
+    <fecha_nacimiento>1972-09-16</fecha_nacimiento>
+    <ciudad>Barcelona</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona033@example.com</email>
+    <telefono>+34 600 132 232</telefono>
+    <web>https://example.com/perfil/033</web>
+    <profesion>Administrador de sistemas</profesion>
+    <perfil>Profesional de administrador de sistemas con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2019</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2014</inicio>
+      <fin>2017</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>PHP</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Git</tecnologia>
+      <tecnologia>Docker</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>RAG</tecnologia>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

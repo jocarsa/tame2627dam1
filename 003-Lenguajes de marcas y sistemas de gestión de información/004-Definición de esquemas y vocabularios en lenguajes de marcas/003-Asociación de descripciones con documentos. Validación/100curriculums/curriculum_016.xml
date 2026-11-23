@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Adrián</nombre>
+    <apellidos>García López</apellidos>
+    <fecha_nacimiento>1970-10-18</fecha_nacimiento>
+    <ciudad>Zaragoza</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona016@example.com</email>
+    <telefono>+34 600 115 215</telefono>
+    <web>https://example.com/perfil/016</web>
+    <profesion>Especialista en ciberseguridad</profesion>
+    <perfil>Profesional de especialista en ciberseguridad con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2017</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2019</inicio>
+      <fin>2021</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Especialista en ciberseguridad</cargo>
+      <inicio>2021</inicio>
+      <fin>2023</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de especialista en ciberseguridad.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2012</inicio>
+      <fin>2015</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>C++</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

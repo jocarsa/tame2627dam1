@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Marina</nombre>
+    <apellidos>Sánchez Pérez</apellidos>
+    <fecha_nacimiento>1983-01-07</fecha_nacimiento>
+    <ciudad>Barcelona</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona063@example.com</email>
+    <telefono>+34 600 162 262</telefono>
+    <web>https://example.com/perfil/063</web>
+    <profesion>Administrador de sistemas</profesion>
+    <perfil>Profesional de administrador de sistemas con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2004</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Atlas Digital Pruebas</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2006</inicio>
+      <fin>2008</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>1999</inicio>
+      <fin>2002</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2000</inicio>
+      <fin>2003</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>Git</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>MySQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>RAG</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

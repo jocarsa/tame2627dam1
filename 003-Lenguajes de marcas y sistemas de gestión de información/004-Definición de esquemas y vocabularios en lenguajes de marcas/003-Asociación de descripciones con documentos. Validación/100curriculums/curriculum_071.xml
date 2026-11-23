@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Nuria</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1978-08-06</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona071@example.com</email>
+    <telefono>+34 600 170 270</telefono>
+    <web>https://example.com/perfil/071</web>
+    <profesion>Desarrollador web</profesion>
+    <perfil>Profesional de desarrollador web con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2009</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ingeniería Informática</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2004</inicio>
+      <fin>2007</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Bash</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

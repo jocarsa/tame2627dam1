@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Rubén</nombre>
+    <apellidos>Moreno Serrano</apellidos>
+    <fecha_nacimiento>1974-10-13</fecha_nacimiento>
+    <ciudad>Granada</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona100@example.com</email>
+    <telefono>+34 600 199 299</telefono>
+    <web>https://example.com/perfil/100</web>
+    <profesion>Consultora tecnológica</profesion>
+    <perfil>Profesional de consultora tecnológica con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2000</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2002</inicio>
+      <fin>2004</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2004</inicio>
+      <fin>2006</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>1995</inicio>
+      <fin>1998</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>MySQL</tecnologia>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>RAG</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Diseño UX</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

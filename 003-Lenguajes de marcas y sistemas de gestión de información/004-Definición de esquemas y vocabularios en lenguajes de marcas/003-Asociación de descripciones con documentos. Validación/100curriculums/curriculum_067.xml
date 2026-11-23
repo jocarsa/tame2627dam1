@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Irene</nombre>
+    <apellidos>García López</apellidos>
+    <fecha_nacimiento>1984-05-27</fecha_nacimiento>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona067@example.com</email>
+    <telefono>+34 600 166 266</telefono>
+    <web>https://example.com/perfil/067</web>
+    <profesion>Docente de informática</profesion>
+    <perfil>Profesional de docente de informática con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2012</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2014</inicio>
+      <fin>2016</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2007</inicio>
+      <fin>2010</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>React</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+      <tecnologia>PyTorch</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

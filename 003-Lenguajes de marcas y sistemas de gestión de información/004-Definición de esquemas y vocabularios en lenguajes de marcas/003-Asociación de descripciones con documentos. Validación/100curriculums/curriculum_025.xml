@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Elena</nombre>
+    <apellidos>Romero Vidal</apellidos>
+    <fecha_nacimiento>2001-05-09</fecha_nacimiento>
+    <ciudad>Bilbao</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona025@example.com</email>
+    <telefono>+34 600 124 224</telefono>
+    <web>https://example.com/perfil/025</web>
+    <profesion>Ingeniero de software</profesion>
+    <perfil>Profesional de ingeniero de software con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2007</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>PixelSur Studio</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2009</inicio>
+      <fin>2011</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2011</inicio>
+      <fin>2013</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2002</inicio>
+      <fin>2005</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>CSS</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>Docker</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Rubén</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1983-12-12</fecha_nacimiento>
+    <ciudad>Granada</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona020@example.com</email>
+    <telefono>+34 600 119 219</telefono>
+    <web>https://example.com/perfil/020</web>
+    <profesion>Consultora tecnológica</profesion>
+    <perfil>Profesional de consultora tecnológica con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2011</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2013</inicio>
+      <fin>2015</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2006</inicio>
+      <fin>2009</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>Flask</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

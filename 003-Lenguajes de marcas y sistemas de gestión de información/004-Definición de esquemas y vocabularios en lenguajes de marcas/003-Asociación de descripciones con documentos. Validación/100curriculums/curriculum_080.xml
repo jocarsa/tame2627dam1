@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Rubén</nombre>
+    <apellidos>Martínez Ruiz</apellidos>
+    <fecha_nacimiento>1971-09-20</fecha_nacimiento>
+    <ciudad>Granada</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona080@example.com</email>
+    <telefono>+34 600 179 279</telefono>
+    <web>https://example.com/perfil/080</web>
+    <profesion>Consultora tecnológica</profesion>
+    <perfil>Profesional de consultora tecnológica con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2001</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2003</inicio>
+      <fin>2005</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Consultora tecnológica</cargo>
+      <inicio>2005</inicio>
+      <fin>2007</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de consultora tecnológica.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>1996</inicio>
+      <fin>1999</fin>
+    </titulo>
+    <titulo>
+      <nombre>Administración de Sistemas Informáticos en Red</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>1997</inicio>
+      <fin>2000</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>React</tecnologia>
+      <tecnologia>Docker</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Diseño UX</especialidad>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

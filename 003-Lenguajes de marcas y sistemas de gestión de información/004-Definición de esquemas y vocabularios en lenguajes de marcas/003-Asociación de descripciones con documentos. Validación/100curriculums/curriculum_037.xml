@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Sara</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1995-10-18</fecha_nacimiento>
+    <ciudad>Málaga</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona037@example.com</email>
+    <telefono>+34 600 136 236</telefono>
+    <web>https://example.com/perfil/037</web>
+    <profesion>Docente de informática</profesion>
+    <perfil>Profesional de docente de informática con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Nexo Software Demo</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2019</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Alfa Sistemas Ficticios</empresa>
+      <cargo>Docente de informática</cargo>
+      <inicio>2021</inicio>
+      <fin>2023</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de docente de informática.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Web</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2014</inicio>
+      <fin>2017</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>TypeScript</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+      <lenguaje>C++</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Node.js</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+      <especialidad>Modelado 3D</especialidad>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

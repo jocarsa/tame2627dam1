@@ -1,0 +1,30 @@
+{
+    "id": "20261120_113740_d114b9517744",
+    "fecha": "2026-11-20T11:37:40+00:00",
+    "fecha_cliente": "2026-11-20T11:37:40.965Z",
+    "nombre": "Manuel",
+    "email": "manuel@gmail.com",
+    "productos": [
+        {
+            "producto": "Rosa Imperial",
+            "precio": 89
+        },
+        {
+            "producto": "Jardín Secreto",
+            "precio": 54.9
+        },
+        {
+            "producto": "Sombra de Ébano",
+            "precio": 94.9
+        },
+        {
+            "producto": "Susurro de Seda",
+            "precio": 68
+        },
+        {
+            "producto": "Perla del Océano",
+            "precio": 51.95
+        }
+    ],
+    "total": 358.75
+}

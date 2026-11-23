@@ -1,0 +1,7 @@
+Datetime: 2026-11-16T16:53:11.359Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/012-PHP/001-Fundamentos
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programa
+ción/012-PHP/001-Fundamentos$ 

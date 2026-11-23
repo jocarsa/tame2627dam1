@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Inés</nombre>
+    <apellidos>Ortega Gil</apellidos>
+    <fecha_nacimiento>1970-04-08</fecha_nacimiento>
+    <ciudad>Valladolid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona019@example.com</email>
+    <telefono>+34 600 118 218</telefono>
+    <web>https://example.com/perfil/019</web>
+    <profesion>Diseñador 3D</profesion>
+    <perfil>Profesional de diseñador 3d con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2003</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2005</inicio>
+      <fin>2007</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>1998</inicio>
+      <fin>2001</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>1999</inicio>
+      <fin>2002</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>CSS</lenguaje>
+      <lenguaje>SQL</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Linux</tecnologia>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Ollama</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Prototipado</especialidad>
+      <especialidad>Diseño UX</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

@@ -1,0 +1,25 @@
+Hace falta un servidor local
+
+Linux:
+sudo apt install apache2 (servidor web)
+sudo apt install php (instalar php sobre apache)
+
+Vuestra carpeta de publicación estará en /var/www/html
+
+TODO el PHP que pongáis, deberá estar dentro de esa carpeta
+
+Si por ejemplo ponéis /var/www/html/php8/hola.php
+En el navegador tendréis que poner http://localhost/php8/hola.php
+Es decir /var/www/html/... equivale a http://localhost/...
+
+Windows:
+https://www.apachefriends.org/es/index.html
+Descargáis e instaláis
+Arrancáis el panel de control
+
+Vuestra carpeta de publicación en Windows será:
+C:/XAMPP/htdocs/...
+Si por ejemplo ponéis C:/XAMPP/htdocs/php8/hola.php
+En el navegador tendréis que poner http://localhost/php8/hola.php
+
+Es decir C:/XAMPP/htdocs/... equivale a http://localhost/...

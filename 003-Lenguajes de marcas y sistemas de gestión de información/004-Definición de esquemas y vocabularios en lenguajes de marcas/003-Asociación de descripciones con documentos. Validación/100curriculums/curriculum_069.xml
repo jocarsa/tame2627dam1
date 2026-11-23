@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Clara</nombre>
+    <apellidos>Ibáñez Roca</apellidos>
+    <fecha_nacimiento>1994-04-15</fecha_nacimiento>
+    <ciudad>Valladolid</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona069@example.com</email>
+    <telefono>+34 600 168 268</telefono>
+    <web>https://example.com/perfil/069</web>
+    <profesion>Diseñador 3D</profesion>
+    <perfil>Profesional de diseñador 3d con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Marea Innovación</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2015</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Cobalto Tecnologías</empresa>
+      <cargo>Diseñador 3D</cargo>
+      <inicio>2017</inicio>
+      <fin>2019</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de diseñador 3d.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universidad de Sevilla</centro>
+      <inicio>2010</inicio>
+      <fin>2013</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2011</inicio>
+      <fin>2014</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Python</lenguaje>
+      <lenguaje>Bash</lenguaje>
+      <lenguaje>C++</lenguaje>
+      <lenguaje>JavaScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Node.js</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+      <tecnologia>Django</tecnologia>
+      <tecnologia>Git</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+      <tecnologia>Whisper</tecnologia>
+      <tecnologia>Embeddings</tecnologia>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Animación 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

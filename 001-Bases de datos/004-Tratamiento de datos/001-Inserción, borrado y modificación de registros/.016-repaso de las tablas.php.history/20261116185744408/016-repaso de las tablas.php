@@ -1,0 +1,12 @@
+<table>
+	<thead>
+  	<tr>
+    	<th>id</th>
+    	<th>Nombre</th>
+      <th>Apellidos</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Lucía</nombre>
+    <apellidos>Vega Domínguez</apellidos>
+    <fecha_nacimiento>1973-09-12</fecha_nacimiento>
+    <ciudad>Valencia</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona041@example.com</email>
+    <telefono>+34 600 140 240</telefono>
+    <web>https://example.com/perfil/041</web>
+    <profesion>Desarrollador web</profesion>
+    <perfil>Profesional de desarrollador web con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>TecnoNube Ficticia</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2021</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>Soluciones Levante Demo</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2023</inicio>
+      <fin>2025</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Desarrollador web</cargo>
+      <inicio>2025</inicio>
+      <fin>2026</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de desarrollador web.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Ciencia de Datos</nombre>
+      <centro>Universitat de València</centro>
+      <inicio>2016</inicio>
+      <fin>2019</fin>
+    </titulo>
+    <titulo>
+      <nombre>Ingeniería de Telecomunicaciones</nombre>
+      <centro>Universidad Complutense de Madrid</centro>
+      <inicio>2017</inicio>
+      <fin>2020</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>HTML</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>Node.js</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Modelado 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="intermedio">Inglés</idioma>
+  </idiomas>
+</curriculum>

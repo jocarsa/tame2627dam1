@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Marina</nombre>
+    <apellidos>Ibáñez Roca</apellidos>
+    <fecha_nacimiento>1999-11-24</fecha_nacimiento>
+    <ciudad>Barcelona</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona003@example.com</email>
+    <telefono>+34 600 102 202</telefono>
+    <web>https://example.com/perfil/003</web>
+    <profesion>Administrador de sistemas</profesion>
+    <perfil>Profesional de administrador de sistemas con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>BitNova Laboratorio</empresa>
+      <cargo>Administrador de sistemas</cargo>
+      <inicio>2020</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de administrador de sistemas.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+      <centro>Universitat Politècnica de València</centro>
+      <inicio>2015</inicio>
+      <fin>2018</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>SQL</lenguaje>
+      <lenguaje>HTML</lenguaje>
+      <lenguaje>PHP</lenguaje>
+      <lenguaje>TypeScript</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Docker</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>Transformers</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="avanzado">Inglés</idioma>
+  </idiomas>
+</curriculum>

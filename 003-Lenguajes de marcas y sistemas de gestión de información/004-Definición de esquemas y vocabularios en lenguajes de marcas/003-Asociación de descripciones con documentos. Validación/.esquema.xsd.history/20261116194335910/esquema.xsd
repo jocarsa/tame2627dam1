@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="curriculum">
+    <xs:complexType>
+      <xs:sequence>
+
+        <!-- DATOS PERSONALES -->
+        <xs:element name="datos_personales">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="apellidos" type="xs:string"/>
+              <xs:element name="fecha_nacimiento" type="xs:date"/>
+              <xs:element name="ciudad" type="xs:string"/>
+              <xs:element name="pais" type="xs:string"/>
+              <xs:element name="nacionalidad" type="xs:string"/>
+              <xs:element name="email" type="xs:string"/>
+              <xs:element name="telefono" type="xs:string"/>
+              <xs:element name="web" type="xs:anyURI"/>
+              <xs:element name="profesion" type="xs:string"/>
+              <xs:element name="perfil" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- EXPERIENCIA -->
+        <xs:element name="experiencia">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="puesto"
+                          minOccurs="0"
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="empresa" type="xs:string"/>
+                    <xs:element name="cargo" type="xs:string"/>
+                    <xs:element name="inicio" type="xs:gYear"/>
+                    <xs:element name="fin" type="xs:string"/>
+                    <xs:element name="funciones"
+                                type="xs:string"
+                                minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- FORMACION -->
+        <xs:element name="formacion">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo"
+                          minOccurs="0"
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="centro"
+                                type="xs:string"
+                                minOccurs="0"/>
+                    <xs:element name="inicio"
+                                type="xs:gYear"
+                                minOccurs="0"/>
+                    <xs:element name="fin"
+                                type="xs:gYear"
+                                minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- COMPETENCIAS -->
+        <xs:element name="competencias">
+          <xs:complexType>
+            <xs:sequence>
+
+              <xs:element name="programacion">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="lenguaje"
+                                type="xs:string"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="tecnologias">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tecnologia"
+                                type="xs:string"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="inteligencia_artificial">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="tecnologia"
+                                type="xs:string"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+              <xs:element name="diseno">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="especialidad"
+                                type="xs:string"
+                                minOccurs="0"
+                                maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- IDIOMAS -->
+        <xs:element name="idiomas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idioma"
+                          minOccurs="0"
+                          maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="nivel"
+                                    type="xs:string"
+                                    use="optional"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

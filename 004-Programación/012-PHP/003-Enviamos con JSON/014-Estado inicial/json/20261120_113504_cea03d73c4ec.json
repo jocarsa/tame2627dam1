@@ -1,0 +1,26 @@
+{
+    "id": "20261120_113504_cea03d73c4ec",
+    "fecha": "2026-11-20T11:35:04+00:00",
+    "fecha_cliente": "2026-11-20T11:35:04.220Z",
+    "nombre": "Jose Vicente",
+    "email": "info@jocarsa.com",
+    "productos": [
+        {
+            "producto": "Noche de Cristal",
+            "precio": 74.5
+        },
+        {
+            "producto": "Bosque Encantado",
+            "precio": 65
+        },
+        {
+            "producto": "Rosa Imperial",
+            "precio": 89
+        },
+        {
+            "producto": "Jardín Secreto",
+            "precio": 54.9
+        }
+    ],
+    "total": 283.4
+}

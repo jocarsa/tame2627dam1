@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<curriculum>
+  <datos_personales>
+    <nombre>Elena</nombre>
+    <apellidos>Soler Medina</apellidos>
+    <fecha_nacimiento>1991-07-15</fecha_nacimiento>
+    <ciudad>Bilbao</ciudad>
+    <pais>España</pais>
+    <nacionalidad>Española</nacionalidad>
+    <email>persona005@example.com</email>
+    <telefono>+34 600 104 204</telefono>
+    <web>https://example.com/perfil/005</web>
+    <profesion>Ingeniero de software</profesion>
+    <perfil>Profesional de ingeniero de software con experiencia en proyectos tecnológicos y trabajo en equipo.</perfil>
+  </datos_personales>
+  <experiencia>
+    <puesto>
+      <empresa>Horizonte Datos</empresa>
+      <cargo>Ingeniero de software</cargo>
+      <inicio>2016</inicio>
+      <fin>Actualidad</fin>
+      <funciones>Desarrollo, mantenimiento y coordinación de proyectos de ingeniero de software.</funciones>
+    </puesto>
+  </experiencia>
+  <formacion>
+    <titulo>
+      <nombre>Diseño Digital</nombre>
+      <centro>Universidad de Granada</centro>
+      <inicio>2011</inicio>
+      <fin>2014</fin>
+    </titulo>
+  </formacion>
+  <competencias>
+    <programacion>
+      <lenguaje>Java</lenguaje>
+    </programacion>
+    <tecnologias>
+      <tecnologia>Flask</tecnologia>
+      <tecnologia>SQLite</tecnologia>
+      <tecnologia>PostgreSQL</tecnologia>
+    </tecnologias>
+    <inteligencia_artificial>
+      <tecnologia>LLM</tecnologia>
+    </inteligencia_artificial>
+    <diseno>
+      <especialidad>Visualización 3D</especialidad>
+    </diseno>
+  </competencias>
+  <idiomas>
+    <idioma nivel="nativo">Español</idioma>
+    <idioma nivel="básico">Inglés</idioma>
+  </idiomas>
+</curriculum>

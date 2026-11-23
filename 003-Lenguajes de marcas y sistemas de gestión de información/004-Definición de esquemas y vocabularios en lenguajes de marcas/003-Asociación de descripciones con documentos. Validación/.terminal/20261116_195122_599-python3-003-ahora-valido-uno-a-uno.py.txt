@@ -1,0 +1,26 @@
+Datetime: 2026-11-16T18:51:22.599Z
+Working directory: /var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación
+Command: python3 003-ahora\ valido\ uno\ a\ uno.py
+
+Result:
+  File "/var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación/003-ahora valido uno a uno.py", line 10
+    if xsd.validate(xml):															# Validalo
+                                                  ^
+IndentationError: unindent does not match any outer indentation level
+Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 228, in partial_apport_excepthook
+    return apport_excepthook(binary, exc_type, exc_obj, exc_tb)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/apport_python_hook.py", line 144, in apport_excepthook
+    os.open(pr_filename, os.O_WRONLY | os.O_CREAT | os.O_EXCL, 0o640), "wb"
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 36] File name too long: '/var/crash/_var_www_html_tame2627dam1_003-Lenguajes de marcas y sistemas de gestión de información_004-Definición de esquemas y vocabularios en lenguajes de marcas_003-Asociación de descripciones con documentos. Validación_003-ahora valido uno a uno.py.1000.crash'
+
+Original exception was:
+  File "/var/www/html/tame2627dam1/003-Lenguajes de marcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación/003-ahora valido uno a uno.py", line 10
+    if xsd.validate(xml):															# Validalo
+                                                  ^
+IndentationError: unindent does not match any outer indentation level
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/003-Lenguajes de m
+arcas y sistemas de gestión de información/004-Definición de esquemas y vocabularios en lenguajes de marcas/003-Asociación de descripciones con documentos. Validación$ 

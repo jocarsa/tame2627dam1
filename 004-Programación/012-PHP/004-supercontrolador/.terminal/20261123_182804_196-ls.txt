@@ -1,0 +1,16 @@
+Datetime: 2026-11-23T17:28:04.196Z
+Working directory: /var/www/html/tame2627dam1/004-Programación/012-PHP/004-supercontrolador
+Command: ls
+
+Result:
+'001-importacion sqlite.sql'                  '010-unimos los dos codigos.php'
+'002-controlador php.php'                     '011-le damos forma html y css.php'
+'003-controlador para clientes.php'           '012-un poco de css.php'
+'004-en primer lugar campos dinamicos.php'    '013-creo una tabla.php'
+'005-vomito el array.php'                     '014-creo las cabeceras de las tablas.php'
+'006-recorro el array.php'                    '015-un poco mas de css.php'
+'007-convierto la tabla en una variable.php'  '016-peticion cruzada.sql'
+'008-mostrar tablas.php'                       empresa.db
+'009-y si las convierto a enlaces.php'
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/004-Programación/012-PHP/004-supercontrola
+dor$ 

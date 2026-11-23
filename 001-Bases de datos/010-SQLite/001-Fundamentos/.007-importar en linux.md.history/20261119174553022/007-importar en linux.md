@@ -1,0 +1,3 @@
+sudo apt install sqlite3
+
+sqlite3 tienda.db < "006-crear tienda demostracion.sql" 

@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+  </head>
+  <body>
+    <table border=1>
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>Nombre</th>
+          <th>Apellidos</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>id</td>
+          <td>Nombre</td>
+          <td>Apellidos</td>
+          <td>Email</td>
+        </tr>
+        <tr>
+          <td>id</td>
+          <td>Nombre</td>
+          <td>Apellidos</td>
+          <td>Email</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

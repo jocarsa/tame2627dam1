@@ -1,0 +1,7 @@
+<?php
+	// Primero recibe el JSON
+  $json = $_GET['json']; // Estoy recibiendo el JSON por GET
+  
+  // Ahora abro un archivo
+  $archivo = fopen("json/".date('U').".json",'w');
+?>

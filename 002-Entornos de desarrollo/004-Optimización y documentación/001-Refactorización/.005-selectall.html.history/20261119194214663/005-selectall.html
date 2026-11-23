@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <button id="primero">Primero</button>
+    <button id="segundo">Segundo</button>
+    <button id="tercero">Tercero</button>
+    <button id="cuarto">Cuarto</button>
+    <output></output>
+    <script>
+      let salida = document.querySelector("output")
+      
+      let botones = document.querySelectorAll("button")
+      
+      botones.forEach(function(boton){
+      	boton.onclick = function(){
+        	salida.textContent = boton.textContent
+        }
+      })
+      
+    </script>
+  </body>
+</html>
