@@ -1,0 +1,50 @@
+html,body{
+  width:100%;
+  height:100%;
+  padding:0px;
+  margin:0px;
+  font-family:ubuntu,sans-serif;
+}
+body{
+  display:flex;
+}
+nav{
+  background:indigo;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  padding:20px;
+  overflow-y:scroll;
+  direction: rtl;
+}
+nav a{
+  text-decoration:none;
+  color:indigo;
+  background:white;
+  padding:10px;
+  direction: ltr;
+    text-align: left;
+  border-radius:50px;
+}
+main{
+  flex:5;
+  padding:20px;
+  overflow-y:scroll;
+}
+main table{
+  width:100%;
+}
+main table thead{
+  background:indigo;
+  color:white;
+}
+main table tbody tr:nth-child(odd){
+  background:aliceblue;
+}
+main table td,main table th{
+	padding:5px;
+}
+.activo{
+	transform:translateX(20px);
+}
