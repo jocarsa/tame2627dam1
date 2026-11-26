@@ -1,0 +1,3 @@
+<?php
+	$directorio = readdir("subidas");
+?>

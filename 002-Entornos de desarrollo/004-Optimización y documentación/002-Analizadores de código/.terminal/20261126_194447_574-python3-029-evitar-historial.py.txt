@@ -1,0 +1,12 @@
+Datetime: 2026-11-26T18:44:47.574Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/004-Optimización y documentación/002-Analizadores de código
+Command: python3 029-evitar\ historial.py
+
+Result:
+027-Refactorizar ['estilo', 'js', 'inc'] ['index.php']
+027-Refactorizar/estilo [] ['estilo.css']
+027-Refactorizar/js [] ['codigo.js']
+027-Refactorizar/inc [] ['botones_categorias.php', 'guardar_foto.php', 'galeria_fotografias.php']
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos d
+e desarrollo/004-Optimización y documentación/002-Analizadores de código$
+ 

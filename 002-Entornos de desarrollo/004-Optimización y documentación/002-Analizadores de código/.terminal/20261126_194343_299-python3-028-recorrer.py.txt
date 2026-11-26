@@ -1,0 +1,34 @@
+Datetime: 2026-11-26T18:43:43.299Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/004-Optimización y documentación/002-Analizadores de código
+Command: python3 028-recorrer.py
+
+Result:
+027-Refactorizar ['.index.php.history', 'estilo', 'js', 'inc'] ['index.php']
+027-Refactorizar/.index.php.history ['20261126193806805', '20261126194100766', '20261126194031902', '20261126193903888', '20261126194116395', '20261126194226366', '20261126194018983', '20261126194034487', '20261126193954847', '20261126193725723', '20261126193808302'] []
+027-Refactorizar/.index.php.history/20261126193806805 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194100766 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194031902 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126193903888 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194116395 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194226366 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194018983 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126194034487 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126193954847 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126193725723 [] ['index.php']
+027-Refactorizar/.index.php.history/20261126193808302 [] ['index.php']
+027-Refactorizar/estilo ['.estilo.css.history'] ['estilo.css']
+027-Refactorizar/estilo/.estilo.css.history ['20261126193750374'] []
+027-Refactorizar/estilo/.estilo.css.history/20261126193750374 [] ['estilo.css']
+027-Refactorizar/js ['.codigo.js.history'] ['codigo.js']
+027-Refactorizar/js/.codigo.js.history ['20261126194021360'] []
+027-Refactorizar/js/.codigo.js.history/20261126194021360 [] ['codigo.js']
+027-Refactorizar/inc ['.galeria_fotografias.php.history', '.botones_categorias.php.history', '.guardar_foto.php.history'] ['botones_categorias.php', 'guardar_foto.php', 'galeria_fotografias.php']
+027-Refactorizar/inc/.galeria_fotografias.php.history ['20261126193932654'] []
+027-Refactorizar/inc/.galeria_fotografias.php.history/20261126193932654 [] ['galeria_fotografias.php']
+027-Refactorizar/inc/.botones_categorias.php.history ['20261126193849832'] []
+027-Refactorizar/inc/.botones_categorias.php.history/20261126193849832 [] ['botones_categorias.php']
+027-Refactorizar/inc/.guardar_foto.php.history ['20261126194105367'] []
+027-Refactorizar/inc/.guardar_foto.php.history/20261126194105367 [] ['guardar_foto.php']
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos d
+e desarrollo/004-Optimización y documentación/002-Analizadores de código$
+ 

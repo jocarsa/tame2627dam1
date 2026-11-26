@@ -1,0 +1,27 @@
+Datetime: 2026-11-26T18:59:33.618Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/004-Optimización y documentación/002-Analizadores de código
+Command: python3 033-nos\ conectamos\ a\ ollama\ desde\ python.py
+
+Result:
+CSS, o Cascading Style Sheets, es un lenguaje de estilo para presentaciones estéticas y espaciales de texto, imágenes, audio y otros contenidos de página web. Utiliza reglas para definir cómo debe verse y organizarse un documento cuando se visualiza en una pantalla, asegurando que los elementos en la página web se muestren de manera atractiva y uniforme. Por ejemplo, podrías utilizar CSS para cambiar el color de un texto, el tamaño de fuente, o el diseño y la disposición de la interfaz.
+
+
+Ejemplo de CSS para cambiar el color de texto a azul y aumentar su tamaño:
+
+
+```css
+
+p {
+
+  color: blue;
+
+  font-size: 18px;
+
+}
+
+```
+
+
+En este caso, `p` se refiere al elemento `<p>` de HTML, que representa un párrafo. El atributo `color` cambia el color del texto a azul, y `font-size` aumenta el tamaño del texto a 18 pixels.
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/
+004-Optimización y documentación/002-Analizadores de código$ 

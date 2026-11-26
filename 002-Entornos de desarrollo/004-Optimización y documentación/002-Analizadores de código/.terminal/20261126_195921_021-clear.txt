@@ -1,0 +1,7 @@
+Datetime: 2026-11-26T18:59:21.021Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/004-Optimización y documentación/002-Analizadores de código
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/
+004-Optimización y documentación/002-Analizadores de código$ 

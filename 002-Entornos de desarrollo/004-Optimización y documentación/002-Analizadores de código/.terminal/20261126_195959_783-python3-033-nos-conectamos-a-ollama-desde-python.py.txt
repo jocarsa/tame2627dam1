@@ -1,0 +1,11 @@
+Datetime: 2026-11-26T18:59:59.783Z
+Working directory: /var/www/html/tame2627dam1/002-Entornos de desarrollo/004-Optimización y documentación/002-Analizadores de código
+Command: python3 033-nos\ conectamos\ a\ ollama\ desde\ python.py
+
+Result:
+CSS, que significa Cascading Style Sheets, es un lenguaje utilizado para definir cómo debería verse un documento HTML o XML sin tener que modificar el contenido del documento. Permite aplicar estilos a distintos elementos, como colores, fuentes, margenes y más, desde un archivo separado, mejorando la interfaz de usuario y permitiendo una mayor personalización visual y funcional sin alterar el contenido del documento.
+
+
+CSS organiza los estilos en archivos externos y los aplica a los elementos mediante reglas específsuitas a selectores. Este enfoque permite la aplicación de estilos de manera uniforme y eficiente a través de múltiples páginas web, y facilita la actualización y el mantenimiento de los estilos. Por ejemplo, un cambio de diseño puede ser implementado modificando el archivo CSS en lugar de alterar el código HTML, ahorrando tiempo y evitando errores en el contenido. Además, al utilizar hojas de estilo, se puede garantizar una mayor estandarización y cohesión visual en una colección de páginas web, además de permitir el uso de variables para reutilizar ciertos estilos y la separación del contenido y el diseño, mejorando la accesibilidad y la experiencia del usuario.
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/002-Entornos de desarrollo/
+004-Optimización y documentación/002-Analizadores de código$ 

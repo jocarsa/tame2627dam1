@@ -1,0 +1,7 @@
+Datetime: 2026-11-23T19:10:38.786Z
+Working directory: /var/www/html/tame2627dam1/006-Sistemas informáticos/003-Gestión de la información/007-Tareas automáticas. Planificación
+Command: clear
+
+Result:
+josevicente@josevicenteportatil:/var/www/html/tame2627dam1/006-Sistemas informáticos/003-Ges
+tión de la información/007-Tareas automáticas. Planificación$ 
